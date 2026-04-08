@@ -1,0 +1,1813 @@
+[
+  [
+    [
+      "Pick if you like:",
+      "Avoid if you dislike:"
+    ],
+    [
+      "STRETCH 'EM: Hard knockdowns and looping pressure in and out of Prowler Stance, letting Alex maintain a terrifying offense.\r\nGood Workrate: A wide array of tools from command grabs to evasive hops to armored strikes, with even more reward on Punish Counter.\r\n20-Inch Pythons: Long-reaching pokes with great reward even at a distance.",
+      "In-Ring Psychology: Recognizing when to use your options from Prowler Stance for maximum reward.\r\nGetting Cut Off: Poor reversal options barring a raw Super Art.\r\nAbnormal Throw Loop: Has to use Drive Rush or enter Prowler Stance in order to throw loop properly, telegraphing Alex's intentions more than other characters."
+    ]
+  ],
+  [
+    [
+      "Missing Normals",
+      "Standing Medium Kick (5MK)"
+    ],
+    [
+      "Missing Command Normals",
+      "N/A"
+    ],
+    [
+      "Shortcut-Only Specials",
+      "N/A"
+    ],
+    [
+      "Assist Combos",
+      "A[L~L]: 5LK ~ L Flash Axe\r\n5/2L~A[2L~L~L]: 5LP/2LK ~ 2LK ~ 2LP ~ L Flash Axe\r\nVariant ender that lets Alex get a Light Assist Combo from a chained starter\r\nA[M~M~M]: 2MP ~ OD Flash Chop ~ SA2\r\nBurnout: 2MP ~ L Flash Axe\r\nOn Block: stops at OD Flash Chop/M Flash Axe\r\nSA2 cancel will occur on 1st hit of OD Flash Chop if not delayed\r\nA[H (hold)~H~H]: 5HP (hold) ~ H Flash Chop ~ SA3\r\nNo SA3: cancels into Collapsing Driver (4MK) instead\r\nTo perform Power Drop, stop the Assist Combo and perform it with 4S or 63214X\r\nOn Block: stops at H Flash Chop\r\nNo Assist Combo will come out if the initial A[H] is uncharged"
+    ],
+    [
+      "Miscellaneous Changes",
+      "2L is 2LK but switches to 2LP if chained into\r\n2LP is unavailable outside of chains\r\nThis limits Modern Alex's 5-frame punish game, with 2L~2H being the most consistent option"
+    ]
+  ],
+  [
+    [
+      "Alex"
+    ],
+    [
+      ""
+    ],
+    [
+      "Vitals"
+    ],
+    [
+      "Life Points",
+      "10500"
+    ],
+    [
+      "Ground Movement"
+    ],
+    [
+      "Forward Walk Speed",
+      "0.042"
+    ],
+    [
+      "Backward Walk Speed",
+      "0.027"
+    ],
+    [
+      "Forward Dash Speed",
+      "22"
+    ],
+    [
+      "Backward Dash Speed",
+      "25"
+    ],
+    [
+      "Forward Dash Distance",
+      "1.00"
+    ],
+    [
+      "Backward Dash Distance",
+      "0.75"
+    ],
+    [
+      "Drive Rush Min. Distance (Throw)",
+      "0.393"
+    ],
+    [
+      "Drive Rush Min. Distance (Block)",
+      "1.722"
+    ],
+    [
+      "Drive Rush Max Distance",
+      "3.530"
+    ],
+    [
+      "Jumping"
+    ],
+    [
+      "Jump Speed",
+      "4+38+3"
+    ],
+    [
+      "Jump Apex",
+      "2.115"
+    ],
+    [
+      "Forward Jump Distance",
+      "1.90"
+    ],
+    [
+      "Backward Jump Distance",
+      "1.52"
+    ],
+    [
+      "Throws"
+    ],
+    [
+      "Throw Range",
+      "0.85"
+    ],
+    [
+      "Throw Hurtbox",
+      "0.38"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "4",
+      "2",
+      "9",
+      "Chn Sp SA",
+      "300",
+      "LH",
+      "+5",
+      "-1"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "4",
+      "15(17)",
+      "Sp SA TC",
+      "600",
+      "LH",
+      "+3",
+      "0"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "12",
+      "5",
+      "19",
+      "SA",
+      "900",
+      "LH",
+      "+4",
+      "-3"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "23",
+      "3",
+      "22",
+      "PS Sp SA",
+      "1000",
+      "LH",
+      "+5",
+      "+2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "6",
+      "2",
+      "13",
+      "Sp SA",
+      "300",
+      "LH",
+      "+1",
+      "-5"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "3",
+      "19",
+      "-",
+      "700",
+      "LH",
+      "+3",
+      "-4"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "16",
+      "3",
+      "23",
+      "-",
+      "900",
+      "LH",
+      "+1",
+      "-4"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "25",
+      "3",
+      "20",
+      "PS",
+      "1000",
+      "LH",
+      "KD +40",
+      "+2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "8",
+      "Chn Sp SA",
+      "300",
+      "LH",
+      "+5",
+      "-2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "8",
+      "2",
+      "16(20)",
+      "Sp SA",
+      "600",
+      "LH",
+      "+1",
+      "-2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "6",
+      "22",
+      "PS Sp SA",
+      "800",
+      "LH",
+      "-3",
+      "-6"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "11",
+      "Chn TC",
+      "200",
+      "L",
+      "+2",
+      "-2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "8",
+      "3",
+      "18",
+      "-",
+      "600",
+      "L",
+      "+4",
+      "-2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "10",
+      "3",
+      "26",
+      "-",
+      "1000",
+      "L",
+      "KD +29",
+      "-11"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "8",
+      "3 land",
+      "-",
+      "300",
+      "H",
+      "+7(+11)",
+      "+4(+8)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "4",
+      "3 land",
+      "-",
+      "700",
+      "H",
+      "+9(+11)",
+      "+5(+7)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "6",
+      "3 land",
+      "-",
+      "800",
+      "H",
+      "+8(+15)",
+      "+4(+11)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "6",
+      "9",
+      "3 land",
+      "-",
+      "300",
+      "H",
+      "+5(+11)",
+      "+2(+8)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "8",
+      "7",
+      "3 land",
+      "-",
+      "700",
+      "H",
+      "+11(+14)",
+      "+8(+11)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "10",
+      "7",
+      "3 land",
+      "-",
+      "800",
+      "H",
+      "+11(+15)",
+      "+7(+11)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "22",
+      "2",
+      "19",
+      "-",
+      "800",
+      "H",
+      "+3",
+      "-3"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "3",
+      "15",
+      "-",
+      "600",
+      "LH",
+      "+5",
+      "+1"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "3",
+      "15",
+      "-",
+      "600,1400",
+      "LH",
+      "HKD +33",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "21",
+      "until land",
+      "20(35) land",
+      "-",
+      "800",
+      "LH",
+      "0(+13)",
+      "-14(-1)"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "15",
+      "3",
+      "21",
+      "PS*",
+      "1200 (840)",
+      "LH",
+      "KD +21",
+      "-3"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "15",
+      "3",
+      "30",
+      "PS*",
+      "1000 (800)",
+      "L",
+      "HKD +20",
+      "-15"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "18~",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "-",
+      "-",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "-",
+      "-",
+      "28",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "-",
+      "-",
+      "31",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "12/15/18",
+      "4",
+      "18",
+      "-",
+      "1000",
+      "LH",
+      "+3",
+      "-1"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "4",
+      "3",
+      "9",
+      "Chn Sp SA",
+      "300",
+      "LH",
+      "+7*",
+      "+1*"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "2,5",
+      "17",
+      "-",
+      "400x2 (2680)",
+      "LH",
+      "KD +51",
+      "-6"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "12",
+      "3",
+      "19",
+      "-",
+      "1000",
+      "LH",
+      "+6",
+      "+3"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "21",
+      "3",
+      "19",
+      "-",
+      "1200",
+      "LH",
+      "+6",
+      "+5"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "22~",
+      "-",
+      "14+3 land",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "30",
+      "2",
+      "17",
+      "-",
+      "1100",
+      "H",
+      "KD +28",
+      "+2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "11",
+      "3",
+      "30",
+      "TC",
+      "600 (2420)",
+      "L",
+      "KD +29",
+      "-17"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "11",
+      "3",
+      "33",
+      "-",
+      "600 (2420)",
+      "L",
+      "KD +25",
+      "-20"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "18+5",
+      "3",
+      "23",
+      "-",
+      "1200 (2040)",
+      "T",
+      "KD +32",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "18+21",
+      "3",
+      "3+29 land",
+      "-",
+      "2000 (2300)",
+      "T",
+      "HKD +21",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "23",
+      "-",
+      "1200 (2040)",
+      "T",
+      "KD +28",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "23",
+      "-",
+      "1200 (2040)",
+      "T",
+      "KD +16",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "23",
+      "-",
+      "1300 (2210)",
+      "T",
+      "KD +22",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "26",
+      "2",
+      "35",
+      "-",
+      "800",
+      "LH",
+      "KD +35 / Wall Splat KD +65",
+      "-3 / Wall Splat HKD +72"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "20",
+      "3",
+      "26(31)",
+      "-",
+      "500 recoverable",
+      "LH",
+      "KD +23",
+      "-6"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "18",
+      "3",
+      "26(31)",
+      "-",
+      "500 recoverable",
+      "LH",
+      "KD +23",
+      "-6"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "1",
+      "12 or until released",
+      "33(1)(11)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "3+8",
+      "-",
+      "15(37)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "-",
+      "15(37)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "13",
+      "3",
+      "21",
+      "SA3",
+      "800",
+      "LH",
+      "+3",
+      "-4"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "17",
+      "4",
+      "23",
+      "PS SA3",
+      "1000",
+      "LH",
+      "KD +39",
+      "-6"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "26",
+      "4",
+      "19",
+      "SA3",
+      "1100",
+      "LH",
+      "+5 (Backturn)",
+      "+2"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "15",
+      "2,2",
+      "25",
+      "PS SA2 SA3",
+      "800,500 (1300)",
+      "LH",
+      "KD +41",
+      "-4"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "6",
+      "8",
+      "19+24 land",
+      "-",
+      "1200",
+      "-",
+      "KD +29",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "8",
+      "9",
+      "18+24 land",
+      "-",
+      "1400",
+      "-",
+      "KD +29",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "14",
+      "8",
+      "21+28 land",
+      "-",
+      "1500",
+      "LH",
+      "KD +29",
+      "-42"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "10",
+      "8",
+      "21+32 land",
+      "-",
+      "1700",
+      "LH",
+      "HKD +27",
+      "-46"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "3",
+      "50",
+      "-",
+      "2500 (2875)",
+      "T",
+      "HKD +15",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "7",
+      "3",
+      "52",
+      "-",
+      "2500 (2875)",
+      "T",
+      "HKD +15",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "54",
+      "-",
+      "2500 (2875)",
+      "T",
+      "HKD +15",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "54",
+      "-",
+      "2900 (3335)",
+      "T",
+      "HKD +15",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "54",
+      "-",
+      "2800 (3220)\n(2240 scaled)",
+      "T",
+      "HKD +13",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "3",
+      "54",
+      "SA2*",
+      "3000 (3450)\n(2550 scaled)",
+      "T",
+      "HKD +38",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "5",
+      "-",
+      "-",
+      "-",
+      "3200 (3680)\n(2620 Scaled)",
+      "T",
+      "HKD +42",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "9",
+      "5",
+      "55",
+      "-",
+      "2000",
+      "LH",
+      "KD +30",
+      "-38"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "13",
+      "4",
+      "50",
+      "-",
+      "3000\n(2000 Air)",
+      "LH",
+      "HKD +19\n(Air: Wall Splat)",
+      "-29"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "2",
+      "-",
+      "-",
+      "-",
+      "2800 (1680)",
+      "-",
+      "HKD +29",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "12",
+      "5",
+      "53",
+      "-",
+      "4000",
+      "LH",
+      "HKD +18",
+      "-38"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "12",
+      "5",
+      "53",
+      "-",
+      "4500",
+      "LH",
+      "HKD +25",
+      "-38"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "370 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "256 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "405 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "350 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "310 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Startup",
+      "Active",
+      "Recovery",
+      "Cancel",
+      "Damage",
+      "Guard",
+      "On Hit",
+      "On Block"
+    ],
+    [
+      "460 (total)",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "Street Fighter 6 (SF6)"
+    ],
+    [
+      "General"
+    ],
+    [
+      "FAQ â¢\r\n   Controls â¢\r\n   HUD â¢\r\n   Glossary â¢\r\n   Movement â¢\r\n   Offense â¢\r\n   Defense â¢\r\n   Gauges â¢\r\n   Game Data â¢\r\n   Patch Notes â¢\r\n   Links"
+    ],
+    [
+      "Characters"
+    ],
+    [
+      "A.K.I.\r\n   Akuma\r\n   Alex\r\n   Blanka\r\n   C. Viper\r\n   Cammy\r\n   Chun-Li\r\n   Dee Jay\r\n   Dhalsim\r\n   Ed\r\n   E. Honda\r\n   Elena\r\n   Guile\r\n   Jamie\r\n   JP\r\n   Juri\r\n   Ken\r\n   Kimberly\r\n   Lily\r\n   Luke\r\n   M. Bison\r\n   Mai\r\n   Manon\r\n   Marisa\r\n   Rashid\r\n   Ryu\r\n   Sagat\r\n   Terry\r\n   Zangief"
+    ],
+    [
+      "Data"
+    ],
+    [
+      "A.K.I. â¢\r\n   Akuma â¢\r\n   Alex â¢\r\n   Blanka â¢\r\n   C. Viper â¢\r\n   Cammy â¢\r\n   Chun-Li â¢\r\n   Dee Jay â¢\r\n   Dhalsim â¢\r\n   Ed â¢\r\n   E. Honda â¢\r\n   Elena â¢\r\n   Guile â¢\r\n   Jamie â¢\r\n   JP â¢\r\n   Juri â¢\r\n   Ken â¢\r\n   Kimberly â¢\r\n   Lily â¢\r\n   Luke â¢\r\n   M. Bison â¢\r\n   Mai â¢\r\n   Manon â¢\r\n   Marisa â¢\r\n   Rashid â¢\r\n   Ryu â¢\r\n   Sagat â¢\r\n   Terry â¢\r\n   Zangief"
+    ]
+  ]
+]

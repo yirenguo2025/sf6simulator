@@ -1,0 +1,3576 @@
+[
+  [
+    [
+      "Alex",
+      "HP",
+      "Throw\nRange",
+      "Fwd Walk\nSpeed",
+      "Back Walk\nSpeed",
+      "Fwd Dash\nSpeed",
+      "Back Dash\nSpeed",
+      "Fwd Dash\nDistance",
+      "Back Dash\nDistance",
+      "Jump\nSpeed",
+      "Fwd Jump\nDistance",
+      "Back Jump\nDistance",
+      "Jump\nApex"
+    ],
+    [
+      "",
+      "10500",
+      "0.85",
+      "0.042",
+      "0.027",
+      "22",
+      "25",
+      "1.00",
+      "0.75",
+      "4+38+3",
+      "1.90",
+      "1.52",
+      "2.115"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard",
+      "Cancel",
+      "Hitconfirm"
+    ],
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard",
+      "Cancel",
+      "Hitconfirm"
+    ],
+    [
+      "5LP",
+      "300",
+      "4",
+      "2",
+      "9",
+      "14",
+      "+5",
+      "-1",
+      "LH",
+      "Chn Sp SA",
+      "12"
+    ],
+    [
+      "5MP",
+      "600",
+      "7",
+      "4",
+      "15(17)",
+      "25(27)",
+      "+3",
+      "0",
+      "LH",
+      "Sp SA TC",
+      "16 / 19 TC"
+    ],
+    [
+      "5HP",
+      "900",
+      "12",
+      "5",
+      "19",
+      "35",
+      "+4",
+      "-3",
+      "LH",
+      "SA",
+      "19 SA"
+    ],
+    [
+      "5[HP]",
+      "1000",
+      "23",
+      "3",
+      "22",
+      "47",
+      "+5",
+      "+2",
+      "LH",
+      "PS Sp SA",
+      "19 / 20 PS / (29 PC)"
+    ],
+    [
+      "5LK",
+      "300",
+      "6",
+      "2",
+      "13",
+      "20",
+      "+1",
+      "-5",
+      "LH",
+      "Sp SA",
+      "12"
+    ],
+    [
+      "5MK",
+      "700",
+      "9",
+      "3",
+      "19",
+      "30",
+      "+3",
+      "-4",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "5HK",
+      "900",
+      "16",
+      "3",
+      "23",
+      "41",
+      "+1",
+      "-4",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "5[HK]",
+      "1000",
+      "25",
+      "3",
+      "20",
+      "47",
+      "KD +40",
+      "+2",
+      "LH",
+      "PS",
+      "19 (29 PC)"
+    ],
+    [
+      "2LP",
+      "300",
+      "5",
+      "3",
+      "8",
+      "15",
+      "+5",
+      "-2",
+      "LH",
+      "Chn Sp SA",
+      "13"
+    ],
+    [
+      "2MP",
+      "600",
+      "8",
+      "2",
+      "16(20)",
+      "25(29)",
+      "+1",
+      "-2",
+      "LH",
+      "Sp SA",
+      "14"
+    ],
+    [
+      "2HP",
+      "800",
+      "9",
+      "6",
+      "22",
+      "36",
+      "-3",
+      "-6",
+      "LH",
+      "PS Sp SA",
+      "16 (28 PC)"
+    ],
+    [
+      "2LK",
+      "200",
+      "5",
+      "3",
+      "11",
+      "18",
+      "+2",
+      "-2",
+      "L",
+      "Chn TC",
+      "13 (TC)"
+    ],
+    [
+      "2MK",
+      "600",
+      "8",
+      "3",
+      "18",
+      "28",
+      "+4",
+      "-2",
+      "L",
+      "-",
+      ""
+    ],
+    [
+      "2HK",
+      "1000",
+      "10",
+      "3",
+      "26",
+      "38",
+      "KD +29",
+      "-11",
+      "L",
+      "-",
+      ""
+    ],
+    [
+      "j.LP",
+      "300",
+      "5",
+      "8",
+      "3 land",
+      "-",
+      "+7(+11)",
+      "+4(+8)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "j.MP",
+      "700",
+      "7",
+      "4",
+      "3 land",
+      "-",
+      "+9(+11)",
+      "+5(+7)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "j.HP",
+      "800",
+      "9",
+      "6",
+      "3 land",
+      "-",
+      "+8(+15)",
+      "+4(+11)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "j.LK",
+      "300",
+      "6",
+      "9",
+      "3 land",
+      "-",
+      "+5(+11)",
+      "+2(+8)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "j.MK",
+      "700",
+      "8",
+      "7",
+      "3 land",
+      "-",
+      "+11(+14)",
+      "+8(+11)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "j.HK",
+      "800",
+      "10",
+      "7",
+      "3 land",
+      "-",
+      "+11(+15)",
+      "+7(+11)",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "6MP",
+      "800",
+      "22",
+      "2",
+      "19",
+      "42",
+      "+3",
+      "-3",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "4MK",
+      "600",
+      "7",
+      "3",
+      "15",
+      "24",
+      "+5",
+      "+1",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "4MK (Backturn)",
+      "600,1400",
+      "7",
+      "3",
+      "15",
+      "24",
+      "HKD +33",
+      "-",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "j.2HP",
+      "800",
+      "21",
+      "until land",
+      "20(35) land",
+      "-",
+      "0(+13)",
+      "-14(-1)",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "5MP~HP",
+      "1200 (840)",
+      "15",
+      "3",
+      "21",
+      "38",
+      "KD +21",
+      "-3",
+      "LH",
+      "PS*",
+      "50(18)"
+    ],
+    [
+      "2LK~2HK",
+      "1000 (800)",
+      "15",
+      "3",
+      "30",
+      "47",
+      "HKD +20",
+      "-15",
+      "L",
+      "PS*",
+      "59(33)"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "DR Cancel onHit",
+      "DR Cancel onBlock",
+      "After DR onHit",
+      "After DR onBlock",
+      "Hitstun",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "input",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "DR Cancel onHit",
+      "DR Cancel onBlock",
+      "After DR onHit",
+      "After DR onBlock",
+      "Hitstun",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "5LP",
+      "20% Starter",
+      "+9",
+      "-9",
+      "+6",
+      "0",
+      "+9",
+      "+3",
+      "16",
+      "10",
+      "9"
+    ],
+    [
+      "5MP",
+      "",
+      "+7",
+      "-17",
+      "+12",
+      "+9",
+      "+7",
+      "+4",
+      "22",
+      "19",
+      "11"
+    ],
+    [
+      "5HP",
+      "10% Starter",
+      "+8",
+      "-22",
+      "",
+      "",
+      "+8",
+      "+1",
+      "28",
+      "21",
+      "13"
+    ],
+    [
+      "5[HP]",
+      "20% Starter",
+      "+13",
+      "-23",
+      "+20",
+      "+17",
+      "+9",
+      "+6",
+      "30",
+      "27",
+      "15 (25 PC)"
+    ],
+    [
+      "5LK",
+      "20% Starter",
+      "+5",
+      "-13",
+      "+5",
+      "-1",
+      "+5",
+      "-1",
+      "16",
+      "10",
+      "9"
+    ],
+    [
+      "5MK",
+      "",
+      "+7",
+      "-20",
+      "",
+      "",
+      "+7",
+      "0",
+      "25",
+      "18",
+      "11"
+    ],
+    [
+      "5HK",
+      "15% Starter",
+      "KD +62 Crumple",
+      "-24",
+      "",
+      "",
+      "+5",
+      "0",
+      "27",
+      "22",
+      "13 (25 PC)"
+    ],
+    [
+      "5[HK]",
+      "15% Starter",
+      "KD +69",
+      "-21",
+      "",
+      "",
+      "",
+      "+6",
+      "",
+      "25",
+      "15 (25 PC)"
+    ],
+    [
+      "2LP",
+      "20% Starter",
+      "+9",
+      "-9",
+      "+5",
+      "-2",
+      "+9",
+      "+2",
+      "16",
+      "9",
+      "9"
+    ],
+    [
+      "2MP",
+      "",
+      "+5",
+      "-16",
+      "+8",
+      "+5",
+      "+5",
+      "+2",
+      "19",
+      "16",
+      "11"
+    ],
+    [
+      "2HP",
+      "",
+      "KD +48",
+      "-26",
+      "+15",
+      "+12",
+      "+1",
+      "-2",
+      "25",
+      "22",
+      "13 (25 PC)"
+    ],
+    [
+      "2LK",
+      "20% Starter",
+      "+6",
+      "-12",
+      "",
+      "",
+      "+6",
+      "+2",
+      "16",
+      "12",
+      "9"
+    ],
+    [
+      "2MK",
+      "20% Starter",
+      "+8",
+      "-19",
+      "",
+      "",
+      "+8",
+      "+2",
+      "25",
+      "19",
+      "11"
+    ],
+    [
+      "2HK",
+      "",
+      "HKD +44",
+      "-27",
+      "",
+      "",
+      "KD +29",
+      "-7",
+      "",
+      "18",
+      "13 (16 PC)"
+    ],
+    [
+      "j.LP",
+      "",
+      "+11(+15)",
+      "-6(-2)",
+      "",
+      "",
+      "",
+      "",
+      "15",
+      "12",
+      "9"
+    ],
+    [
+      "j.MP",
+      "",
+      "+13(+15)",
+      "-4(-2)",
+      "",
+      "",
+      "",
+      "",
+      "15",
+      "11",
+      "11"
+    ],
+    [
+      "j.HP",
+      "",
+      "+12(+19)",
+      "-9(-2)",
+      "",
+      "",
+      "",
+      "",
+      "19",
+      "15",
+      "13"
+    ],
+    [
+      "j.LK",
+      "",
+      "+9(+15)",
+      "-8(-2)",
+      "",
+      "",
+      "",
+      "",
+      "15",
+      "12",
+      "9"
+    ],
+    [
+      "j.MK",
+      "",
+      "+15(+18)",
+      "-5(-2)",
+      "",
+      "",
+      "",
+      "",
+      "18",
+      "15",
+      "11"
+    ],
+    [
+      "j.HK",
+      "",
+      "+15(+19)",
+      "-6(-2)",
+      "",
+      "",
+      "",
+      "",
+      "19",
+      "15",
+      "13"
+    ],
+    [
+      "6MP",
+      "",
+      "+7",
+      "-19",
+      "",
+      "",
+      "+7",
+      "+1",
+      "24",
+      "18",
+      "11"
+    ],
+    [
+      "4MK",
+      "",
+      "+9",
+      "-16",
+      "",
+      "",
+      "+9",
+      "+5",
+      "23",
+      "19",
+      "11"
+    ],
+    [
+      "4MK (Backturn)",
+      "Both hits apply scaling",
+      "HKD +33",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "11"
+    ],
+    [
+      "j.2HP",
+      "",
+      "+4(+17)",
+      "-47(-34)",
+      "",
+      "",
+      "",
+      "",
+      "34",
+      "20",
+      "13"
+    ],
+    [
+      "5MP~HP",
+      "30% Immediate",
+      "KD +21",
+      "-22",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "21",
+      "13"
+    ],
+    [
+      "2LK~2HK",
+      "",
+      "HKD +20",
+      "-31",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "18",
+      "13"
+    ]
+  ],
+  [
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "5LP",
+      "500",
+      "[2000]",
+      "250",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "5MP",
+      "3000",
+      "[4000]",
+      "1500",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "5HP",
+      "5000",
+      "[8000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "5[HP]",
+      "8000",
+      "[12000]",
+      "3000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "5LK",
+      "500",
+      "[2000]",
+      "250",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "5MK",
+      "4000",
+      "[6000]",
+      "2000",
+      "700 (490)",
+      "350 (175)"
+    ],
+    [
+      "5HK",
+      "5000",
+      "[8000]",
+      "3000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "5[HK]",
+      "8000",
+      "[12000]",
+      "3000",
+      "1100 (770)",
+      "550 (275)"
+    ],
+    [
+      "2LP",
+      "500",
+      "[2000]",
+      "250",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "2MP",
+      "3000",
+      "[4000]",
+      "1500",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "2HP",
+      "5000",
+      "[8000]",
+      "2500",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "2LK",
+      "500",
+      "[2000]",
+      "250",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "2MK",
+      "4000",
+      "[6000]",
+      "2000",
+      "600 (420)",
+      "300 (150)"
+    ],
+    [
+      "2HK",
+      "4000",
+      "[10000]",
+      "3000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "j.LP",
+      "1500",
+      "[2000]",
+      "500",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "j.MP",
+      "3000",
+      "[4000]",
+      "1000",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "j.HP",
+      "4000",
+      "[5000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "j.LK",
+      "1500",
+      "[2000]",
+      "500",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "j.MK",
+      "2500",
+      "[4000]",
+      "1000",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "j.HK",
+      "4000",
+      "[5000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "6MP",
+      "2500",
+      "[4000]",
+      "1000",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "4MK",
+      "4000",
+      "[6000]",
+      "1500",
+      "500 (350)",
+      "250 (125)"
+    ],
+    [
+      "4MK (Backturn)",
+      "",
+      "[8000]",
+      "3500",
+      "2500 (1750)",
+      ""
+    ],
+    [
+      "j.2HP",
+      "4000",
+      "[5000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "5MP~HP",
+      "3000",
+      "[5000]",
+      "1500",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "2LK~2HK",
+      "3000",
+      "[7000]",
+      "2500",
+      "1000 (700)",
+      "500 (250)"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "5LP",
+      "",
+      "",
+      "",
+      "1.08",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "5MP",
+      "",
+      "",
+      "",
+      "1.30",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "5HP",
+      "",
+      "",
+      "",
+      "1.78",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "5[HP]",
+      "",
+      "",
+      "",
+      "2.03",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "5LK",
+      "",
+      "",
+      "",
+      "1.44",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "5MK",
+      "",
+      "",
+      "",
+      "1.70",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "5HK",
+      "",
+      "",
+      "",
+      "2.05 (2.00)",
+      "1\n[-1 PC Ground]",
+      "1",
+      "0"
+    ],
+    [
+      "5[HK]",
+      "",
+      "",
+      "",
+      "2.30 (2.20)",
+      "1 [0 PC]",
+      "1",
+      "1"
+    ],
+    [
+      "2LP",
+      "",
+      "",
+      "",
+      "1.23",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2MP",
+      "",
+      "",
+      "",
+      "1.58",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2HP",
+      "",
+      "",
+      "",
+      "0.94 (0.84)",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2LK",
+      "",
+      "",
+      "",
+      "1.31",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2MK",
+      "",
+      "",
+      "",
+      "1.65",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2HK",
+      "",
+      "",
+      "",
+      "1.88",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "j.LP",
+      "",
+      "",
+      "",
+      "1.09",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "j.MP",
+      "",
+      "",
+      "",
+      "1.09",
+      "1",
+      "10",
+      "4"
+    ],
+    [
+      "j.HP",
+      "",
+      "",
+      "",
+      "1.07",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "j.LK",
+      "",
+      "",
+      "",
+      "0.59",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "j.MK",
+      "",
+      "",
+      "",
+      "1.33 (0.93)",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "j.HK",
+      "",
+      "",
+      "",
+      "1.20",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "6MP",
+      "",
+      "",
+      "",
+      "1.64",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "4MK",
+      "",
+      "",
+      "",
+      "1.28",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "4MK (Backturn)",
+      "",
+      "",
+      "",
+      "1.38",
+      "",
+      "",
+      ""
+    ],
+    [
+      "j.2HP",
+      "",
+      "",
+      "Until Land (FKD)",
+      "",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "5MP~HP",
+      "",
+      "",
+      "",
+      "1.75 (1.65)",
+      "1",
+      "1",
+      "3"
+    ],
+    [
+      "2LK~2HK",
+      "",
+      "",
+      "",
+      "1.96 (1.88)",
+      "1",
+      "1",
+      "5"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "5LP",
+      "Chains into 5LP/2LP/2LK; Alex's only 4f attack with above average range"
+    ],
+    [
+      "5MP",
+      "2f extra recovery on whiff; extends a wide arm and foot hurtbox on the first 15 recovery frames; can lead to a hitconfirmable TC knockdown; great meaty tool with very low pushback (up to +6 oH / +3 oB)"
+    ],
+    [
+      "5HP",
+      "Disjointed poke with great range to harass the opponent's Drive gauge; cancelable into Super for a hitconfirm or to punish Drive Impact; extends a wide arm and foot hurtbox on the first 12 recovery frames; high active frame count for meaty setups (up to +8 oH / +1 oB, but high pushback on block); can be held for a stronger, fully cancelable version (uncharged version comes out if button is held up to 15 frames); holding the button 1-7f results in 12f startup; holding the button 8-15f increases the total startup incrementally by 1f (up to a maximum startup of 20f)"
+    ],
+    [
+      "5[HP]",
+      "Button must be held 16f (early release results in uncharged version); more damage and range than uncharged version; has juggle potential unlike uncharged version (useful in some routes like juggled SA2 when not fully cornered); puts airborne opponents into a limited juggle state; stops forward momentum when used out of Drive Rush (good for baiting DR checks, but will usually be out of range for link follow-ups afterward); enables true blockstring into HP Flash Chop for huge Drive damage and plus frames; true blockstring when canceled into Drive Impact (can be delayed to manually create a gap); extends a front leg hurtbox on frames 8-19 of startup (more easily counterpoked by lows); extends a wide arm and foot hurtbox on the first 15 recovery frames; can be safe to Drive Impact if absorbed late; Prowler Stance cancel: +9 oH / +6 oB"
+    ],
+    [
+      "5LK",
+      "Very long range for a 6-frame button (but slow for a light normal); DR cancel is delayed until after active frames"
+    ],
+    [
+      "5MK",
+      "Foot hurtbox shifts backward on frames 5-16f (more effective at counter-hitting low pokes); long range poke with good hitbox priority and no extended hurtbox before active frames; creates a useful spacing trap against Ryu/Akuma/Terry 2MK and Ed 2MP using 5LP~2LP~2LP or 2LK~5LP~2LP that grants a Punish Counter link to 5LK; extends a wide leg hurtbox on the first 11 recovery frames"
+    ],
+    [
+      "5HK",
+      "Disjointed poke with great range; grounded Punish Counter crumple puts opponent into a free juggle crumple state and is +23 before opponent falls to the ground (no grounded combo possible); puts airborne opponents into a limited juggle state (free juggle on Punish Counter); extends a hurtbox 1f before active that is vulnerable to projectiles; can be held for a stronger, longer-range version (uncharged version comes out if button is held up to 15 frames); holding the button 1-8f results in 16f startup; holding the button 9-15f increases the total startup incrementally by 1f (up to a maximum startup of 23f)"
+    ],
+    [
+      "5[HK]",
+      "Button must be held 16f (early release results in uncharged version); more damage, range, and juggle potential than uncharged version; stops forward momentum when used out of Drive Rush (good for baiting DR checks); Punish Counter (ground/air) puts opponent into a free juggle state; puts airborne opponents into a limited juggle state on normal hit; startup frames 17-24 extend a small leg hurtbox (more easily counter-poked by standing buttons); extends a wide leg hurtbox on the first 10 recovery frames; Prowler Stance cancel: KD +42 oH / +4 oB (KD advantage varies on airborne opponents)"
+    ],
+    [
+      "2LP",
+      "Chains into 5LP/2LP/2LK; topmost hurtbox on frames 1-7 is vulnerable only to aerial attacks (preventing its use as an anti-air) and is projectile invincible to avoid High Tiger Shot; DR cancel is delayed until after 2nd active frame"
+    ],
+    [
+      "2MP",
+      "4f extra recovery on whiff; topmost hurtbox on frames 1-9 is vulnerable only to aerial attacks (preventing its use as an anti-air) and is projectile invincible to avoid High Tiger Shot; Special/DR/DI cancel is delayed until after active frames; relatively poor DR Cancel options (no natural combo into 2HP > 236HP, max range cannot cancel to 4MK > 2HP, and only a true blockstring into 5LP/2LP/2LK)"
+    ],
+    [
+      "2HP",
+      "Forces stand; head and arm hurtbox are anti-air invuln on frames 10-14; decent anti-air but weaker against close jumps; active frames 1-2 can hit grounded or airborne and are cancelable; active frames 3-6 can only hit airborne opponents and cannot cancel; cannot hit cross-up; Punish Counter puts opponents into a limited juggle state (much higher launch vs. airborne); stand-sized hurtboxes on frames 10-30 (considered crouching); very short horizontal range (usually requires Drive Rush to combo properly); useful combo tool into Prowler Stance (combos naturally into Palm Jab) or into HP Flash Chop when used out of Drive Rush; Prowler Stance cancel: +7 oH / +4 oB"
+    ],
+    [
+      "2LK",
+      "Chains into 5LP/2LP/2LK; TC into 2HK requires Drive Rush/Counter-hit/Punish Counter (useful 5f punish at longer ranges, especially with Modern controls)"
+    ],
+    [
+      "2MK",
+      "Good low starter from Drive Rush (links to 2MP except from longer ranges); solid poke range to punish back walk"
+    ],
+    [
+      "2HK",
+      "Long range sweep; has juggle potential"
+    ],
+    [
+      "j.LP",
+      "Quick air-to-air"
+    ],
+    [
+      "j.MP",
+      "Puts airborne opponents into a limited juggle state; lower body projectile invuln 7-21f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)"
+    ],
+    [
+      "j.HP",
+      "Best downward hitbox priority for vertical approaches; spike knockdown on airborne opponents; lower body projectile invuln 9-24f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)"
+    ],
+    [
+      "j.LK",
+      "Cross-up; can be used as a fuzzy instant overhead on tall characters"
+    ],
+    [
+      "j.MK",
+      "Most horizontal range of Alex's jump-ins but more difficult to time than j.HK; requires frame perfect timing to connect on a standard crouching hurtbox (4f timing vs. tall crouching opponents); lower body projectile invuln 8-25f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)"
+    ],
+    [
+      "j.HK",
+      "Decent all-around jump-in for horizontal approaches; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)"
+    ],
+    [
+      "6MP",
+      "Good range and damage for an overhead; when used out of Drive Rush, combos into 5MP at any range"
+    ],
+    [
+      "4MK",
+      "Transitions into Collapsing Driver for a cinematic knockdown on backturned opponents; good punish starter into 2MP; strong pressure tool with a 5LP frame trap that links to 5MP on Counter-hit, or with DR~4MK into itself"
+    ],
+    [
+      "4MK (Backturn)",
+      "Performs a cinematic knockdown on backturned opponents; can be canceled into after 236HP on hit; counts as 2 separate moves for damage scaling; can whiff after max range 236HP on crouching opponents; deals less damage than Power Drop but maintains same side and gives better HKD oki"
+    ],
+    [
+      "j.2HP",
+      "Forward Jump only; 15f extra recovery on whiff; Alex is in a crouching state during landing recovery (standing-sized hurtbox for the first 3 frames); puts airborne opponents into a limited juggle state; leg hurtbox is projectile invuln on frame 19 until landing"
+    ],
+    [
+      "5MP~HP",
+      "() refers to scaled damage starting from 5MP (full sequence on hit does the same damage as just a counter-hit on the HP itself); easily hitconfirmable but fairly low risk and DI-safe between hits; cancelable into Prowler Stance on hit only for oki; 1f blockstring gap between hits (up to 3f if delayed, can throw off Perfect Parry timing); can be useful to stay close in Burnout (no blockstring gap but becomes +1 on block with some pushback); on block, leaves Alex in throw range if done from point blank; Prowler Stance cancel: KD +24 oH"
+    ],
+    [
+      "2LK~2HK",
+      "() refers to scaled damage from 2LK starter; does not combo naturally (requires Drive Rush / Counter-hit / Punish Counter); allows 2LK to be a useful punish option at ranges where 2LP whiffs (and especially in Modern where Alex cannot punish with 2LP); cancelable into Prowler Stance on hit only for oki; 6f blockstring gap between the hits (interruptible on block without DR~2LK or Burnout); Prowler Stance cancel: KD +17 oH"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard"
+    ],
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard"
+    ],
+    [
+      "LPLK",
+      "1200 (2040)",
+      "5",
+      "3",
+      "23",
+      "30",
+      "KD +28",
+      "-",
+      "T"
+    ],
+    [
+      "4LPLK",
+      "1200 (2040)",
+      "5",
+      "3",
+      "23",
+      "30",
+      "KD +16",
+      "-",
+      "T"
+    ],
+    [
+      "2LPLK",
+      "1300 (2210)",
+      "5",
+      "3",
+      "23",
+      "30",
+      "KD +22",
+      "-",
+      "T"
+    ],
+    [
+      "HPHK",
+      "800",
+      "26",
+      "2",
+      "35",
+      "62",
+      "KD +35 / Wall Splat KD +65",
+      "-3 / Wall Splat HKD +72",
+      "LH"
+    ],
+    [
+      "6HPHK",
+      "500 recoverable",
+      "20",
+      "3",
+      "26(31)",
+      "48(53)",
+      "KD +23",
+      "-6",
+      "LH"
+    ],
+    [
+      "6HPHK",
+      "500 recoverable",
+      "18",
+      "3",
+      "26(31)",
+      "46(51)",
+      "KD +23",
+      "-6",
+      "LH"
+    ],
+    [
+      "MPMK",
+      "-",
+      "1",
+      "12 or until released",
+      "33(1)(11)",
+      "45(3)",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "MPMK~66",
+      "-",
+      "3+8",
+      "-",
+      "15(37)",
+      "26(48)",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "MPMK or 66",
+      "-",
+      "9",
+      "-",
+      "15(37)",
+      "24(46)",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "LPLK",
+      "",
+      "20% Immediate",
+      "HKD +28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "4LPLK",
+      "",
+      "20% Immediate",
+      "HKD +16",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2LPLK",
+      "",
+      "20% Immediate",
+      "HKD +22",
+      "",
+      "",
+      ""
+    ],
+    [
+      "HPHK",
+      "200",
+      "20% Starter",
+      "Crumple (Standing +21, Juggle +46, HKD +104)",
+      "-35",
+      "34",
+      "25"
+    ],
+    [
+      "6HPHK",
+      "125 recoverable",
+      "",
+      "KD +23",
+      "-27",
+      "23",
+      "20(16)"
+    ],
+    [
+      "6HPHK",
+      "125 recoverable",
+      "",
+      "KD +23",
+      "-27",
+      "23",
+      "20(16)"
+    ],
+    [
+      "MPMK",
+      "",
+      "50% Multiplier (Perfect)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MPMK~66",
+      "",
+      "15% Multiplier (Mid-Combo)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MPMK or 66",
+      "",
+      "15% Multiplier (Mid-Combo)",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit"
+    ],
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit"
+    ],
+    [
+      "LPLK",
+      "",
+      "[10000]",
+      "2000",
+      "2000(1400) [4000(2800)]"
+    ],
+    [
+      "4LPLK",
+      "",
+      "[10000]",
+      "2000",
+      "2000(1400) [4000(2800)]"
+    ],
+    [
+      "2LPLK",
+      "",
+      "[10000]",
+      "2000",
+      "2000(1400) [4000(2800)]"
+    ],
+    [
+      "HPHK",
+      "5000",
+      "10000 [15000]",
+      "-10000",
+      "[3000(2100)]"
+    ],
+    [
+      "6HPHK",
+      "",
+      "",
+      "-20000",
+      ""
+    ],
+    [
+      "6HPHK",
+      "",
+      "",
+      "-20000",
+      ""
+    ],
+    [
+      "MPMK",
+      "",
+      "",
+      "-5000,250~",
+      ""
+    ],
+    [
+      "MPMK~66",
+      "",
+      "",
+      "-10000",
+      ""
+    ],
+    [
+      "MPMK or 66",
+      "",
+      "",
+      "-30000",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "LPLK",
+      "",
+      "",
+      "0.85",
+      "",
+      "",
+      ""
+    ],
+    [
+      "4LPLK",
+      "",
+      "",
+      "0.85",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2LPLK",
+      "",
+      "",
+      "0.85",
+      "",
+      "",
+      ""
+    ],
+    [
+      "HPHK",
+      "",
+      "1-27",
+      "2.477",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "6HPHK",
+      "1-22 Full",
+      "Break",
+      "1.637",
+      "200",
+      "100",
+      "1"
+    ],
+    [
+      "6HPHK",
+      "1-20 Full",
+      "Break",
+      "1.637",
+      "200",
+      "100",
+      "1"
+    ],
+    [
+      "MPMK",
+      "6 Full (after Perfect Parry)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MPMK~66",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MPMK or 66",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "LPLK",
+      "No true throw loop without Drive Rush (can dash + LP Power Bomb, dash up into spaced normals, or use Drive Rush for better strike/throw oki); DR~5HK leaves Alex +7/+2 anywhere on screen and in range for a tick command grab (HP in corner, OD midscreen); midscreen, can also hold the DR~5[HK] to throw off Perfect Parry timing or punish delay tech; a successful Throw Escape builds 1 Drive bar and 1000 Super gauge (10% bar); Throw Escape is awarded to a random player if input simultaneously"
+    ],
+    [
+      "4LPLK",
+      "Side switch; no real strike/throw oki in the corner but can pressure with Drive Rush normals; a successful Throw Escape builds 1 Drive bar and 1000 Super gauge (10% bar); Throw Escape is awarded to a random player if input simultaneously"
+    ],
+    [
+      "2LPLK",
+      "Leaves Alex at neutral advantage after forward dash for a pseudo-throw loop; Drive Rush allows real corner throw loops but gives weak midscreen oki; a successful Throw Escape builds 1 Drive bar and 1000 Super gauge (10% bar); Throw Escape is awarded to a random player if input simultaneously"
+    ],
+    [
+      "HPHK",
+      "See Drive Impact. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height."
+    ],
+    [
+      "6HPHK",
+      "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see Drive Reversal."
+    ],
+    [
+      "6HPHK",
+      "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze; 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see Drive Reversal."
+    ],
+    [
+      "MPMK",
+      "See Drive Parry. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo."
+    ],
+    [
+      "MPMK~66",
+      "See Drive Rush; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.393 (min/throw), 1.722 (min/block), 3.530 (max/final DR frame)"
+    ],
+    [
+      "MPMK or 66",
+      "See Drive Rush; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard",
+      "Cancel",
+      "Hitconfirm"
+    ],
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard",
+      "Cancel",
+      "Hitconfirm"
+    ],
+    [
+      "2PP",
+      "-",
+      "18~",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2PP~8",
+      "-",
+      "-",
+      "-",
+      "25",
+      "25",
+      "-",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2PP~6",
+      "-",
+      "-",
+      "-",
+      "28",
+      "28",
+      "-",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2PP~4",
+      "-",
+      "-",
+      "-",
+      "31",
+      "31",
+      "-",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2PP~6P",
+      "1000",
+      "12/15/18",
+      "4",
+      "18",
+      "33/36/39",
+      "+3",
+      "-1",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "2PP~LP",
+      "300",
+      "4",
+      "3",
+      "9",
+      "15",
+      "+7*",
+      "+1*",
+      "LH",
+      "Chn Sp SA",
+      "13"
+    ],
+    [
+      "2PP~MP",
+      "400x2 (2680)",
+      "7",
+      "2,5",
+      "17",
+      "30",
+      "KD +51",
+      "-6",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "2PP~HP",
+      "1000",
+      "12",
+      "3",
+      "19",
+      "33",
+      "+6",
+      "+3",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "2PP~[HP]",
+      "1200",
+      "21",
+      "3",
+      "19",
+      "42",
+      "+6",
+      "+5",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "2PP~LK",
+      "-",
+      "22~",
+      "-",
+      "14+3 land",
+      "39",
+      "-",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2PP~MK",
+      "1100",
+      "30",
+      "2",
+      "17",
+      "48",
+      "KD +28",
+      "+2",
+      "H",
+      "-",
+      ""
+    ],
+    [
+      "2PP~HK",
+      "600 (2420)",
+      "11",
+      "3",
+      "30",
+      "43",
+      "KD +29",
+      "-17",
+      "L",
+      "TC",
+      "22"
+    ],
+    [
+      "2PP~HK~HK",
+      "600 (2420)",
+      "11",
+      "3",
+      "33",
+      "46",
+      "KD +25",
+      "-20",
+      "L",
+      "-",
+      ""
+    ],
+    [
+      "2PP~LPLK",
+      "1200 (2040)",
+      "18+5",
+      "3",
+      "23",
+      "30",
+      "KD +32",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "2PP~2LPLK",
+      "2000 (2300)",
+      "18+21",
+      "3",
+      "3+29 land",
+      "55",
+      "HKD +21",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "236LP",
+      "800",
+      "13",
+      "3",
+      "21",
+      "36",
+      "+3",
+      "-4",
+      "LH",
+      "SA3",
+      "17"
+    ],
+    [
+      "236MP",
+      "1000",
+      "17",
+      "4",
+      "23",
+      "43",
+      "KD +39",
+      "-6",
+      "LH",
+      "PS SA3",
+      "18 SA/PS"
+    ],
+    [
+      "236HP",
+      "1100",
+      "26",
+      "4",
+      "19",
+      "48",
+      "+5 (Backturn)",
+      "+2",
+      "LH",
+      "SA3",
+      "20 SA / 30 follow-ups"
+    ],
+    [
+      "236PP",
+      "800,500 (1300)",
+      "15",
+      "2,2",
+      "25",
+      "43",
+      "KD +41",
+      "-4",
+      "LH",
+      "PS SA2 SA3",
+      "26 SA / 38 PS"
+    ],
+    [
+      "623LK",
+      "1200",
+      "6",
+      "8",
+      "19+24 land",
+      "56",
+      "KD +29",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "623MK",
+      "1400",
+      "8",
+      "9",
+      "18+24 land",
+      "58",
+      "KD +29",
+      "-",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "623HK",
+      "1500",
+      "14",
+      "8",
+      "21+28 land",
+      "70",
+      "KD +29",
+      "-42",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "623KK",
+      "1700",
+      "10",
+      "8",
+      "21+32 land",
+      "70",
+      "HKD +27",
+      "-46",
+      "LH",
+      "-",
+      ""
+    ],
+    [
+      "63214LP",
+      "2500 (2875)",
+      "9",
+      "3",
+      "50",
+      "61",
+      "HKD +15",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "63214MP",
+      "2500 (2875)",
+      "7",
+      "3",
+      "52",
+      "61",
+      "HKD +15",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "63214HP",
+      "2500 (2875)",
+      "5",
+      "3",
+      "54",
+      "61",
+      "HKD +15",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "63214PP",
+      "2900 (3335)",
+      "5",
+      "3",
+      "54",
+      "61",
+      "HKD +15",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "63214P Backturn",
+      "2800 (3220)\n(2240 scaled)",
+      "5",
+      "3",
+      "54",
+      "61",
+      "HKD +13",
+      "-",
+      "T",
+      "-",
+      ""
+    ],
+    [
+      "63214PP Backturn",
+      "3000 (3450)\n(2550 scaled)",
+      "5",
+      "3",
+      "54",
+      "61",
+      "HKD +38",
+      "-",
+      "T",
+      "SA2*",
+      ""
+    ],
+    [
+      "63214PP~6 Backturn",
+      "3200 (3680)\n(2620 Scaled)",
+      "5",
+      "-",
+      "-",
+      "-",
+      "HKD +42",
+      "-",
+      "T",
+      "-",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "2PP",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~8",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~4",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6P",
+      "",
+      "20% Starter",
+      "KD +56",
+      "-20",
+      "21",
+      "13 (15 CH/PC)"
+    ],
+    [
+      "2PP~LP",
+      "",
+      "20% Starter",
+      "+11*",
+      "-10",
+      "13",
+      "9"
+    ],
+    [
+      "2PP~MP",
+      "",
+      "",
+      "HKD +22",
+      "-22",
+      "16,16 (18 total)",
+      "11,11"
+    ],
+    [
+      "2PP~HP",
+      "",
+      "20% Starter",
+      "+10 (Backturn)",
+      "-20",
+      "25",
+      "13 (20 CH/PC)"
+    ],
+    [
+      "2PP~[HP]",
+      "",
+      "20% Starter",
+      "+10 Backturn",
+      "-20",
+      "27",
+      "13 (20 CH/PC)"
+    ],
+    [
+      "2PP~LK",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~MK",
+      "",
+      "20% Starter",
+      "HKD +62",
+      "-17",
+      "21",
+      "6 (15 PC)"
+    ],
+    [
+      "2PP~HK",
+      "",
+      "",
+      "HKD +18",
+      "-56",
+      "16",
+      "13"
+    ],
+    [
+      "2PP~HK~HK",
+      "",
+      "",
+      "HKD +18",
+      "-59",
+      "16",
+      "13"
+    ],
+    [
+      "2PP~LPLK",
+      "",
+      "",
+      "HKD +21",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~2LPLK",
+      "",
+      "",
+      "HKD +20",
+      "",
+      "",
+      ""
+    ],
+    [
+      "236LP",
+      "200",
+      "20% Starter; Combo (2 hits)",
+      "+7",
+      "-22",
+      "20",
+      "13"
+    ],
+    [
+      "236MP",
+      "250",
+      "",
+      "KD +39",
+      "-25",
+      "21",
+      "13"
+    ],
+    [
+      "236HP",
+      "275",
+      "",
+      "+9 (Backturn)",
+      "-21",
+      "25",
+      "15"
+    ],
+    [
+      "236PP",
+      "200,125 (325)",
+      "",
+      "KD +41",
+      "-27",
+      "23,23 (25 total)",
+      "10,11"
+    ],
+    [
+      "623LK",
+      "",
+      "",
+      "KD +29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "623MK",
+      "",
+      "",
+      "KD +29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "623HK",
+      "175",
+      "",
+      "KD +29",
+      "-55",
+      "15",
+      "5"
+    ],
+    [
+      "623KK",
+      "150",
+      "",
+      "HKD +27",
+      "-59",
+      "15",
+      "5"
+    ],
+    [
+      "63214LP",
+      "",
+      "20% Immediate",
+      "HKD +15",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214MP",
+      "",
+      "20% Immediate",
+      "HKD +15",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214HP",
+      "",
+      "20% Immediate",
+      "HKD +15",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP",
+      "",
+      "20% Immediate",
+      "HKD +15",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214P Backturn",
+      "",
+      "20% Immediate",
+      "HKD +13",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP Backturn",
+      "",
+      "40% Starter; 15% Immediate; Combo (2 hits)",
+      "HKD +38",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP~6 Backturn",
+      "",
+      "15% Immediate",
+      "HKD +42",
+      "",
+      "",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "Drive Gain",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "2PP",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~8",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~4",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6P",
+      "4000",
+      "[4000]",
+      "2000",
+      "800 (560)",
+      "400 (200)"
+    ],
+    [
+      "2PP~LP",
+      "500",
+      "[2000]",
+      "300",
+      "300 (210)",
+      "150 (75)"
+    ],
+    [
+      "2PP~MP",
+      "1500x2",
+      "[5000]",
+      "1000x2 [2500]",
+      "400x2 (280x2) [2400(1680)]",
+      "200x2 (100x2)"
+    ],
+    [
+      "2PP~HP",
+      "8000",
+      "[8000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "2PP~[HP]",
+      "10000",
+      "[10000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "2PP~LK",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~MK",
+      "8000",
+      "[10000]",
+      "3000",
+      "1100 (770)",
+      "550 (275)"
+    ],
+    [
+      "2PP~HK",
+      "3000",
+      "[10000]",
+      "2000 [3000]",
+      "800 (560) [1800 (1260)]",
+      "400 (200)"
+    ],
+    [
+      "2PP~HK~HK",
+      "3000",
+      "[10000]",
+      "1000 [2000]",
+      "600 (420) [1600 (1120)]",
+      "300 (150)"
+    ],
+    [
+      "2PP~LPLK",
+      "",
+      "[10000]",
+      "2000",
+      "2000(1400) [4000(2800)]",
+      ""
+    ],
+    [
+      "2PP~2LPLK",
+      "",
+      "[10000]",
+      "2000",
+      "2000(1400) [3000(2100)]",
+      ""
+    ],
+    [
+      "236LP",
+      "3000",
+      "[5000]",
+      "2000",
+      "800 (560)",
+      "400 (200)"
+    ],
+    [
+      "236MP",
+      "6000",
+      "[7000]",
+      "2000",
+      "1000 (700)",
+      "500 (250)"
+    ],
+    [
+      "236HP",
+      "7000",
+      "[12000]",
+      "2000",
+      "1150 (805)",
+      "575 (287)"
+    ],
+    [
+      "236PP",
+      "2500x2",
+      "[4000x2]",
+      "-20000",
+      "500,600 (350,420)",
+      "250,300 (125,150)"
+    ],
+    [
+      "623LK",
+      "",
+      "[5000]",
+      "1000x2",
+      "1300 (910)",
+      ""
+    ],
+    [
+      "623MK",
+      "",
+      "[5000]",
+      "1000x2",
+      "1300 (910)",
+      ""
+    ],
+    [
+      "623HK",
+      "1500",
+      "[5000]",
+      "1000x2",
+      "1300 (150)",
+      "910 (75)"
+    ],
+    [
+      "623KK",
+      "1500",
+      "[5000]",
+      "-20000",
+      "1000x2 (500)",
+      "700x2 (250)"
+    ],
+    [
+      "63214LP",
+      "",
+      "[10000]",
+      "5000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214MP",
+      "",
+      "[10000]",
+      "5000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214HP",
+      "",
+      "[10000]",
+      "5000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214PP",
+      "",
+      "[10000]",
+      "-20000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214P Backturn",
+      "",
+      "[10000]",
+      "5000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214PP Backturn",
+      "",
+      "[10000]",
+      "-20000",
+      "3000 (2100)",
+      ""
+    ],
+    [
+      "63214PP~6 Backturn",
+      "",
+      "[11000]",
+      "",
+      "3000 (2100)",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "2PP",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~8",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~4",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~6P",
+      "",
+      "",
+      "",
+      "2.32 / 2.60 / 3.14",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "2PP~LP",
+      "",
+      "",
+      "",
+      "1.36",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2PP~MP",
+      "1-6 Air (Upper/Mid), 7-13 Air (all)",
+      "",
+      "",
+      "1.10 (0.81)",
+      "1,1",
+      "1,1",
+      "2,3"
+    ],
+    [
+      "2PP~HP",
+      "",
+      "",
+      "",
+      "1.48 (1.41)",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "2PP~[HP]",
+      "",
+      "6-16 (2-hit)",
+      "",
+      "1.48 (1.41)",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "2PP~LK",
+      "",
+      "",
+      "7-36 (FKD)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~MK",
+      "",
+      "",
+      "9-30 (FKD)",
+      "3.05 / 2.43 / 1.34",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "2PP~HK",
+      "",
+      "",
+      "",
+      "2.02",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "2PP~HK~HK",
+      "",
+      "",
+      "",
+      "1.82",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "2PP~LPLK",
+      "",
+      "",
+      "",
+      "1.02",
+      "",
+      "",
+      ""
+    ],
+    [
+      "2PP~2LPLK",
+      "",
+      "",
+      "15-26 (FKD)",
+      "2.69",
+      "",
+      "",
+      ""
+    ],
+    [
+      "236LP",
+      "",
+      "",
+      "",
+      "1.70 (1.65)",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "236MP",
+      "",
+      "",
+      "",
+      "2.11 (1.97)",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "236HP",
+      "",
+      "",
+      "",
+      "2.04",
+      "1",
+      "1",
+      "5"
+    ],
+    [
+      "236PP",
+      "",
+      "",
+      "",
+      "2.10 (1.79)",
+      "1",
+      "1,1",
+      "5,6"
+    ],
+    [
+      "623LK",
+      "1-10 Air",
+      "",
+      "5-32 (FKD)",
+      "1.10",
+      "",
+      "",
+      "10"
+    ],
+    [
+      "623MK",
+      "1-16 Air",
+      "",
+      "6-34 (FKD)",
+      "1.51",
+      "",
+      "",
+      "10"
+    ],
+    [
+      "623HK",
+      "1-21 Air",
+      "",
+      "16-42 (FKD)",
+      "1.75 (1.48)",
+      "",
+      "",
+      "10"
+    ],
+    [
+      "623KK",
+      "1-17 Air",
+      "",
+      "12-38 (FKD)",
+      "1.75 (1.48)",
+      "",
+      "",
+      "10"
+    ],
+    [
+      "63214LP",
+      "",
+      "",
+      "",
+      "1.24",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214MP",
+      "",
+      "",
+      "",
+      "1.04",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214HP",
+      "",
+      "",
+      "",
+      "0.85",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP",
+      "",
+      "",
+      "",
+      "1.14",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214P Backturn",
+      "",
+      "",
+      "",
+      "1.42",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP Backturn",
+      "",
+      "",
+      "",
+      "1.42",
+      "",
+      "",
+      ""
+    ],
+    [
+      "63214PP~6 Backturn",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  [
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "2PP",
+      "Cannot block while in stance (counter-hit state for entire duration); Alex is in a crouching state on frame 5 onward (stand-sized hurtbox until frame 8); crouch-sized hurtbox on frames 9-15; Low Profile on frame 16~ (but does not duck under standard projectiles); can transition into one of several different follow-ups on frame 18 onward (frame 17 for Stance Exit); can be canceled with any up input (2PP~8); Alex remains in stance until canceled or hit; Alex switches facing direction when opponent switches sides"
+    ],
+    [
+      "2PP~8",
+      "Can start exiting stance 1 frame earlier than other follow-ups; fastest total stance + exit time is 42f; Low Profile and crouch state on frames 1-9 of exit animation; Alex remains in a counter-hit state for entire exit duration; holding up direction will buffer the Stance Exit at the earliest possible timing"
+    ],
+    [
+      "2PP~6",
+      "Distance: 1.76; cancelable into Slash Elbow (6P) on frames 1-14 (if done later, Elbow is buffered at the usual follow-up timing); can perform Tactical Hop (LK) / Air Stampede (MK) on frame 18~; can perform Stance Exit on frame 28 (final recovery frame); cancelable into other Stance follow-ups on frame 21~; maintains Low Profile / crouch for entire duration and remains in Prowler Stance afterward; holding forward does not buffer the dash (must be timed using the standard input buffer window)"
+    ],
+    [
+      "2PP~4",
+      "Distance: 1.00; cannot cancel into follow-ups during the dash animation (except Stance Exit 1f before recovery ends); maintains Low Profile / crouch for entire duration and remains in Prowler Stance afterward; holding back does not buffer the dash (must be timed using the standard input buffer window)"
+    ],
+    [
+      "2PP~6P",
+      "Button strength determines distance and startup (LP shortest/fastest, HP longest/slowest); exits Stance after use; high active frame count allows it to be spaced or used with meaty timing for better advantage; Counter-hit/Punish Counter puts opponent into a limited juggle state; puts airborne opponents into a limited juggle state; head and arm hurtbox are anti-air invuln on frames 8-15 (LP) / 11-18 (MP) / 14-21 (HP); maintains Low Profile on startup until 5f before active; maintains crouch state until the end of active frames (standing-sized hurtboxes after the Low Profile frames end); expands significantly on the 3rd active frame making it easier to space for advantage on block; causes a screen shake effect when blocked with frame advantage (3rd/4th active frames)"
+    ],
+    [
+      "2PP~LP",
+      "Fast and long range jab that maintains the stance's Low Profile and crouching state; cancelable into other Prowler Stance moves (except Stance Exit, Forward/Back Dash, Hyper Takedown, or Slashing Elbow) and into standard specials / DI / DR; Alex remains in stance if not canceled (forced to exit after Perfect Parry); chained jabs form a true blockstring (can chain 4 jabs on hit or 3 on block); frame advantage compares the end of the jab recovery to the opponent's hitstun/blockstun but is only really relevant for tick throws with Hyper Takedown or when using Slashing Elbow afterward; can only tick throw into Hyper Takedown (Stance LP+LK) after 1 jab"
+    ],
+    [
+      "2PP~MP",
+      "Counter-hit/Punish Counter transitions into Falling Moon for higher damage, Hard Knockdown, and improved meter properties (regardless of whether 1st or 2nd hit connects); () refers to Falling Moon damage; not airborne despite the animation; puts opponents into a limited juggle state on normal hit; maintains Low Profile on frames 1-7 and considered crouching on frames 1-13; cannot hit cross-up but will autocorrect if input while dashing under the opponent (allows for side swap juggle routes); can be canceled into from Palm Jab"
+    ],
+    [
+      "2PP~HP",
+      "Can be held to gain damage, 2f extra blockstun, and armor properties; puts airborne opponents into a limited juggle state; Counter-hit (+8) / Punish Counter (+10) puts grounded opponents into a Backturned state that can link to 4MK or MP/OD Power Drop (can whiff at long range); shorter range vs. crouching opponents; great pressure tool for depleting the opponent's Drive gauge; can be canceled into from Palm Jab (up to 3 jabs vs. standing or 2 jabs vs. crouching); uncharged version comes out if button is held up to 12 frames; can be spaced out to hit on later active frames for better advantage (up to +8/+5); holding the button 1-5f results in 12f startup; holding the button 6-12f increases the total startup incrementally (up to a maximum startup of 20f); maintains Low Profile on frames 1-6 and crouch state on frames 1-14 (standing-sized hurtbox on frames 11-14)"
+    ],
+    [
+      "2PP~[HP]",
+      "More damage and blockstun than uncharged version; puts airborne opponents into a limited juggle state; Counter-hit (+8) / Punish Counter (+10) puts grounded opponents into a Backturned state that can link to 4MK or MP/OD Power Drop (can whiff at long range); armor absorbs 2 hits as long as the button continues to be held (armor ends 5f before the attack hits); shorter range vs. crouching opponents; great pressure tool for depleting the opponent's Drive gauge; can be canceled into from Palm Jab but only combos on Punish Counter; can be spaced out to hit on later active frames for better advantage (up to +8/+7); button must be held 13f (early release ends the armor and results in uncharged version); maintains Low Profile on frames 1-16 and crouch state on frames 1-23 (standing-sized hurtbox on frames 20-23)"
+    ],
+    [
+      "2PP~LK",
+      "Distance: 1.157; much shorter trajectory and lower height than a standard jump; can perform air normals or Flying Cross Chop on frames 22-32 (buffers from frame 8~, then buffers a grounded normal if pressed on frame 33~); immediately loses low profile state and exits stance upon activation; prejump frames 1-2 are in a crouching state followed by a standing state on frames 3-6; Lower Body Projectile Invuln on frames 6-8 (helps jump over projectiles on startup); has a smaller body hurtbox on frames 6-33; 3f landing recovery like a regular jump but cannot block when landing from an empty jump; Alex is in a Counter-hit state for entire move duration; can be canceled into from Palm Jab"
+    ],
+    [
+      "2PP~MK",
+      "Can be steered left/right; cannot hit cross-up; Alex is considered grounded on the 2nd active frame (anti-air invuln specials will lose if they don't hit before this frame); Punish Counter puts opponents into a limited juggle OTG bounce state (Hard Knockdown if no move is juggled afterward); immediately loses low profile state and exits stance upon activation (remains crouching on frames 1-8 with a standing-sized hurtbox on frames 5-8); very short hitstop gives little time for opponent to make a decision on block (significantly longer hitstop on Punish Counter for easier juggle confirms); stomp is block reactable but difficult to anti-air (can hold back to cause many anti-airs to whiff at some ranges); can intentionally whiff over the opponent to bait parry (opponent can option select with 4~4MPMK to option select a parry + Drive Rush, though the timing is strict to punish Alex); can be canceled into from Palm Jab"
+    ],
+    [
+      "2PP~HK",
+      "Hitconfirmable (but unsafe) long range sweep; Counter-hit/Punish Counter transitions into Flying Suplex for extra damage, meter, and a Hard Knockdown (no difference between 1st or 2nd hit of the TC when this happens); puts airborne opponents into a limited juggle state (allows TC follow-up to combo); Alex remains in stance after recovery except on Perfect Parry or when Flying Suplex connects; maintains Low Profile and crouch state for entire duration; 3f blockstring gap between hits (will frame trap if opponent attempts a punish too early); can be canceled into from Palm Jab (consistent combo ender at any range)"
+    ],
+    [
+      "2PP~HK~HK",
+      "Counter-hit/Punish Counter transitions into Flying Suplex for extra damage, meter, and a Hard Knockdown (no difference between 1st or 2nd hit of the TC when this happens); Alex remains in stance after recovery except on Perfect Parry or when Flying Suplex connects; maintains Low Profile and crouch state for entire duration; 3f blockstring gap between hits (will frame trap if opponent attempts a punish too early); leaves Alex +1 after manual Stance Exit for corner oki; can whiff when the first sweep connects at max range"
+    ],
+    [
+      "2PP~LPLK",
+      "Acts like a normal throw with extra range (can be teched); turns into Death Valley Bomb on Punish Counter (different animation with separate KD advantage and higher damage/meter properties); leads to good oki anywhere on screen; immediately loses low profile state and exits stance upon activation but retains crouching state on frames 1-7 with standing-sized hurtboxes; cannot be canceled into from Palm Jab (only in throw range after 1 jab on hit or block)"
+    ],
+    [
+      "2PP~2LPLK",
+      "Turns into Spiral DDT on Punish Counter (different animation with separate KD advantage and higher damage/meter properties); can only hit standing opponents; regular version gets strong meterless corner oki or Drive Rush midscreen oki; Punish Counter version can walk for meterless oki anywhere on screen; immediately loses low profile state and exits stance upon activation but retains crouching state on frames 1-14 (standing-sized hurtboxes on frames 9-14); can be canceled into from Palm Jab for a more effective tick throw"
+    ],
+    [
+      "236LP",
+      "Safe on block if spaced from a light string and maintains pressure up close on hit; has both a strike hitbox and a separate 1-hit projectile clash box during the active frames; this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles)"
+    ],
+    [
+      "236MP",
+      "Can transition into Prowler Stance on hit; important combo tool that is relatively safe if spaced out; extends a large vertical combo-only hitbox for juggle consistency; has both a strike hitbox and a separate 1-hit projectile clash box during the active frames; this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); can get midscreen oki with Drive Rush into a delayed button or throw; Prowler Stance cancel: KD +46 oH (variable on airborne opponents)"
+    ],
+    [
+      "236HP",
+      "Puts opponent into Backturned state and Forces Stand on hit; slow startup but plus on block (leaves the opponent inside OD Power Bomb range for a tick throw); true blockstring from 5[HP] dealing significant Drive damage; has both a strike hitbox as well as a separate 1-hit projectile clash box on frames 25-29 (starting 1f before active); this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); recovery is cancelable on hit into Power Drop (63214P) or Collapsing Driver (4MK) on frame 40 (opponent must be grounded for these to connect); can omit the follow-up cancel and link normals afterward (lights on regular hit, 5MP on counter-hit, 2HP on Punish Counter)"
+    ],
+    [
+      "236PP",
+      "2 hits; 1st hit keeps opponent grounded (SA2 cancel allows cinematic hit); 2nd hit puts opponents into a limited juggle state (SA2 cancel causes wall splat); can transition into Prowler Stance on hit; completely safe on block due to pushback; has both a strike hitbox as well as a separate 2-hit OD projectile clash box on frames 14-19 (starting 1f before active); this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); leads to good midscreen oki with Drive Rush or a 6-frame safe jump with j.HK (can often outspace 5f reversals as well); Prowler Stance cancel: KD +37 oH (variable on airborne opponents)"
+    ],
+    [
+      "623LK",
+      "Anti-air grab (cannot hit grounded opponents); cannot hit cross-up; best overall anti-air at closer ranges due to its fast speed and upward trajectory; allows strong meterless oki in the corner or Drive Rush oki midscreen"
+    ],
+    [
+      "623MK",
+      "Anti-air grab (cannot hit grounded opponents); cannot hit cross-up; more horizontal range and an extended combo-only hitbox make it useful in juggles; allows strong meterless oki in the corner or Drive Rush oki midscreen"
+    ],
+    [
+      "623HK",
+      "Active frames 1-2 can hit grounded or airborne; active frames 3-8 can only hit airborne; Drive/Super meter gain only applies to the first hit when blocked; cannot hit cross-up; slow for anti-air purposes but the range can be used to punish landing recovery of divekicks or similar moves; useful as a combo ender even from max range light normals; allows strong meterless oki in the corner or Drive Rush oki midscreen"
+    ],
+    [
+      "623KK",
+      "Active frames 1-2 can hit grounded or airborne; active frames 3-8 can only hit airborne; Super meter gain only applies to the first hit when blocked; cannot hit cross-up; Hard Knockdown allows strong meterless oki anywhere on screen; combos and anti-airs in all the same situations as HK version (and even more lenient in juggles due to the faster startup)"
+    ],
+    [
+      "63214LP",
+      "Longest range / slowest startup version; useful in some oki situations (e.g. corner throw + dash) but less useful in tick throw scenarios; turns into Power Drop on backturned opponent"
+    ],
+    [
+      "63214MP",
+      "Medium range / startup version; turns into Power Drop on backturned opponent; can be used in some tick throw situations especially out of Drive Rush normals"
+    ],
+    [
+      "63214HP",
+      "Shortest range / fastest startup version; turns into Power Drop on backturned opponent; most useful for tick throws when the range allows it; Alex's strongest meterless Drive Reversal punish (but can whiff when blocked at max range)"
+    ],
+    [
+      "63214PP",
+      "Startup of HP version with range in between LP/MP versions; most useful overall in tick throw scenarios; turns into Power Drop on backturned opponent; more consistent and slightly more damaging as a Drive Reversal punish than HP version"
+    ],
+    [
+      "63214P Backturn",
+      "Switches sides with no real oki; no difference between strengths once the grab connects; the version that comes out after 236HP has more range than any standard version of Power Bomb (but can whiff at absolute max range vs. crouching opponents); () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)"
+    ],
+    [
+      "63214PP Backturn",
+      "Switches sides and leads to Drive Rush oki even midscreen; cancelable into Omega Wing Buster by inputting PP (cannot hold buttons for the entire animation, input during the 2nd body slam); () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; the version that comes out after 236HP has more range than any standard version of Power Bomb (but can whiff at absolute max range vs. crouching opponents); the starter scaling affects Omega Wing Buster damage when punishing with a raw OD Power Drop, while the combo scaling affects it when canceled from HP Flash Chop; backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)"
+    ],
+    [
+      "63214PP~6 Backturn",
+      "Does not switch sides; sets up a safe jump or Drive Rush oki anywhere on the screen; cannot be canceled into Omega Wing Buster; () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; maintains the same damage scaling as the preceding OD Power Drop (does not count as a separate move for scaling); backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard"
+    ],
+    [
+      "input",
+      "Damage",
+      "Startup",
+      "Active",
+      "Recovery",
+      "Total",
+      "Hit Adv",
+      "Block Adv",
+      "Guard"
+    ],
+    [
+      "236236K",
+      "2000",
+      "9",
+      "5",
+      "55",
+      "68",
+      "KD +30",
+      "-38",
+      "LH"
+    ],
+    [
+      "214214P",
+      "3000\n(2000 Air)",
+      "13",
+      "4",
+      "50",
+      "66",
+      "HKD +19\n(Air: Wall Splat)",
+      "-29",
+      "LH"
+    ],
+    [
+      "PP (SA2)",
+      "2800 (1680)",
+      "2",
+      "-",
+      "-",
+      "-",
+      "HKD +29",
+      "-",
+      "-"
+    ],
+    [
+      "236236P",
+      "4000",
+      "12",
+      "5",
+      "53",
+      "69",
+      "HKD +18",
+      "-38",
+      "LH"
+    ],
+    [
+      "236236P",
+      "4500",
+      "12",
+      "5",
+      "53",
+      "69",
+      "HKD +25",
+      "-38",
+      "LH"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "input",
+      "Chip",
+      "Dmg Scaling",
+      "Punish Adv",
+      "PerfParry Adv",
+      "Blockstun",
+      "Hitstop"
+    ],
+    [
+      "236236K",
+      "500",
+      "30% Minimum",
+      "KD +30",
+      "-58",
+      "22",
+      "25(20)"
+    ],
+    [
+      "214214P",
+      "750",
+      "40% Minimum; 50% Starter; Combo (2 hits)",
+      "HKD +19\n(Air: Wall Splat)",
+      "-52",
+      "25",
+      "10 (15 air)"
+    ],
+    [
+      "PP (SA2)",
+      "",
+      "40% Minimum",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "236236P",
+      "1000",
+      "50% Minimum; 10% Immediate (Sp)",
+      "HKD +18",
+      "-56",
+      "20",
+      "6"
+    ],
+    [
+      "236236P",
+      "1250",
+      "50% Minimum; 10% Immediate (Sp)",
+      "HKD +25",
+      "-56",
+      "20",
+      "6"
+    ]
+  ],
+  [
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "input",
+      "DriveDmg Block",
+      "DriveDmg Hit[PC]",
+      "SuperGain Hit",
+      "SuperGain Block"
+    ],
+    [
+      "236236K",
+      "2500",
+      "5000",
+      "-10000",
+      "-10000"
+    ],
+    [
+      "214214P",
+      "5000",
+      "10000",
+      "-20000",
+      "-20000"
+    ],
+    [
+      "PP (SA2)",
+      "",
+      "10000",
+      "-20000",
+      ""
+    ],
+    [
+      "236236P",
+      "7500",
+      "15000",
+      "-30000",
+      "-30000"
+    ],
+    [
+      "236236P",
+      "10000",
+      "20000",
+      "-30000",
+      "-30000"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "input",
+      "Invuln",
+      "Armor",
+      "Airborne",
+      "Range",
+      "Juggle Start",
+      "Juggle Increase",
+      "Juggle Limit"
+    ],
+    [
+      "236236K",
+      "1-9 Strike/Throw",
+      "Break",
+      "",
+      "2.61 (2.26)",
+      "1",
+      "1",
+      "50"
+    ],
+    [
+      "214214P",
+      "1-16 Full",
+      "Break",
+      "",
+      "2.50 (2.31)",
+      "0",
+      "0",
+      "99"
+    ],
+    [
+      "PP (SA2)",
+      "",
+      "Break",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "236236P",
+      "1-16 Full",
+      "Break",
+      "",
+      "1.91",
+      "",
+      "",
+      "99"
+    ],
+    [
+      "236236P",
+      "1-16 Full",
+      "Break",
+      "",
+      "1.91",
+      "",
+      "",
+      "99"
+    ]
+  ],
+  [
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "input",
+      "Notes"
+    ],
+    [
+      "236236K",
+      "Alex's best reversal option; sends opponent far away (oki only possible near the corner); puts opponent into a limited juggle state that can lead to trade combos depending on distance and the opponent's attack hitstun (e.g. fireball trade, early anti-air timing)"
+    ],
+    [
+      "214214P",
+      "Causes a cinematic on grounded opponents and a wallsplat on airborne opponents (can juggle in the corner); wallsplat is a free juggle state if SA2 starts the combo (otherwise, maintains the existing juggle state); can choose which version to cancel into from OD Flash Chop (1st hit stays grounded, 2nd hit launches); effective fireball counter due to range and invincibility; cinematic version gives decent Drive Rush oki (but DR~Throw can only beat reversal 4f normals on wide characters like Alex, Marisa, Sagat, Blanka, E. Honda, and Zangief)"
+    ],
+    [
+      "PP (SA2)",
+      "Can only be performed after OD Power Drop on a backturned opponent; 2800 damage refers to base damage without scaling (1680 is the most it can theoretically do at 60% scaling); fully invincible for the entire cinematic; pushes opponent a full screen away (no possible oki); PP input must be pressed rather than held for the entire throw cinematic (timing is around the 2nd body slam)"
+    ],
+    [
+      "236236P",
+      "Cinematic time regenerates ~2 Drive bars for Alex; significantly less range than Alex's other Supers; poor oki after the cinematic (e.g. spaced DR~5MP or DR~2MK); has 2 different cinematics depending on whether it KOs the opponent"
+    ],
+    [
+      "236236P",
+      "Available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Alex; significantly less range than Alex's other Supers; better oki than standard SA3 (e.g. DR~Throw or DR~5HP into tick MP Power Bomb); has 2 different cinematics depending on whether it KOs the opponent"
+    ]
+  ],
+  [
+    [
+      "Street Fighter 6 (SF6)"
+    ],
+    [
+      "General"
+    ],
+    [
+      "FAQ â¢\r\n   Controls â¢\r\n   HUD â¢\r\n   Glossary â¢\r\n   Movement â¢\r\n   Offense â¢\r\n   Defense â¢\r\n   Gauges â¢\r\n   Game Data â¢\r\n   Patch Notes â¢\r\n   Links"
+    ],
+    [
+      "Characters"
+    ],
+    [
+      "A.K.I.\r\n   Akuma\r\n   Alex\r\n   Blanka\r\n   C. Viper\r\n   Cammy\r\n   Chun-Li\r\n   Dee Jay\r\n   Dhalsim\r\n   Ed\r\n   E. Honda\r\n   Elena\r\n   Guile\r\n   Jamie\r\n   JP\r\n   Juri\r\n   Ken\r\n   Kimberly\r\n   Lily\r\n   Luke\r\n   M. Bison\r\n   Mai\r\n   Manon\r\n   Marisa\r\n   Rashid\r\n   Ryu\r\n   Sagat\r\n   Terry\r\n   Zangief"
+    ],
+    [
+      "Data"
+    ],
+    [
+      "A.K.I. â¢\r\n   Akuma â¢\r\n   Alex â¢\r\n   Blanka â¢\r\n   C. Viper â¢\r\n   Cammy â¢\r\n   Chun-Li â¢\r\n   Dee Jay â¢\r\n   Dhalsim â¢\r\n   Ed â¢\r\n   E. Honda â¢\r\n   Elena â¢\r\n   Guile â¢\r\n   Jamie â¢\r\n   JP â¢\r\n   Juri â¢\r\n   Ken â¢\r\n   Kimberly â¢\r\n   Lily â¢\r\n   Luke â¢\r\n   M. Bison â¢\r\n   Mai â¢\r\n   Manon â¢\r\n   Marisa â¢\r\n   Rashid â¢\r\n   Ryu â¢\r\n   Sagat â¢\r\n   Terry â¢\r\n   Zangief"
+    ]
+  ]
+]

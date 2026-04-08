@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SF6 Combo Simulator</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥊</text></svg>">
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <div id="header-left">
+        <h1>SF6 <span id="char-name">ALEX</span> <span class="accent">COMBO SIMULATOR</span></h1>
+        <div id="mode-tabs">
+          <button class="mode-tab active" data-mode="input">Input Mode</button>
+          <button class="mode-tab" data-mode="builder">Builder Mode</button>
+        </div>
+      </div>
+      <div id="header-controls">
+        <select id="char-select" class="header-btn">
+          <option value="alex">Alex</option>
+          <option value="terry">Terry</option>
+        </select>
+        <button id="btn-settings" class="header-btn">Settings</button>
+        <button id="btn-movelist" class="header-btn">Move List</button>
+        <button id="btn-reset" class="header-btn danger">Reset</button>
+      </div>
+    </header>
+
+    <!-- Input Mode -->
+    <main id="main">
+      <!-- Left: Input Display -->
+      <section id="input-panel" class="panel">
+        <h2>INPUT</h2>
+        <div id="direction-display">
+          <div class="direction-grid">
+            <div class="dir" data-dir="7">&#8598;</div>
+            <div class="dir" data-dir="8">&#8593;</div>
+            <div class="dir" data-dir="9">&#8599;</div>
+            <div class="dir" data-dir="4">&#8592;</div>
+            <div class="dir" data-dir="5">&#9679;</div>
+            <div class="dir" data-dir="6">&#8594;</div>
+            <div class="dir" data-dir="1">&#8601;</div>
+            <div class="dir" data-dir="2">&#8595;</div>
+            <div class="dir" data-dir="3">&#8600;</div>
+          </div>
+        </div>
+        <div id="button-display">
+          <div class="btn-row">
+            <div class="game-btn" data-btn="LP">LP</div>
+            <div class="game-btn" data-btn="MP">MP</div>
+            <div class="game-btn" data-btn="HP">HP</div>
+          </div>
+          <div class="btn-row">
+            <div class="game-btn" data-btn="LK">LK</div>
+            <div class="game-btn" data-btn="MK">MK</div>
+            <div class="game-btn" data-btn="HK">HK</div>
+          </div>
+        </div>
+        <div id="input-history"></div>
+      </section>
+
+      <!-- Center: Frame Timeline + Combo -->
+      <section id="center-panel" class="panel">
+        <h2>COMBO <span id="combo-hit-count" class="accent">0 HITS</span></h2>
+        <div id="combo-sequence"></div>
+        <div id="frame-timeline-container">
+          <canvas id="frame-timeline"></canvas>
+        </div>
+        <div id="combo-stats">
+          <div class="stat">
+            <span class="stat-label">Damage</span>
+            <span id="stat-damage" class="stat-value">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Scaling</span>
+            <span id="stat-scaling" class="stat-value">100%</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Drive</span>
+            <span id="stat-drive" class="stat-value">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Status</span>
+            <span id="stat-status" class="stat-value valid">READY</span>
+          </div>
+        </div>
+        <div id="move-detection">
+          <span class="label">Detected:</span>
+          <span id="detected-move">-</span>
+        </div>
+      </section>
+
+      <!-- Right: Preset Combos -->
+      <section id="preset-panel" class="panel">
+        <h2>COMBO LIST</h2>
+        <div id="preset-combos"></div>
+      </section>
+    </main>
+
+    <!-- Builder Mode -->
+    <main id="builder-main" class="hidden">
+      <section id="builder-canvas-panel">
+        <div id="builder-header">
+          <h2>COMBO CHAIN</h2>
+          <div id="builder-controls">
+            <div id="builder-counter-toggle" class="toggle-group">
+              <span class="toggle-label">Counter</span>
+              <button class="toggle-btn active" data-counter="off">OFF</button>
+              <button class="toggle-btn" data-counter="ch">CH</button>
+              <button class="toggle-btn" data-counter="pc">PC</button>
+            </div>
+            <button id="builder-clear" class="header-btn danger">Clear All</button>
+          </div>
+        </div>
+        <div id="builder-chain">
+          <div id="builder-drop-zone" class="drop-zone-empty">
+            Drag moves here to build a combo
+          </div>
+        </div>
+        <div id="builder-timeline-container">
+          <canvas id="builder-timeline"></canvas>
+        </div>
+        <div id="builder-stats">
+          <div class="stat">
+            <span class="stat-label">Hits</span>
+            <span id="builder-stat-hits" class="stat-value">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Damage</span>
+            <span id="builder-stat-damage" class="stat-value">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Scaling</span>
+            <span id="builder-stat-scaling" class="stat-value">100%</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Drive</span>
+            <span id="builder-stat-drive" class="stat-value">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Status</span>
+            <span id="builder-stat-status" class="stat-value valid">READY</span>
+          </div>
+        </div>
+      </section>
+      <section id="builder-movelist-panel">
+        <h2>MOVES</h2>
+        <div id="builder-category-tabs"></div>
+        <div id="builder-move-cards"></div>
+      </section>
+    </main>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="hidden">
+      <div id="modal-content">
+        <button id="modal-close">&times;</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,1064 @@
+Street Fighter 6/Alex/Combos - SuperCombo Wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+		
+			
+			
+		
+	
+
+	
+
+	
+		
+			
+				
+				
+				
+			
+			Toggle search
+		
+		
+	
+	
+
+
+
+	
+		
+			
+			
+				
+				
+				
+			
+			Toggle menu
+			
+		
+			
+				
+					
+					
+				
+				
+						
+	
+		
+		8.3K
+	
+
+	
+		
+		74.2K
+	
+
+	
+		
+		3.3K
+	
+
+	
+		
+		351.1K
+	
+
+
+
+						
+									
+
+				
+					
+					
+	
+		Meta
+	
+
+	
+		
+		
+			
+			Main Pageâ â¥ z Recent changesâ â¥ r Random pageâ â¥ xSpecial Pages Upload fileâ â¥ u
+		
+		
+	
+
+
+					
+	
+		Wiki
+	
+
+	
+		
+		
+			
+			Game DirectoryGlossaryNotationSign Up
+		
+		
+	
+
+
+	
+		Help
+	
+
+	
+		
+		
+			
+			Help PortalManual of StyleWriting Character PagesWriting System ExplanationsAdding Images & VideosCreating a New Wiki
+		
+		
+	
+
+
+	
+		Community
+	
+
+	
+		
+		
+			
+			SuperCombo DiscordCommunity PortalFGC Discords
+		
+		
+	
+
+
+	
+		SuperCombo.gg
+	
+
+	
+		
+		
+			
+			NewsForumsTwitterPatreonDonate
+		
+		
+	
+
+
+						
+
+		
+
+	
+	
+		
+
+		
+			
+				
+					
+						
+						Toggle preferences menu
+					
+				
+				
+					
+						
+
+					
+
+				
+
+			
+			
+	
+		Notifications
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+			
+				
+					
+						
+						Toggle personal menu
+					
+				
+				
+					
+						
+	
+		Not logged in
+
+		
+	
+
+	
+		Your IP address will be publicly visible if you make any edits.
+
+	
+
+
+
+						
+	
+		user-interface-preferences
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+						
+	
+		Personal tools
+	
+
+	
+		
+		
+			
+			 Create account Log inâ â¥ o
+		
+		
+	
+
+
+					
+
+				
+
+			
+		
+
+	
+
+
+
+	
+
+
+	
+		
+		
+
+
+		
+
+		
+			
+				
+
+	
+		Street Fighter 6/Alex/Combos
+
+		
+		
+		
+	
+
+	From SuperCombo Wiki
+
+
+
+				
+
+	
+	
+	Share this page
+
+	
+	
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data
+		Expand all
+		
+	
+
+
+		
+
+	
+
+
+
+
+			
+
+		
+		
+
+		
+			
+				< Street Fighter 6 | Alex
+
+
+				
+				
+				Overview
+Combos
+Strategy
+Matchups
+Frame Data
+Resources
+Match Footage
+#SF6_Alex
+ 
+
+
+
+
+
+
+Combo Notation Guide
+
+
+Click "Expand" for information about combo notation in SF6:
+
+
+
+
+
+ExpandSF6 Combo Notation Guide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normal Hit:
+
+
+
+
+  
+  
+    Combo
+    Position
+    Damage
+    Drive Gauge
+    Super Gauge
+    Difficulty
+    Notes
+    Video
+  
+
+  
+    2LK/2LP/5LP ~ 2LP/5LP > 236LP
+    Anywhere (close)
+    1000/1100
+    0
+    0
+    Very easy
+    When close enough a second 2LP or 5LP can be added. Damage is then 1130/1230.
+    []
+  
+
+
+  
+    5LP ~ 5LP ~ 5LP  > 623HK
+    Anywhere (close)
+    1650
+    0
+    0
+    Very easy
+    Other light starters work as well
+    []
+  
+
+
+  
+    2HP > 2PP > LP ~ HP, 5LK > 623HK/623KK/236LP/236PP
+    Anywhere
+    3010/3130/2590/2890
+    0/2
+    0
+    Intermediate
+    Ending in 623HK purely for damage still gives good oki in the corner. If you want to spend super 236LP/236PP allow cancels into SA3 and 236PP allows cancels into SA2.
+    []
+  
+
+
+
+Counter Hit:
+
+About these adsâ  Report Ad
+
+
+
+
+  
+  
+    Combo
+    Position
+    Damage
+    Drive Gauge
+    Super Gauge
+    Difficulty
+    Notes
+    Video
+  
+
+  
+    6MP, 2LP > 623HK
+    Anywhere
+    
+    0
+    0
+    Easy
+    Simple counter hit combo from overhead. Also works with 5LP when close enough but 2LP is more consistent.
+    []
+  
+
+
+
+Punish Counter:
+
+
+
+
+  
+  
+    Combo
+    Position
+    Damage
+    Drive Gauge
+    Super Gauge
+    Difficulty
+    Notes
+    Video
+  
+
+  
+    2HP > 2PP > HP, 623HK
+    Anywhere
+    3160
+    0
+    0
+    Easy
+    Seems like the optimal meterless midscreen punish using 2HP
+    []
+  
+
+
+  
+    236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214P
+    Anywhere
+    4065/4265
+    3
+    0
+    Easy/Intermediate
+    Sideswap. Link with the 5MP is easier and works at all ranges. At longer ranges the 2HP whiffs
+    []
+  
+
+
+  
+    236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214PP ( > 6 )
+    Anywhere
+    4253/4453/4329/4529
+    5
+    0
+    Easy/Intermediate
+    Holding forward removes sideswap and gives extra damage. Same combo as before. Less drive efficient.
+    []
+  
+
+
+  
+    236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214PP ~ SA2 (PP)
+    Anywhere
+    5373/5573
+    5
+    2
+    Easy/Intermediate
+    
+    []
+  
+
+
+
+(Anywhere) PC 2PP ~ MK , DR ~ 2HP > 236MP > 2PP ~ 6P > 214214P , 2PP ~ 6P > 236236K
+Max Damage/Cashout Combos:
+
+
+2HP > 2PP ~ LP ~ HP , 5LK > DR ~ 5LP , 2HP > 2PP ~ LP ~ HP , 5LK > DR ~ 5LP , 2HP > 2PP ~ LP ~ HP , 5LK > 236LP > 236236P
+
+
+
+
+Overview
+Combos
+Strategy
+Matchups
+Frame Data
+Resources
+Match Footage
+#SF6_Alex
+ 
+
+
+
+
+
+SF6 Navigation
+
+
+
+
+Street Fighter 6 (SF6) 
+
+
+
+General
+
+
+
+ FAQ â¢
+
+   Controls â¢
+
+   HUD â¢
+
+   Glossary â¢
+
+   Movement â¢
+
+   Offense â¢
+
+   Defense â¢
+
+   Gauges â¢
+
+   Game Data â¢
+
+   Patch Notes â¢
+
+   Links 
+
+
+
+
+Characters
+
+
+
+
+ A.K.I.
+
+  
+ Akuma
+
+  
+ Alex
+
+  
+ Blanka
+
+  
+ C. Viper
+
+  
+ Cammy
+
+  
+ Chun-Li
+
+  
+ Dee Jay
+
+  
+ Dhalsim
+
+  
+ Ed
+
+  
+ E. Honda
+
+  
+ Elena
+
+  
+ Guile
+
+  
+ Jamie
+
+  
+ JP
+
+  
+ Juri
+
+  
+ Ken
+
+  
+ Kimberly
+
+  
+ Lily
+
+  
+ Luke
+
+  
+ M. Bison
+
+  
+ Mai
+
+  
+ Manon
+
+  
+ Marisa
+
+  
+ Rashid
+
+  
+ Ryu
+
+  
+ Sagat
+
+  
+ Terry
+
+  
+ Zangief
+
+
+
+
+Data
+
+
+
+ A.K.I. â¢
+
+   Akuma â¢
+
+   Alex â¢
+
+   Blanka â¢
+
+   C. Viper â¢
+
+   Cammy â¢
+
+   Chun-Li â¢
+
+   Dee Jay â¢
+
+   Dhalsim â¢
+
+   Ed â¢
+
+   E. Honda â¢
+
+   Elena â¢
+
+   Guile â¢
+
+   Jamie â¢
+
+   JP â¢
+
+   Juri â¢
+
+   Ken â¢
+
+   Kimberly â¢
+
+   Lily â¢
+
+   Luke â¢
+
+   M. Bison â¢
+
+   Mai â¢
+
+   Manon â¢
+
+   Marisa â¢
+
+   Rashid â¢
+
+   Ryu â¢
+
+   Sagat â¢
+
+   Terry â¢
+
+   Zangief 
+
+
+
+
+
+
+
+
+
+Retrieved from "https://wiki.supercombo.gg/index.php?title=Street_Fighter_6/Alex/Combos&oldid=358617"
+
+
+			
+
+			
+
+		
+	
+		Last modified
+	
+
+	
+		
+		
+			2 weeks ago
+			
+		
+		
+	
+
+
+	
+		
+			
+				
+				Contents
+			
+		
+		
+			
+				
+					
+
+					Back to top
+
+				
+				Contents
+
+				
+				
+		
+			
+
+			
+				
+					1
+					Combo Notation Guide
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					2
+					Normal Hit:
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					3
+					Counter Hit:
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					4
+					Punish Counter:
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					5
+					Max Damage/Cashout Combos:
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					6
+					SF6 Navigation
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+		
+
+		
+	
+
+	
+
+			
+				Category: Street Fighter 6
+
+
+					
+		    
+		        Last modified
+
+		         This page was last edited on 19 March 2026, at 12:44.
+
+		    
+		
+
+		
+
+	
+	
+	
+
+	 
+
+
+	
+		
+			
+				
+					
+					
+									
+
+				
+
+The SuperCombo Wiki is intended to be a repository for all fighting game strategy knowledge. While our roots are in the Capcom franchises, we invite fans of all fighting game series to augment the site with their strategies and techniques.
+
+SuperCombo Wiki brought to you by and for the fighting game community worldwide. If you enjoy the service, consider donating via Patreon.
+
+
+
+
+
+
+			
+
+			
+	
+		Privacy policy
+		About SuperCombo Wiki
+		Disclaimers
+	
+
+		
+		
+			Game content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.
+
+			
+	
+		
+	
+
+		
+	
+
+
+
+
+
+	
+		
+
+		
+			
+				
+					
+
+					
+						Street Fighter 6/Alex/Combos
+
+						From SuperCombo Wiki
+
+					
+
+				
+			
+
+			
+					Share this page
+																																												
+
+				
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data
+		
+		
+	
+
+
+		
+
+	
+
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+About these adsâ  Report Ad

@@ -1,0 +1,214 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   SF6 COMBO SIMULATOR - VISUAL SUMMARY                        ║
+║                    Medium Thoroughness Codebase Exploration                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ CURRENT LAYOUT (index.html)                                                  ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                               ┃
+┃  ╔══════════════════════════════════════════════════════════════════════╗   ┃
+┃  ║  HEADER: Character Select | Settings | Move List | Reset            ║   ┃
+┃  ╚══════════════════════════════════════════════════════════════════════╝   ┃
+┃                                                                               ┃
+┃  ┌─────────────────┬──────────────────────────────┬──────────────────┐      ┃
+┃  │  INPUT PANEL    │      CENTER PANEL            │  PRESET PANEL    │      ┃
+┃  │  (260px fixed)  │      (1fr flexible)          │  (300px fixed)   │      ┃
+┃  │                 │                              │                  │      ┃
+┃  │ [Numpad Grid]   │  ┌─────────────────────────┐ │ ┌──────────────┐ │      ┃
+┃  │                 │  │ Combo Sequence Display  │ │ │ Preset 1     │ │      ┃
+┃  │ [Button Grid]   │  │ (5LP > 2MP > 236HP)     │ │ │ Preset 2     │ │      ┃
+┃  │                 │  └─────────────────────────┘ │ │ Preset 3     │ │      ┃
+┃  │ [Input History] │  ┌─────────────────────────┐ │ └──────────────┘ │      ┃
+┃  │                 │  │ FRAME TIMELINE (Canvas) │ │                  │      ┃
+┃  │                 │  │ ┌─  ┌──  ┌──ˉ           │ │                  │      ┃
+┃  │                 │  │ │   │    │               │ │                  │      ┃
+┃  │                 │  └─────────────────────────┘ │                  │      ┃
+┃  │                 │  ┌─────────────────────────┐ │                  │      ┃
+┃  │                 │  │ Stats: DMG | SCALE | DR │ │                  │      ┃
+┃  │                 │  └─────────────────────────┘ │                  │      ┃
+┃  └─────────────────┴──────────────────────────────┴──────────────────┘      ┃
+┃                                                                               ┃
+┃  ✅ Can be extended with mode selector button                                ┃
+┃  ✅ Can add new panels for builder mode                                      ┃
+┃  ✅ Existing panels can toggle visibility with .hidden class                 ┃
+┃                                                                               ┃
+└───────────────────────────────────────────────────────────────────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ DATA FLOW ARCHITECTURE                                                       ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+    ┏━━━━━━━━━━━━━━━┓
+    │ MoveData[]    │  ← loaded from alex.ts / terry.ts
+    │ (350+ moves)  │
+    ┗━━━━━━┬━━━━━━━┛
+           │
+           ├─→ ┏━━━━━━━━━━━━━━━━━┓
+           │   │ ComboEngine     │  ⭐ CORE ENGINE
+           │   │ (validates)     │     • addMove(move)
+           │   │                 │     • reset()
+           │   │                 │     • getCombo()
+           │   ┗━━━━┬━━━━━━━━━━━┛
+           │        │
+           │        ├─→ ┏━━━━━━━━━━━━━┓
+           │        │   │ DamageCalc  │  Calculates damage
+           │        │   │             │  with scaling
+           │        │   ┗━━━━━━━━━━━━┛
+           │        │
+           │        └─→ returns ComboState
+           │            {
+           │              hits: ComboHit[],
+           │              totalDamage,
+           │              hitCount,
+           │              isValid,
+           │              currentScaling,
+           │              endReason
+           │            }
+           │
+           └─→ ┏━━━━━━━━━━━━━━━━━━┓
+               │ Rendering        │
+               │ (main.ts)        │
+               │ • renderCombo()  │
+               │ • renderTimeline │
+               └─────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ CONNECTION VALIDATION LOGIC (in ComboEngine.addMove)                          ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+  addMove(move: MoveData)
+  │
+  ├─ First move? 
+  │  └─→ ✅ Always succeeds (combo starts)
+  │
+  ├─ Find effective last move (skip Drive Rush)
+  │
+  ├─ Is it Drive Rush (66)?
+  │  ├─ YES: Check if allowed from previous move's "Sp" property
+  │  │       ├─→ ✅ dr_cancel connection
+  │  │       └─→ ❌ Combo drops
+  │  │
+  │  └─ NO: Check cancel connection
+  │     ├─ Cancel allowed?
+  │     │  ├─ YES: Check if startup <= hitstun
+  │     │  │       ├─→ ✅ cancel connection
+  │     │  │       └─→ ❌ Not valid combo (but cancel exists)
+  │     │  │
+  │     │  └─ NO: Check link connection
+  │     │     ├─ startup <= hitAdv?
+  │     │     │  ├─→ ✅ link connection
+  │     │     │  └─→ ❌ Combo drops
+  │     │     
+  │     └─ Neither: ❌ Combo drops, start fresh with this move
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ FRAME TIMELINE RENDERING                                                     ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+  Input: ComboState with combo moves
+  Output: Canvas drawing
+  
+  Example: 5LP > 2MP > 236HP
+  
+  ┌──────────────────────────────────────────────────────┐
+  │ 5LP    2MP         236HP                              │
+  │ ┌──┐  ┌─────┐  ┌─────────────┐                        │
+  │ │█░│  │█░░░░│  │█░░░░░░░░░░░│  ← Green: Startup     │
+  │ │░░│  │█░░░░│  │█░░░░░░░░░░░│     Red: Active       │
+  │ │░█│  │█░░░░│  │█░░░░░░░░░░░│     Blue: Recovery   │
+  │ └──┘  └─────┘  └─────────────┘                        │
+  │                                                       │
+  │ ▌ Startup ▌ Active  ▌ Recovery                       │
+  └──────────────────────────────────────────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ FOR COMBO BUILDER MODE - REUSABILITY MATRIX                                   ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+Component              │ Reusable │ Effort │ Notes
+━━━━━━━━━━━━━━━━━━━━━━┼──────────┼────────┼─────────────────────────────────────
+ComboEngine.addMove()  │ ✅ 100%  │ None   │ Perfect—validate connections
+renderCombo()          │ ✅ 100%  │ None   │ Reuse exact function
+renderFrameTimeline()  │ ✅ 100%  │ None   │ Canvas rendering ready
+DamageCalculator       │ ✅ 100%  │ None   │ Integrated in engine
+CSS variables          │ ✅ 100%  │ None   │ Use for drag feedback
+ComboState interface   │ ✅ 100%  │ None   │ Same data structure
+MoveData structures    │ ✅ 100%  │ None   │ Immutable, well-defined
+Modal system           │ ✅ 100%  │ None   │ Reuse for move picker
+CharacterData          │ ✅ 100%  │ None   │ Already loaded
+━━━━━━━━━━━━━━━━━━━━━━┼──────────┼────────┼─────────────────────────────────────
+InputManager           │ ⚠️  30%  │ Medium │ Decouple from keyboard
+CommandParser          │ ⚠️  50%  │ Medium │ Reuse findMove() only
+FrameSimulator         │ ⚠️  70%  │ Small  │ Pause, don't delete
+━━━━━━━━━━━━━━━━━━━━━━┼──────────┼────────┼─────────────────────────────────────
+Drag/drop system       │ ❌ 0%   │ Large  │ Implement from scratch
+Move card UI           │ ❌ 0%   │ Small  │ New component
+Drop zone logic        │ ❌ 0%   │ Medium │ New handlers
+Builder sequence UI    │ ❌ 0%   │ Medium │ Different from current
+Mode switcher          │ ❌ 0%   │ Small  │ Add button + logic
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ KEY INTEGRATION POINTS                                                       ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+1. SHARED STATE (both modes)
+   ├─ currentCharData: CharacterData
+   ├─ comboEngine: ComboEngine (instance)
+   └─ currentCombos: PresetCombo[] array
+
+2. INPUT MODE (real-time only)
+   ├─ inputManager
+   ├─ commandParser
+   └─ frameSim (60fps loop)
+
+3. BUILDER MODE (new, no input)
+   ├─ Drag/drop event handlers
+   ├─ Move card elements
+   └─ Drop zone logic
+
+4. SHARED RENDERING
+   ├─ renderCombo(combo)
+   ├─ renderFrameTimeline(combo)
+   └─ comboEngine.addMove(move) validation
+
+5. SHARED UI
+   ├─ Character selector
+   ├─ Modal system
+   ├─ CSS variables
+   └─ Stats display
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ CRITICAL GOTCHAS & SOLUTIONS                                                  ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+GOTCHA                              SOLUTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ComboEngine needs MoveData          ✅ Get from currentCharData.moves
+objects, not just IDs               by matching id property
+
+Canvas needs exact sizing           ✅ Get width from parentElement
+from parent container               .getBoundingClientRect()
+
+Frame timeline redraws              ✅ Unavoidable but fast
+on every combo update               (canvas drawing is efficient)
+
+Connection logic assumes            ✅ Acceptable for fighting game
+"opponent always blocking"          context
+
+FrameSimulator runs                 ✅ Pause it when not in
+even when not needed                real-time mode
+
+InputManager is monolithic          ⚠️ Separate keyboard setup
+and tied to keyboard                in different mode function
+
+Motion detection is                 ⚠️ Builder doesn't need
+frame-based, may be stale           motion detection at all
+
+

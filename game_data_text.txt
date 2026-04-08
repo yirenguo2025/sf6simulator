@@ -1,0 +1,5418 @@
+Street Fighter 6/Game Data - SuperCombo Wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+		
+			
+			
+		
+	
+
+	
+
+	
+		
+			
+				
+				
+				
+			
+			Toggle search
+		
+		
+	
+	
+
+
+
+	
+		
+			
+			
+				
+				
+				
+			
+			Toggle menu
+			
+		
+			
+				
+					
+					
+				
+				
+						
+	
+		
+		8.4K
+	
+
+	
+		
+		74.5K
+	
+
+	
+		
+		3.4K
+	
+
+	
+		
+		352.9K
+	
+
+
+
+						
+									
+
+				
+					
+					
+	
+		Meta
+	
+
+	
+		
+		
+			
+			Main Pageâ â¥ z Recent changesâ â¥ r Random pageâ â¥ xSpecial Pages Upload fileâ â¥ u
+		
+		
+	
+
+
+					
+	
+		Wiki
+	
+
+	
+		
+		
+			
+			Game DirectoryGlossaryNotationSign Up
+		
+		
+	
+
+
+	
+		Help
+	
+
+	
+		
+		
+			
+			Help PortalManual of StyleWriting Character PagesWriting System ExplanationsAdding Images & VideosCreating a New Wiki
+		
+		
+	
+
+
+	
+		Community
+	
+
+	
+		
+		
+			
+			SuperCombo DiscordCommunity PortalFGC Discords
+		
+		
+	
+
+
+	
+		SuperCombo.gg
+	
+
+	
+		
+		
+			
+			NewsForumsTwitterPatreonDonate
+		
+		
+	
+
+
+						
+
+		
+
+	
+	
+		
+
+		
+			
+				
+					
+						
+						Toggle preferences menu
+					
+				
+				
+					
+						
+
+					
+
+				
+
+			
+			
+	
+		Notifications
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+			
+				
+					
+						
+						Toggle personal menu
+					
+				
+				
+					
+						
+	
+		Not logged in
+
+		
+	
+
+	
+		Your IP address will be publicly visible if you make any edits.
+
+	
+
+
+
+						
+	
+		user-interface-preferences
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+						
+	
+		Personal tools
+	
+
+	
+		
+		
+			
+			 Create account Log inâ â¥ o
+		
+		
+	
+
+
+					
+
+				
+
+			
+		
+
+	
+
+
+
+	
+
+
+	
+		
+		
+
+		
+
+		
+			
+				
+
+	
+		Street Fighter 6/Game Data
+
+		
+		
+		
+	
+
+	From SuperCombo Wiki
+
+
+
+				
+
+	
+	
+	Share this page
+
+	
+	
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data
+		
+		
+	
+
+
+		
+
+	
+
+
+
+
+			
+
+		
+		
+
+		
+			
+				< Street Fighter 6
+
+
+				
+				
+				
+Frame data
+
+
+The word "frame" is used to represent the smallest unit of time in the game. In SF6 and most fighting games, one frame is 1/60 of a second, since the game runs at 60 frames per second. Every action a character takes, like walking, jumping, attacking, or blocking, can be measured in terms of frames. Frames are often abbreviated with the letter "f", as in 60f = 60 frames.
+
+As an example, if Chun-Li has a backdash with a duration of 25 frames, this is equal to 25/60 or 5/12 of a second in real time. If you have a 5 frame window to input a combo link, this is a timing window of 5/60 or 1/12 of a second to properly time the combo.
+
+When one character makes contact with another, both will be "stuck" for some period of time. Usually, one character will be able to act again before the opponent has fully recovered; this situation is referred to as "Frame Advantage" (or more specifically Hit Advantage, Block Advantage, Knockdown Advantage, etc). Frame Advantage is represented with a plus or minus sign; +3 means the character can act 3 frames before the opponent, while -6 means the opponent can act 6 frames before you; 0 indicates a neutral advantage where both characters can act simultaneously.
+
+
+
+
+Move Stages
+
+
+Keeping in mind that all actions are measured in frames, moves can be further divided into phases called Startup, Active, and Recovery. Knowing the definition of each will make it much easier to interpret Frame Data.
+
+
+Startup: The beginning portion of an attack before it can hit the opponent; think "winding up for a punch"
+Active: The portion of an attack that can hit or grab the opponent
+Recovery: The ending portion of an attack that can no longer connect with the opponent, and the attacker is unable to perform any other action such as blocking.
+
+
+
+
+
+
+
+
+It's important to note that in modern Street Fighter games, Startup is measured to also include the first Active frame (known as FAF or First Active Frame startup). This is done to make it easier to understand which moves can be used in combos and in punishes (e.g. a move with +5 Advantage combos into a move with 5 frame startup; a move with 7 frame startup can punish a move with -7 Disadvantage). This means that if you want to know the total frame count of an attack, you should add Startup + Active + Recovery frames and then subtract 1 to account for that overlap.
+
+Many older games use "True Startup", in which Startup and Active frames are completely separate; an attack that hits on frame 3 is considered to have 2 frames of Startup. Keep this in mind if comparing frame data between different games.
+
+
+
+
+Hitstun/Blockstun/Hitstop
+
+
+When you land an attack, the opponent gets "stuck" for a fixed amount of time from the impact. 
+
+
+Hitstun - the opponent is stuck in a reeling animation from the hit. Any followup attack that connects while the opponent is stuck in hitstun results in a combo.
+Blockstun - the opponent is stuck in a blocking pose. Causing the opponent to block a series of attacks is a blockstring; if the opponent never exits blockstun, it is a true blockstring.
+Hitstop - also known as "Hit Freeze"; time essentially stops for both characters, making a move feel more impactful. Heavier attacks have longer hitstop, and some Punish Counters with special effects can have extra long hitstop. In addition to making the hits look more natural, hitstop helps to give players time to input a special move cancel and hitconfirm followup attacks.
+
+
+
+
+Input Buffer
+
+
+SF6 gives players some leniency to time their inputs on offense and defense. For most applications, any move can be buffered up to 4 frames early, meaning that there is a 5 frame window to get the follow-up input at the earliest possible timing. As an example, consider a common link for Chun-Li: 5MP (+6 on Hit) into 2MP (6f startup). While this appears to be a 1 frame link, the 4 buffer frames turn it into a 5 frame link, which is much more consistent. This also applies when timing your defensive inputs; if you want to interrupt your opponent's staggered block pressure with a quick jab, you have 5 frames to time the jab as early as possible. The same holds true when attempting an invincible reversal out of hitstun or blockstun.
+
+Dashes and Wakeup Reversals have an increased buffer window of 7 frames (so, an 8 frame total window). Mashing a backdash to escape the opponent's tick throw pressure is much easier as a result of this increased window, and timing an invincible DP or Super on wakeup is easier than doing it out of hitstun or blockstun.
+
+There are some exceptions to the universal input buffer rules, which may be unintended bugs. For example, after blocking Ryu's 5MP, the buffer for a dash is only 4f instead of the intended 7f. There are also some situations where the input buffer does not help execution. Some combos like Ken's Jinrai Loops must have their cancel delayed as late as possible to juggle properly; this late timing cannot be buffered early.
+
+
+
+
+Screen Freeze Buffers
+
+
+When the screen freezes during your Perfect Parry or during the opponent's Super activation, you can automatically buffer any attack by holding the button after performing the move input. For example, holding a medium button with 6f startup will guarantee a punish starter after any Perfect Parry, even against the fastest light normals or multi-hit attacks. If the opponent tries to chip you out with a Super that can't be jumped out of, you can buffer your own Super motion and hold the Punch/Kick button to make it come out at the earliest possible timing. 
+
+The game will choose your most recent input if you attempt multiple moves during a screen freeze. Letting go of the attack button will stop the buffer from occurring, so you can change your mind if you realize that you initially made the wrong decision.
+
+Drive Rush screen freeze also allows your follow-up attack to be buffered, but you must wait until AFTER the freeze occurs before holding the button; nothing will come out if a button is held before the character starts glowing with a green aura.
+
+
+
+
+Priority Systems
+
+
+Hit Priority
+
+
+Street Fighter 6 does not use a normal priority system for attacks like the one found in SFV. This means that any two attacks that collide on the same frame will cause a "trade", unless one of the attacks has invincibility frames. Both hits will be considered a Counterhit, and the usual effects (hitstun, knockdown) will apply depending on the attack. Unlike most previous SF titles, strikes actually have priority over throws when they collide on the same frame. This makes tick throw pressure slightly worse in situations where a character has very slight frame advantage.
+
+
+
+
+Projectile Priority
+
+
+In most Street Fighter games, projectiles have a specific number of hits, with EX moves or Supers usually having more hits than meterless ones. When they would collide, the projectiles would clash hits, and the fireball with more hits would continue onward after subtracting the number of clashed hits.
+
+In Street Fighter 6, clashing projectiles are now subject to a priority system. The general rule is Super Art > OD Projectile > Meterless Projectile. Projectiles of the same priority will clash in the same way as previous games. When a higher priority projectile clashes with a lower priority projectile, it will still be slowed down by the clash, but will not lose any hits in the process.
+
+As an example, Guile can create a meterless 2-hit projectile with Sonic Blade into Sonic Cross. If he uses this against Ryu's 2-hit OD Hadoken, the fireballs will clash twice before the Hadoken continues, retaining both of its hits. If Guile throws out five Sonic Break projectiles during his Lv.2 Super, Ryu's OD Hadoken would clash with each one individually with the same end result.
+
+Luke's Flash Knuckle has the ability to clash with projectiles, and is considered to be at the lowest (meterless) priority. Against a meterless projectile, Luke can cancel the clash into his Lv.3 Super, but this cancel is impossible when clashing with a higher priority projectile.
+
+
+
+
+Move Input Priority
+
+
+When multiple inputs are entered on the same frame, the game will use this priority list to determine what move comes out. Moves that are higher on this list take precedence over moves below:
+
+TO-DO
+
+
+
+
+Standing/Crouching Hurtboxes
+
+
+In some previous Street Fighter games, it took a few frames for a character's hurtbox to shift when transitioning from standing to crouching. It was possible to land meaty attacks on crouch blocking opponents that normally whiff on crouchers (e.g. Sagat's High Tiger Shot) due to the forced standing frames on wakeup, and the only way to circumvent this was to wake up with an immediate crouching attack to force a crouching state. Making an opponent stand block a jump-in attack could also make them vulnerable to an instant "fuzzy overhead" attack if they attempt to crouch block immediately, leading to crucial 50/50 guesses at the end of a round.
+
+In Street Fighter 6, there is still technically a transition period between standing and crouching, with the hurtbox fully shifting on the 5th frame. However, entering proximity guard from an attack's startup allows the defender to skip these transition frames. As a result, attacks that whiff on a crouching opponent such as Ryu's 5HK or Guile's 6HP can only hit meaty against a crouch-blocking opponent if performed from far enough away to not trigger proximity guard. The opponent can still avoid the attack at this range by waking up with a crouching attack.
+
+Note: SF6 Training Mode does not accurately reflect this scenario if you attempt instant overheads or meaty high attacks on a crouching dummy. This is because when the dummy is set to Crouch + Block All, it is not actually holding Down + Back; instead, it is holding straight Down, then automatically blocking on the final possible frame. Thus, it never enters proximity guard to shift its hurtbox.
+
+Instant Overheads still exist, but they require the opponent to be stuck in blockstun long enough for the jump attack to connect. This is especially notable for Juri, as many people have labbed setups involving instant j.MP > j.214KK that do not actually work in practice. The only way to set up a fuzzy overhead into j.MP is to connect a deep heavy jump-in against a burned out opponent.
+
+When attempting to Parry from a crouching state, the hurtbox remains in a crouching position for the first 2 frames. This means that you cannot automatically Perfect Parry an attack that whiffs on crouchers by simply tapping parry during the move's active frames; instead, you will stand on frame 3 and perform a normal Parry if the attack still has any remaining active frames. This also means that attempting to Perfect Parry certain air attacks (e.g. E. Honda's Sumo Smash) requires a different timing when input from a standing or crouching position.
+
+
+
+
+Combo-Only Hitboxes
+
+
+Some moves have hitboxes that only interact with an opponent that is already in hitstun. This is often used to make combos/juggles more consistent without making the hitbox too large in other contexts. For example, Luke and Cammy both have a large combo-only hitbox on their SA3, making the attack look like a taller anti-air than it actually is. At mid-range, Guile's SA1 is a combo-only hitbox; this makes it slower as a ranged punish while still allowing it to combo even from ranged whiff punish normals.
+
+This "combo-only" state only applies when a strike causes the initial hitstun; hitstun from a projectile will not allow this type of hitbox to connect, whether the opponent is grounded or in a juggle state.
+
+
+
+
+Recoverable HP
+
+
+Being hit by a Drive Reversal or absorbing an attack with Armor causes the character to take recoverable damage (or "gray damage/gray life"). Upon taking recoverable damage, a cooldown timer of 120 frames begins, after which point the HP will be restored at a rate of 2HP per frame. For example, a 500 damage Drive Reversal would take 370f total to recover upon impact (120f cooldown + 250f recovery, or 6.17 seconds). Taking real damage will cause any accumulated recoverable HP to be lost. If the gray damage would cause the character's HP to reach 0, a KO will occur; this means that armor cannot be used defensively at low health.
+
+
+
+
+Damage Scaling
+
+
+As more hits are used in a combo, the damage of each successive attack is reduced. This system, known as "damage scaling", allows longer combos to exist without being overwhelmingly powerful. Most extended combo sequences require the use of Drive or Super meter. Because the marginal damage output of each additional hit is reduced, the decision to spend or save these resources adds complexity to your offensive decision making. Note that this scaling does not affect the amount of Drive/Super meter gained from each hit (outside of Perfect Parry and some SA2 follow-up combos), so long combos can still be useful even if the damage is low.
+
+The main types of damage scaling in SF6 are:
+
+
+Starter Scaling: When starting a combo with this move, the followup is scaled by x%
+In frame data, written as "applies a x% damage scaling to next hit when beginning a combo"
+Combo Scaling: When a move is comboed into, the followup is scaled by x%
+In frame data, may be written as "counts as X hits for damage scaling when comboed into" or "applies an extra X% damage scaling to next attack when comboed into"
+Immediate Scaling: When comboed into, the damage of this move is immediately scaled by x%
+e.g. after a crumple, Throws (including most Command Throws) immediately have their damage reduced by an additional 20% when comboed into
+Similar to Combo Scaling except that any follow-up moves continue scaling as usual
+The general progression of damage scaling depends on how the combo is started:
+
+
+
+
+SF6 Damage Scaling
+
+
+Attack #
+General Scaling
+Light Normal or 2MK
+Combo Starter
+
+
+
+1st Attack
+100%
+100%
+
+
+
+2nd Attack
+100%
+80%
+
+
+
+3rd Attack
+80%
+70%
+
+
+
+4th Attack
+70%
+60%
+
+
+
+5th Attack
+60%
+50%
+
+
+
+6th Attack
+50%
+40%
+
+
+
+7th Attack
+40%
+30%
+
+
+
+8th Attack
+30%
+20%
+
+
+
+9th Attack
+20%
+10%
+
+
+
+10th + Attack
+10%
+10%
+
+
+For scaling purposes, an "attack" corresponds to each move that is input by the player, not the number of hits performed by the character. This means that a move like Chun-Li's Lightning Kicks only counts as one attack, while Jamie's 236P~6K~6K (Freeflow Kicks) sequence counts as 3 separate attacks unless otherwise stated. Target Combos like Kimberly's 5LP~MP~HP~HK sequence also count each hit separately for the purpose of damage scaling.
+
+There are many exceptions to these general guidelines, which  are documented below.
+
+
+
+
+System-Wide Scaling
+
+
+Super Arts
+
+Will always do a set minimum amount of damage, even if the combo would normally be scaled to a lower percent.
+
+
+The minimum is 30% (SA1), 40% (SA2), and 50% (SA3/CA)
+Level 3 Super Arts:
+
+
+Additional 10% damage scaling penalty when canceled from a special move
+This means that a raw Special > SA3 will be scaled as 100% -> 90%
+Outside of this scenario, it acts as if there is 1 additional hit of scaling (100% -> 100% -> 70%)
+There are some exceptions to this noted in the character-specific sections
+
+
+Health Bar References to calculate SA3/CA Damage at Minimum Scaling
+Note: At minimum scaling, Akuma's Raging Demon deals ~24%; depending on Medal count, Manon's SA3 deals 20~23% and CA deals 23~26%
+
+
+
+
+Perfect Parry
+
+Any punish after Perfect Parry multiplies the damage scaling by 50% (so a standard combo would look like 50 -> 50 -> 40 -> 35 -> 30...). There is no way to mitigate this by delaying the punish - if the followup is not scaled, then the opponent's move has recovered and it wasn't a true punish.
+
+Perfect Parry also applies Drive/Super gauge scaling for all hits of a punish combo:
+
+
+Super Gain (attacker/defender) reduced to 80%
+Drive Gain (attacker) reduced to 50%
+Drive Damage (defender) reduced to 50%
+This includes the Drive Damage from a combo into a Super; for example, Critical Art would only deplete 1 Drive bar instead of the usual 2
+
+
+
+Drive Rush
+
+When used raw to start a combo:
+
+
+No additional scaling penalty; (any other applicable scaling penalties, such as 2MK starters, still apply)
+When used mid-combo (regardless of whether it was canceled into; also applies after Drive Impact Stun):
+
+
+All remaining hits in the combo have an additional 15% scaling penalty (plus any other scaling that applies)
+This scaling is rounded down to the nearest whole number (59.5 -> 59)
+Using Drive Rush multiple times per combo does not stack an additional penalty
+Example combo using Drive Rush cancel and standard scaling progression:
+100% -> 85% -> 68% -> 59% -> 51% -> 42% -> 34% -> 25% -> 17% -> 8%...
+
+
+NOTE: Drive Rush and Perfect Parry scaling can stack with each other multiplicatively; so if you would normally be at 80% scaling on the 3rd hit, you would instead do 34% damage (80 * .5 PP * .85 DR). Both of these can also bring the minimum combo scaling below 10%, and as low as 4% when combined.
+
+
+
+Drive Impact
+
+If blocked for a corner wallsplat juggle (indicated by a "CRUSH" icon):
+
+
+A 20% scaling multiplier is applied to the usual damage scaling formula (80% -> 80% -> 64% -> 56% -> 48% ...)
+Because the DI was blocked, it does not count as the first hit of a combo
+This means that the first attack after a wallsplat can inflict additional starter scaling
+If DI hits the opponent for a crumple/wallsplat or causes a stun against an opponent in Burnout:
+
+
+Incurs 20% starter scaling (follow-up: 80% -> 70% -> 60% ...)
+
+
+
+Throws
+
+Comboing into a throw (like after a Stun, Drive Impact crumple, or a rare grounded Wall Splat) will apply an immediate 20% damage scaling to the throw. This often applies to command throws as well, but this is not universal. This is also separate from the damage scaling that applies to throws that can start a combo (such as Kimberly with Spray Can, JP with Amnesia/SA2, or Blanka with Blanka-chan Bomb).
+
+
+
+
+Character-Specific Scaling
+
+
+A.K.I.AlexAkumaBlankaC. ViperCammyChun-LiDee JayDhalsimEdE. HondaElenaGuileJamieJPJuriKenKimberlyLilyLukeM. BisonMaiManonMarisaRashidRyuSagatTerryZangief
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+A.K.I.
+
+6HK
+20% scaling when beginning a combo
+
+
+
+j.HP
+20% scaling when beginning a combo
+
+
+
+214PP~6P
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214HP
+15% immediate scaling when comboed into
+
+
+
+236PP
+20% scaling [Toxic Blossom: 10%] when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214K
+20% scaling when beginning a combo (meterless versions)
+
+
+
+2PP~LPLK
+20% immediate scaling when comboed into (Stun, DI Crumple, etc.)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Alex
+
+5HP
+10% scaling when beginning a combo
+
+
+
+5[HP]
+20% scaling when beginning a combo
+
+
+
+5HK
+5[HK]
+15% scaling when beginning a combo
+
+
+
+4MK (Backturn)
+Both hits count as separate attacks for damage scaling
+
+
+
+5MP~HP
+30% immediate scaling when comboed into
+
+
+
+2PP~6P
+20% scaling when beginning a combo
+
+
+
+2PP~LP
+20% scaling when beginning a combo
+
+
+
+2PP~HP
+2PP~[HP]
+20% scaling when beginning a combo
+
+
+
+2PP~MK
+20% scaling when beginning a combo
+
+
+
+236LP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+63214P
+63214PP
+20% immediate scaling when comboed into (Stun, DI Crumple, etc.)
+
+
+
+63214P (Backturn)
+20% immediate scaling when comboed into (e.g. after 236HP)
+
+
+
+63214PP (Backturn)
+40% scaling when beginning a combo
+15% immediate scaling when comboed into (e.g. after 236HP)
+2 hits of scaling when comboed into (applies to next attack)
+Ensures that PP SA2 (Omega Wing Buster) follow-up never deals more than 60% of its base damage
+63214PP~6 maintains the same level of scaling as the initial throw
+
+
+
+SA2
+50% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Akuma
+
+5HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+4HK
+20% scaling when beginning a combo
+
+
+
+j.2MK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+5MP~MP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+5MK~HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236[P] (Lv.2/Lv.3 Charge)
+236PP
+236[PP] (Full Charge)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.236P
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+Also applies to Shin Akuma j.214PP (Double Zanku Hadoken)
+
+
+
+623P
+20% scaling when beginning a combo
+30% total when combined with SA3 cancel scaling
+
+
+
+214LK
+214MK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.214K
+30% scaling when beginning a combo
+
+
+
+j.214KK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214PP
+20% scaling when beginning a combo
+
+
+
+214HP~6P
+3 hits of scaling when comboed into (applies to next attack)
+
+
+
+236K~K
+236KK~K
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK~214K
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Air SA1
+10% scaling when beginning a combo
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+SA2
+40% scaling when beginning a combo
+4 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Blanka
+
+6HP
+20% scaling when beginning a combo
+
+
+
+[4]6LP (during SA2)
+[4]6MP (during SA2)
+10% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+[4]6HP
+20% scaling when beginning a combo
+
+
+
+[4]6HP (during SA2)
+20% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+[4]6PP
+[4]6PP (during SA2)
+20% scaling when beginning a combo
+
+
+
+[2]8K (during SA2)
+10% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+[2]8KK (during SA2)
+40% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+63214K (during SA2)
+63214KK (during SA2)
+10% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+j.[4]6P (during SA2)
+j.[4]6PP (during SA2)
+10% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+22P (Blanka-Chan)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Forward Throw
+20% scaling when beginning a combo into Blanka-chan Bomb (applies to 3rd hit of combo)
+e.g. Throw 100% -> Blanka-chan 100% (2-hit scaling) -> Follow-up 50%
+3rd combo hit (usually 80%) is reduced 20% from Throw and another 10% by Blanka-chan
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+C. Viper
+
+6HK
+20% scaling when beginning a combo
+
+
+
+214PP
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623P
+623PP
+20% scaling when beginning a combo
+
+
+
+214K Lv.1/2
+214KK Lv.1/2
+50% scaling when beginning a combo
+
+
+
+214[K] Lv.3
+214[KK] Lv.3
+20% scaling when beginning a combo
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Cammy
+
+4HK
+20% scaling when beginning a combo
+
+
+
+6HK
+20% scaling when beginning a combo
+
+
+
+5HP~HK
+Each hit of HK counts as a separate attack for scaling
+2nd hit applies 2 hits of combo scaling to follow-up when comboed into
+
+
+
+236KK
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+214MP
+20% scaling when beginning a combo
+
+
+
+214HP/PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.214K
+20% scaling when beginning a combo
+
+
+
+j.214KK
+20% scaling when beginning a combo
+10% immediate scaling when comboed into
+Also applies to OD Hooligan Divekick
+
+
+
+236P~Slide
+236[HP]~Slide
+236PP~Slide
+20% scaling when beginning a combo
+
+
+
+236P~K Divekick
+20% scaling when beginning a combo
+
+
+
+236[HP]~K Divekick
+236PP~K Divekick
+20% scaling when beginning a combo
+10% immediate scaling when comboed into
+
+
+
+236P~2K Overhead
+236[HP]~2K Overhead
+236PP~2K Overhead
+20% scaling when beginning a combo
+
+
+
+236[HP]~LPLK Throw
+20% scaling when beginning a combo
+
+
+
+236PP~LPLK Throw
+30% scaling when beginning a combo
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Chun-Li
+
+5HK
+20% scaling when beginning a combo
+
+
+
+j.2MK
+15% scaling when beginning a combo
+
+
+
+[4]6PP
+20% scaling when beginning a combo
+
+
+
+j.236K
+20% scaling when beginning a combo
+Weaker when used as a counter to throw loops
+
+
+
+214LK
+214HK
+20% scaling when beginning a combo
+
+
+
+214MK
+30% scaling when beginning a combo
+
+
+
+214KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+SA2
+40% scaling when beginning a combo
+3 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Dee Jay
+
+5HP
+20% scaling when beginning a combo
+
+
+
+5HK
+20% scaling when beginning a combo
+
+
+
+5LP~MK
+20% scaling when beginning a combo with the MK
+
+
+
+[4]6PP
+20% scaling when beginning a combo
+
+
+
+236HK
+25% scaling when beginning a combo
+
+
+
+236KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214PP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214K~LK
+20% scaling when beginning a combo
+
+
+
+PC 214K~MK
+30% scaling when beginning a combo
+
+
+
+214KK~HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+SA1
+40% scaling when beginning a combo (Counter-Hit/Punish Counter crumple follow-ups)
+
+
+
+SA2
+25% scaling when beginning a combo
+3 hits of scaling when comboed into (applies to next attack)
+Follow-up rhythm hits do not add additional scaling
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Dhalsim
+
+2LK
+Does not have the usual light normal scaling
+1LK acts as a standard 2LK with 20% starter scaling
+
+
+
+2MK
+20% scaling when beginning a combo (after well-spaced slide)
+1MK acts as a standard cancelable 2MK with 20% starter scaling
+
+
+
+4HP
+20% scaling when beginning a combo
+
+
+
+j.MP / j.MK
+j.HP / j.HK
+20% scaling when beginning a combo
+
+
+
+j.2K
+20% scaling when beginning a combo
+
+
+
+236KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.63214PP
+20% scaling when beginning a combo
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Ed
+
+2MP
+Acts as a standard cancelable 2MK with 20% starter scaling
+
+
+
+5[HP] (Lv.1)
+5[HP] (Lv.2)
+20% scaling when beginning a combo
+
+
+
+5MP~HP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+2HK~HP
+3 hits of scaling when comboed into (applies to next attack)
+
+
+
+623LP
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214PP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236[K]
+(Charged LK/MK/HK version)
+20% scaling when beginning a combo
+15% extra scaling when comboed into (applies to next attack)
+
+
+
+236KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+5KK~6P (Early)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+5KK~6P (Late)
+20% scaling when beginning a combo
+
+
+
+SA3 / CA
+30% immediate scaling when canceled into from 236LK/236MK
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+E. Honda
+
+Enhanced 214P
+(Sumo Spirit)
+2 hits of scaling when comboed into (applies to next attack)
+Meterless versions only
+
+
+
+[4]6P
+30% scaling when beginning a combo
+40% total when combined with SA3 cancel scaling
+
+
+
+[2]8K
+[2]8KK
+25% scaling when beginning a combo (Punish Counter OTG bounce)
+
+
+
+63214K
+63214KK
+20% immediate scaling when comboed into (Stun, DI Crumple, etc.)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Elena
+
+2HP
+20% scaling when beginning a combo
+
+
+
+4HK
+20% scaling when beginning a combo
+
+
+
+5HP-HP
+20% scaling when beginning a combo (does not apply to 5HP)
+
+
+
+236LK
+236KK
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236MK
+236HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623K
+623KK
+30% scaling when beginning a combo
+
+
+
+236P-6MK
+30% scaling when beginning a combo (applies to enhanced version as well)
+
+
+
+236P-6HK
+20% scaling when beginning a combo (applies to enhanced version as well)
+
+
+
+214LK
+214MK
+20% scaling when beginning a combo
+
+
+
+214HK
+214KK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214P-6P
+214PP-6P
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+SA1
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+10% immediate scaling when comboed into
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Guile
+
+5HP
+20% scaling when beginning a combo
+
+
+
+2HK
+20% scaling when beginning a combo (2HK~3HK Punish or Drive Rush starter)
+
+
+
+2MP~2MP
+(Double Shot)
+10% immediate scaling on the 2nd attack
+Starting a combo (2MP~2MP > Special): 100% -> 90% -> 70%
+Comboed into (e.g. j.HK, 2MP~2MP > Special): 100% -> 100% -> 70% -> 60%
+
+
+
+[4]6PP
+20% scaling when beginning a combo
+
+
+
+[2]8K
+30% scaling when beginning a combo
+40% total when combined with SA3 cancel scaling
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Jamie
+
+Drink Levels
+(DL0 - DL4)
+90/95/100/105/110% scaling for DL0/1/2/3/4 respectively
+Reaching DL4 with SA2 install only gives 105% scaling
+
+
+
+6HK~4HK~P
+(DL4 Headbutt)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+2KK
+20% scaling when beginning a combo
+
+
+
+236PP~6P~6P
+(DL0-DL4)
+All 6P follow-ups do not count as separate attacks for damage scaling
+6K follow-ups and meterless 6P follow-ups still count separately
+
+
+
+623LK
+30% scaling when beginning a combo
+
+
+
+214PP
+20% scaling when beginning a combo
+
+
+
+214P~6P (DL4)
+214PP~6P (DL4)
+20% scaling when beginning a combo
+e.g. blocked palm + frame trap into 6P follow-up
+
+
+
+j.214KK (DL1+)
+20% scaling when beginning a combo
+10% immediate scaling when comboed into (e.g. j.MP > 214KK)
+
+
+
+63214K (DL3+)
+20% scaling when beginning a combo, applied to the 3rd hit of combo
+e.g. 63214K (100%), 2MP (100%) > 623K (60%)
+20% immediate scaling when comboed into (e.g. after corner PC 214PP)
+
+
+
+
+
+63214KK (DL3+)
+30% scaling when beginning a combo
+
+
+
+SA3 (Launch)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+JP
+
+5HP
+20% scaling when beginning a combo
+
+
+
+4MP~MP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Forward Throw
+40% scaling when beginning a combo (juggle into SA2 or Amnesia bomb)
+Back Throw can also juggle before Throw damage is applied, causing no additional scaling
+
+
+
+214P (Portal Spike)
+214PP (Portal Spike)
+20% scaling when beginning a combo
+Also applies to manual activation with 214HP
+
+
+
+22PP
+20% scaling when beginning a combo
+
+
+
+236KK
+20% scaling when beginning a combo
+
+
+
+214K
+214KK
+10% immediate scaling when comboed into
+
+
+
+22K (Bomb Explosion)
+22KK (Bomb Explosion)
+50% scaling when beginning a combo
+60% immediate scaling when comboed into
+Canceling a move into SA3 immediately detonates bombs to prevent JP from bypassing this scaling
+
+
+
+SA2
+25% scaling when beginning a combo, applied to the 3rd hit of combo
+25% immediate scaling when comboed into
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Juri
+
+5HK
+(Regular/FSE)
+20% scaling when beginning a combo
+
+
+
+236LK (1-Stock)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236MK
+236MK (1-Stock)
+236LK+HK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236MK+HK
+20% scaling when beginning a combo
+
+
+
+214KK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Ken
+
+5HK
+30% scaling when beginning a combo
+Applies to Punish Counter juggle follow-ups
+
+
+
+5MP~HP
+2 hits of scaling when comboed into (applies to next attack after HP)
+
+
+
+236PP
+20% scaling when beginning a combo
+
+
+
+623P
+20% scaling when beginning a combo
+30% total when combined with SA3 cancel scaling
+
+
+
+j.214K
+j.214KK
+30% scaling when beginning a combo
+
+
+
+623LK
+30% scaling when beginning a combo
+
+
+
+623MK
+623HK
+30% scaling when beginning a combo
+3 hits of scaling when comboed into (applies to next attack)
+
+
+
+623KK
+KK~623K
+5% extra scaling when comboed into
+Each hit counts separately for scaling when juggled into
+
+
+
+236K~6LK
+20% scaling when beginning a combo
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+236KK~6MK
+20% scaling when beginning a combo
+
+
+
+236KK~6LK~6K
+236KK~6MK~6K
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+KK~HK
+20% scaling when beginning a combo
+
+
+
+KK~214K
+15% scaling when beginning a combo
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Kimberly
+
+5MK
+15% scaling when beginning a combo
+
+
+
+3MK
+15% scaling when beginning a combo
+
+
+
+4HK
+25% scaling when beginning a combo
+
+
+
+6HK
+20% scaling when beginning a combo
+
+
+
+214KK
+30% scaling when beginning a combo
+
+
+
+j.214K
+20% scaling when beginning a combo
+
+
+
+j.214KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236LP
+20% scaling when beginning a combo
+Mostly relevant after spaced +5 starter or when Light > Light > 236LP breaks DI armor as a Counter-hit
+
+
+
+236K~MK
+236KK~MK
+20% scaling when beginning a combo
+
+
+
+236KK(close)~P
+(OD Arc Step > Throw)
+20% scaling when beginning a combo (OTG bounce)
+
+
+
+j.236PP
+20% scaling when beginning a combo (OTG bounce)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+22P
+(Explosion)
+10% scaling when beginning a combo
+No difference between single/double spraycan detonation
+
+
+
+Forward Throw
+20% scaling when beginning a combo into Spraycan explosion
+Total scaling will be: 100% (Throw) -> 80% (Bomb) -> 70% (Follow-up Juggle) ...
+
+
+
+SA3 / CA
+Upon activation, base damage scaling increased to 111% for the rest of the match
+Effectively brings Kimberly's damage values in line with the rest of the cast
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Lily
+
+214PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK
+W.236K
+W.236KK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623PP
+W.623PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.PPP
+W.j.PPP
+10% immediate scaling when comboed into (e.g. canceled from 623PP on hit)
+
+
+
+360+P
+360+PP
+20% immediate scaling when comboed into (Stun, DI Crumple, etc.)
+
+
+
+SA3 / CA
+10% immediate scaling when comboed into
+Unlike most SA3 scaling, this applies to any combo, not just from special moves
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Luke
+
+2MP
+15% scaling when beginning a combo
+
+
+
+2HP
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+6HP~6HP
+2 hits of scaling when comboed into (applies to next attack)
+Does not apply after Punish Counter 6HP starter
+
+
+
+236PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214[P]
+pf.214[P]
+Each hit counts as a separate attack for scaling
+Does not apply to Perfect MP Flash Knuckle
+
+
+
+236KK~P
+236KK~K
+50% scaling when beginning a combo
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+M. Bison
+
+5HP
+20% scaling when beginning a combo
+
+
+
+Psycho Mine
+Acts as 1 standard hit of damage scaling at the beginning or middle of combo
+Does not add extra scaling when automatically triggered by special moves
+
+
+
+[4]6P
+[4]6PP
+30% scaling when beginning a combo
+40% total when combined with SA3 cancel scaling
+Also applies with automatic Psycho Mine detonation
+
+
+
+236LK
+30% scaling when beginning a combo
+
+
+
+236MK
+20% scaling when beginning a combo
+
+
+
+236KK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Mai
+
+5HK
+20% scaling when beginning a combo
+
+
+
+4HK~HK
+3 hits of scaling when comboed into (applies to next attack)
+
+
+
+236PP
+Flame 236PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236[P]
+(No Flame)
+20% scaling when beginning a combo
+
+
+
+214LP
+Flame 214LP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Flame 214MP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214HP
+(No Flame)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK
+(No Flame)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.214PP
+Flame j.214PP
+30% scaling when beginning a combo
+
+
+
+SA2 (ground)
+Flame SA2 (ground)
+40% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Air SA2
+Flame Air SA2
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Manon
+
+214KK
+20% scaling when beginning a combo
+
+
+
+236P~K
+236PP~K
+10% immediate scaling when comboed into
+
+
+
+SA3 / CA
+5% immediate scaling when comboed into
+15% when canceled from 236HK 1st hit
+Unlike most SA3 scaling, this applies to any combo, not just from special moves
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Marisa
+
+5HP / 5[HP]
+10% scaling when beginning a combo
+Applies to 5HP~HP Target Combo or after PC/DR 5HP links
+
+
+
+5HK / 5[HK]
+10% scaling when beginning a combo
+Mostly relevant for Punish Counter 5HK juggles
+
+
+
+5LP~LP
+10% scaling when beginning a combo with the second 5LP
+5% extra scaling when 2nd hit is comboed into (applies to next attack)
+5LP~LP has a 3f gap on block, allowing the 2nd hit to frame trap and begin a combo
+The initial 5LP requires CH/PC/DR to combo into the 2nd hit of the TC
+
+
+
+214P~6P
+(MP/HP/PP versions)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236PP
+236[PP]
+30% scaling when beginning a combo
+
+
+
+623PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+SA2
+15% immediate scaling when comboed into
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Rashid
+
+2HP
+20% scaling when beginning a combo
+
+
+
+6HK
+20% scaling when beginning a combo
+
+
+
+j.2HP
+15% scaling when beginning a combo
+
+
+
+5MP~HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+Run~6P
+20% scaling when beginning a combo
+
+
+
+Run~6K
+15% scaling when beginning a combo
+
+
+
+Run~6K
+(Air Current)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236LP
+(Regular)
+30% scaling when beginning a combo
+
+
+
+236LP
+(Air Current)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236MP
+(Regular)
+10% scaling when beginning a combo
+
+
+
+236PP
+(Regular/Air Current)
+20% scaling when beginning a combo
+
+
+
+214KK
+(Regular)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK
+(Uncharged)
+25% scaling when beginning a combo
+15% extra scaling when comboed into (applies to next attack)
+
+
+
+236[KK]
+(Charged)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214P~6K~K
+(Nail Assault)
+20% scaling when beginning a combo
+
+
+
+SA2
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Ryu
+
+236PP
+Denjin 236HP
+Denjin 236PP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623P
+30% scaling when beginning a combo
+40% total when combined with SA3 cancel scaling
+
+
+
+j.214K
+30% scaling when beginning a combo
+
+
+
+j.214KK
+15% extra scaling when comboed into (applies to next attack)
+
+
+
+236KK
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+214PP (Regular)
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Sagat
+
+5HK
+20% scaling when beginning a combo
+
+
+
+4HP
+10% scaling when beginning a combo
+
+
+
+6LK
+30% scaling when beginning a combo
+
+
+
+6HK
+10% scaling when beginning a combo
+5% extra scaling when comboed into (applies to next attack)
+
+
+
+236LP
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236PP
+(High or Low)
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623LP
+30% scaling when beginning a combo
+40% total when combined with SA3 cancel scaling
+
+
+
+623MP
+20% scaling when beginning a combo
+30% total when combined with SA3 cancel scaling
+
+
+
+623HP
+(Uncharged)
+10% scaling when beginning a combo
+20% total when combined with SA3 cancel scaling
+
+
+
+236LK
+236MK
+20% scaling when beginning a combo
+
+
+
+236KK
+30% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214LK
+214MK
+20% scaling when beginning a combo
+
+
+
+214K~6LK
+214KK~6LK
+20% scaling when beginning a combo
+
+
+
+214K~6MK
+214KK~6MK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214K~6HK
+214KK~6HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+SA2~6
+(Launcher)
+50% scaling when beginning a combo
+4 hits of scaling when comboed into (applies to next attack)
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Terry
+
+5MP~HP
+30% immediate scaling when HP is comboed into
+
+
+
+5MP~HK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+2MK~2HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236PP
+20% scaling when beginning a combo
+
+
+
+214LP
+30% scaling when beginning a combo
+
+
+
+214LPMP
+20% scaling when beginning a combo
+
+
+
+214MPHP
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+623P
+20% scaling when beginning a combo
+30% total when combined with SA3 cancel scaling
+
+
+
+236LK
+236MK
+20% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+236KK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+214HK
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+SA1
+30% scaling when beginning a combo
+
+
+
+SA2
+(1st hit)
+50% scaling when beginning a combo
+
+
+
+SA2
+(2nd / 3rd hits)
+20% immediate scaling when comboed into
+
+
+
+
+Move
+Damage Scaling Notes
+
+
+
+Zangief
+
+6HP
+25% scaling when beginning a combo
+2 hits of scaling when comboed into (applies to next attack)
+
+
+
+j.2HP
+2 hits of scaling when comboed into (applies to next attack)
+e.g. Drive Impact crumple, j.2HP, juggle SA1
+
+
+
+360+P
+(Meterless)
+10% immediate scaling when comboed into (Stun, DI Crumple, corner PC 3HK)
+
+
+
+j.360+K
+20% immediate scaling when comboed into
+
+
+
+j.360+KK
+10% immediate scaling when comboed into
+
+
+
+63214K (Close)
+(Meterless)
+10% immediate scaling when comboed into (Stun, DI Crumple, corner PC 3HK)
+
+
+
+SA1
+10% immediate scaling when comboed into
+
+
+
+SA3 / CA
+10% immediate scaling when comboed into (Stun, DI Crumple, corner PC 3HK)
+
+
+System Data
+
+
+General DataMovement DataJump Data
+
+name
+hp
+throwRange
+
+
+
+Kimberly
+10000
+0.8
+
+
+
+Zangief
+11000
+1.02
+
+
+
+Cammy
+10000
+0.8
+
+
+
+Blanka
+10000
+0.9
+
+
+
+C. Viper
+10000
+0.8
+
+
+
+Dee Jay
+10000
+0.8
+
+
+
+Dhalsim
+10000
+0.8
+
+
+
+Ed
+10000
+0.8
+
+
+
+E. Honda
+10500
+0.9
+
+
+
+Guile
+10000
+0.8
+
+
+
+Jamie
+10000
+0.8
+
+
+
+JP
+10000
+0.8
+
+
+
+M. Bison
+10000
+0.8
+
+
+
+Rashid
+10000
+0.8
+
+
+
+Sagat
+10000
+0.85
+
+
+
+Terry
+10000
+0.8
+
+
+
+A.K.I.
+10000
+0.8
+
+
+
+Chun-Li
+10000
+0.8
+
+
+
+Akuma
+9000
+0.8
+
+
+
+Elena
+10000
+0.8
+
+
+
+Alex
+10500
+0.85
+
+
+
+Juri
+10000
+0.8
+
+
+
+Ken
+10000
+0.8
+
+
+
+Lily
+10000
+0.8
+
+
+
+Luke
+10000
+0.8
+
+
+
+Manon
+10000
+0.8
+
+
+
+Marisa
+10500
+0.9
+
+
+
+Mai
+10000
+0.8
+
+
+
+Ryu
+10000
+0.8
+
+
+
+name
+fwdWalkSpd
+bwdWalkSpd
+fwdDashSpd
+bwdDashSpd
+fwdDashDist
+bwdDashDist
+
+
+
+Kimberly
+0.0505 (0.0561)
+0.033 (0.0366)
+18
+23
+1.409
+0.893
+
+
+
+Zangief
+0.0364
+0.025
+22
+25
+1.007
+0.712
+
+
+
+Cammy
+0.0505
+0.033
+18
+23
+1.32
+1.002
+
+
+
+Blanka
+0.047
+0.032
+19
+23
+1.578
+1.169
+
+
+
+C. Viper
+0.0452
+0.031
+21
+23
+1.50
+0.80
+
+
+
+Dee Jay
+0.043
+0.032
+19
+23
+1.50
+0.90
+
+
+
+Dhalsim
+0.028
+0.025
+25
+23
+1.467
+1.00
+
+
+
+Ed
+0.0475
+0.032
+19
+23
+1.348
+0.803
+
+
+
+E. Honda
+0.045
+0.025
+19
+23
+1.058
+0.601
+
+
+
+Guile
+0.043
+0.032
+21
+23
+1.567
+0.74
+
+
+
+Jamie
+0.048
+0.035
+19
+23
+1.50
+0.85
+
+
+
+JP
+0.037
+0.025
+22
+23
+1.454
+1.003
+
+
+
+M. Bison
+0.048
+0.0312
+19
+23
+1.54
+0.754
+
+
+
+Rashid
+0.045
+0.032
+18
+25
+1.20 (1.86)
+1.10 (1.91)
+
+
+
+Sagat
+0.039
+0.027
+23
+23
+1.40
+0.90
+
+
+
+Terry
+0.048
+0.032
+19
+23
+1.50
+0.985
+
+
+
+A.K.I.
+0.0452
+0.032
+19
+23
+1.300
+1.079
+
+
+
+Chun-Li
+0.050
+0.035
+19
+25
+1.508
+1.211
+
+
+
+Akuma
+0.052
+0.035
+19
+23
+1.352
+0.923
+
+
+
+Elena
+0.048
+0.033
+20
+23
+1.43
+1.139
+
+
+
+Alex
+0.042
+0.027
+22
+25
+1.00
+0.75
+
+
+
+Juri
+0.047
+0.032
+22
+23
+1.903
+1.114
+
+
+
+Ken
+0.047
+0.032
+19
+23
+1.322
+0.923
+
+
+
+Lily
+0.042
+0.027
+21
+24
+1.261
+0.940
+
+
+
+Luke
+0.047
+0.032
+19
+23
+1.467
+0.751
+
+
+
+Manon
+0.0452
+0.031
+21
+25
+1.499
+1.254
+
+
+
+Marisa
+0.039
+0.027
+22
+25
+1.40
+0.90
+
+
+
+Mai
+0.050
+0.035
+18
+23
+1.450
+0.900
+
+
+
+Ryu
+0.047
+0.032
+19
+23
+1.252
+0.923
+
+
+
+name
+jumpSpd
+fwdJumpDist
+bwdJumpDist
+jumpApex
+
+
+
+Kimberly
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Zangief
+5+38+3
+1.725
+1.406
+2.115
+
+
+
+Cammy
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Blanka
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+C. Viper
+4+38+3
+(6+40+3)
+1.90
+(3.00)
+1.52
+2.11
+(2.195)
+
+
+
+Dee Jay
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Dhalsim
+4+68+3
+2.04
+1.768
+2.178
+
+
+
+Ed
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+E. Honda
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Guile
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Jamie
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+JP
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+M. Bison
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Rashid
+4+38+3
+1.90 (5.07)
+1.52 (3.63)
+2.115
+
+
+
+Sagat
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Terry
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+A.K.I.
+4+40+3
+2.00
+1.60
+2.176
+
+
+
+Chun-Li
+4+42+3
+2.10
+1.68
+2.247
+
+
+
+Akuma
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Elena
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Alex
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Juri
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Ken
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Lily
+5+39+3
+1.95
+1.56
+2.139
+
+
+
+Luke
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Manon
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Marisa
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Mai
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+Ryu
+4+38+3
+1.90
+1.52
+2.115
+
+
+
+
+
+
+
+
+Range Comparisons
+
+
+Cancelable 2MK Range4f Normal Range/Hitstun/Pushback5f Punish OptionsSweep Ranges
+
+chara
+input
+startup
+atkRange
+Notes
+
+
+
+Elena
+2MK
+9
+1.726 (1.669)
+TC cancel only; 1st active frame: 1.669
+
+
+
+C.Viper
+2MK
+8
+1.60
+High Jump cancel only (requires 1 bar)
+
+
+
+Juri
+2MK
+8
+1.517 (1.446)
+1st active frame: 1.446
+
+
+
+Terry
+2MK
+8
+1.501
+
+
+
+
+Cammy
+2MK
+8
+1.49
+
+
+
+
+Luke
+2MK
+8
+1.482 (1.44)
+1st active frame: 1.44
+
+
+
+Ryu
+2MK
+8
+1.482
+
+
+
+
+M.Bison
+2MK
+8
+1.482
+
+
+
+
+Blanka
+2MK
+8
+1.48
+Wide hurtbox (outpoked by shorter 2MKs)
+
+
+
+Chun-Li
+2MK
+7
+1.477
+
+
+
+
+Akuma
+2MK
+8
+1.473
+
+
+
+
+Jamie
+2MK
+7
+1.46
+
+
+
+
+Ken
+2MK
+7
+1.46
+
+
+
+
+Mai
+2MK
+7
+1.438
+
+
+
+
+Ed
+2MP
+8
+1.411
+2MP (low poke, functions like 2MK for most characters)
+
+
+
+Rashid
+2MK
+7
+1.405
+
+
+
+
+Lily
+2MK
+9
+1.364
+
+
+
+
+A.K.I.
+2MK
+7
+1.34
+Super Cancel only
+
+
+
+Dhalsim
+1MK
+8
+1.19
+
+
+
+
+chara
+input
+hitstun
+atkRange
+Pushback (Hit)
+Pushback (Block)
+
+
+
+Dhalsim
+2LK
+18
+1.44 (0.814)
+0.422
+0.431
+
+
+
+Zangief
+2LK
+15
+1.39
+0.373
+0.433
+
+
+
+E.Honda
+2LP
+17
+1.23
+0.402
+0.412
+
+
+
+Sagat
+2LP
+17
+1.20
+0.487
+0.415
+
+
+
+Marisa
+2LP
+16
+1.17
+0.363
+0.389
+
+
+
+E.Honda
+5LK
+16
+1.12
+0.531
+0.550
+
+
+
+Rashid
+5LP
+15
+1.11
+0.405
+0.418
+
+
+
+Luke
+2LP
+16
+1.11
+0.351
+0.330
+
+
+
+Blanka
+5LK
+16
+1.11
+0.499
+0.522
+
+
+
+M.Bison
+5LK
+15
+1.097
+0.213
+0.218
+
+
+
+Manon
+2LP
+16
+1.09
+0.427
+0.436
+
+
+
+Alex
+5LP
+16
+1.08
+0.319
+0.330
+
+
+
+Elena
+2LP
+16
+1.07
+0.361
+0.338
+
+
+
+JP
+2LP
+17
+1.07
+0.371
+0.325
+
+
+
+M.Bison
+2LP
+16
+1.06
+0.404
+0.385
+
+
+
+Cammy
+5LP
+15
+1.05
+0.352
+0.304
+
+
+
+Cammy
+2LP
+15
+1.05
+0.352
+0.304
+
+
+
+Chun-Li
+5LP
+15
+1.05
+0.320
+0.343
+
+
+
+A.K.I.
+5LK
+18
+1.04
+0.211
+0.379
+
+
+
+Dee_Jay
+5LP
+13
+1.04
+0.409
+0.428
+
+
+
+Guile
+2LP
+16
+1.03
+0.468
+0.389
+
+
+
+Mai
+2LP
+14
+1.03
+0.321
+0.311
+
+
+
+Akuma
+5LP
+14
+1.02
+0.364
+0.378
+
+
+
+Ed
+2LP
+16
+1.02
+0.361
+0.338
+
+
+
+C.Viper
+5LP
+15
+1.01
+0.288
+0.333
+
+
+
+Ryu
+5LP
+14
+1.01
+0.289
+0.378
+
+
+
+Terry
+5LP
+14
+1.01
+0.289
+0.333
+
+
+
+Manon
+5LP
+17
+1.01
+0.424
+0.433
+
+
+
+Rashid
+5LK
+16
+1.01
+0.266
+0.271
+
+
+
+Kimberly
+2LP
+14
+1.01
+0.289
+0.259
+
+
+
+Ken
+5LP
+14
+1.01
+0.375
+0.333
+
+
+
+Akuma
+2LP
+16
+1.00
+0.383
+0.341
+
+
+
+Jamie
+2LP
+16
+0.98
+0.361
+0.374
+
+
+
+Mai
+5LP
+15
+0.97
+0.320
+0.315
+
+
+
+A.K.I.
+2LP
+15
+0.96
+0.277
+0.286
+
+
+
+C.Viper
+2LP
+16
+0.95
+0.276
+0.330
+
+
+
+Ryu
+2LP
+15
+0.94
+0.277
+0.330
+
+
+
+Ed
+5LP
+14
+0.92
+0.289
+0.278
+
+
+
+Juri
+2LP
+15
+0.92
+0.320
+0.330
+
+
+
+Chun-Li
+2LP
+14
+0.91
+0.321
+0.338
+
+
+
+Terry
+2LP
+15
+0.91
+0.299
+0.330
+
+
+
+Ken
+2LP
+16
+0.89
+0.351
+0.330
+
+
+
+Dhalsim
+5LP
+15
+0.88
+0.373
+0.385
+
+
+
+Chun-Li
+2LK
+12
+0.85
+0.325
+0.330
+
+
+
+Juri
+5LP
+16
+0.85
+0.319
+0.333
+
+
+
+Lily
+5LK
+16
+0.82
+0.425
+0.436
+
+
+
+Mai
+5LK
+12
+0.77
+0.325
+0.330
+
+
+
+chara
+input
+atkRange
+Notes
+
+
+
+Jamie
+5HP
+1.732 (0.924)
+Short range on frame 5 (0.924) but very rewarding if it can reach
+
+
+
+Zangief
+360+LP
+1.62
+Zangief's best 5F punish at max range (2LK conversions are weak especially if farther away)
+
+
+
+Chun-Li
+236LK
+1.485 (1.315)
+Special move, but included for being an important long-range 5f punish (1.315 Range on frame 5, comparable to Shoto 5LK)
+
+
+
+Juri
+5MK
+1.427 (0.74)
+Extremely short range as a 5-frame punish (0.74), but more rewarding when landed
+
+
+
+Blanka
+5LP
+1.36
+
+
+
+
+Manon
+5LK
+1.35
+
+
+
+
+Marisa
+2LK
+1.34
+Terrible punish, but the only 5-frame option when outside of 2LP range
+
+
+
+Ken
+5LK
+1.32
+
+
+
+
+Alex
+2LK
+1.31
+Punish allows the 2LK~2HK Target Combo to connect (longest range 5f punish and especially important for Modern controls)
+
+
+
+Elena
+5LK
+1.31
+
+
+
+
+Akuma
+5LK
+1.303
+
+
+
+
+Ryu
+5LK
+1.30
+
+
+
+
+Ed
+2LK
+1.30
+
+
+
+
+E.Honda
+5LP
+1.28
+
+
+
+
+Cammy
+5LK
+1.27
+
+
+
+
+Guile
+5LK
+1.27
+
+
+
+
+Luke
+5LK
+1.26
+
+
+
+
+Sagat
+5LP
+1.26
+
+
+
+
+M.Bison
+5LP
+1.26
+
+
+
+
+Dee_Jay
+5LK
+1.239
+
+
+
+
+Alex
+2LP
+1.23
+
+
+
+
+Lily
+5LP
+1.23
+
+
+
+
+Jamie
+5LP
+1.213
+(DL1) Jamie's best 5-frame punish once he has taken at least 1 drink
+
+
+
+C.Viper
+5LK
+1.20
+
+
+
+
+Kimberly
+5LK
+1.20
+
+
+
+
+Terry
+5LK
+1.19
+
+
+
+
+A.K.I.
+2LK
+1.19
+Only useful as max range Punish Counter linked into 2MK
+
+
+
+Dee_Jay
+2LP
+1.18
+Slightly shorter than 5LK but better follow-ups
+
+
+
+Juri
+5LK
+1.16
+
+
+
+
+Elena
+5LP
+1.16
+Much stronger link options than 5LK
+
+
+
+Dhalsim
+2LP
+1.14
+
+
+
+
+Jamie
+5LK
+1.13
+
+
+
+
+Chun-Li
+5LK
+1.13
+Chun's longest 5-frame normal, short compared to most 5f punishes (may need to use 236LK instead)
+
+
+
+JP
+5LK
+1.12
+JP's longest range 5f punish (among the shortest in the game)
+
+
+
+Guile
+5LP
+1.07
+Slightly more range than 2LP while still allowing link to 5HP
+
+
+
+Rashid
+2LP
+1.02
+Less range than 5LP (4f startup), but links to 5HP on Punish Counter
+
+
+
+Jamie
+5LP
+0.97
+(DL0) Listed for comparison only; use 2LP or 5LK at Drink Lv.0
+
+
+
+Kimberly
+5LP
+0.97
+Kimberly's shortest light punish, but links into 5HP on Punish Counter for stronger conversions
+
+
+
+Ken
+5MP
+0.914
+Short range but strong 5f punish starter if it reaches
+
+
+
+A.K.I.
+5LP
+0.90
+Short range punish into 5LP~LP Target Combo
+
+
+
+Cammy
+4MP
+0.826
+Short range but strong 5f punish starter if it reaches
+
+
+
+Chun-Li
+5MP
+0.803
+Short range, but strong 5f punish starter if it reaches
+
+
+
+Note: Mai has no 5-frame option better than her 4-frame 2LP
+
+chara
+input
+startup
+atkRange
+Notes
+
+
+
+M.Bison
+3HK
+15
+3.47 (1.753)
+Slides forward; Range 1.75 on 1st active frame
+
+
+
+Blanka
+3HP
+14
+3.10 (2.413)
+Slides forward; Range 2.41 on 1st active frame
+
+
+
+Dhalsim
+2HK
+12
+3.057 (1.50)
+Slides forward; Range 1.50 on 1st active frame
+
+
+
+Elena
+3HK
+14
+2.88 (1.69)
+Slides forward; Range 1.69 on 1st active frame
+
+
+
+JP
+3HP
+16
+2.414
+
+
+
+
+Chun-Li
+214P~MP
+6
+2.30 (1.753)
+Slides forward; Range 1.75 on 1st active frame
+
+
+
+Dee_Jay
+2HK
+14
+2.186 (1.622)
+Slides forward; Range 1.62 on 1st active frame
+
+
+
+E.Honda
+6HK
+14
+2.114
+Only knocks down on Punish Counter
+
+
+
+Guile
+2HK
+9
+2.037 (1.739)
+2 hits; Range: 2nd / 1st; Range 1.76 on final active frame of 1st hit
+
+
+
+Jamie
+2HK
+9
+2.02 (1.662)
+2 hits; Range: 2nd / 1st; Range 1.67 on final active frame of 1st hit
+
+
+
+Manon
+2HK
+11
+2.01
+
+
+
+
+M.Bison
+2HK
+11
+1.991
+
+
+
+
+Elena
+2HK
+11
+1.967 (1.962)
+
+
+
+
+Marisa
+2[HK]
+20(4)
+1.956
+
+
+
+
+Zangief
+2HK
+12
+1.955
+
+
+
+
+Lily
+2HK
+11
+1.938 (1.666)
+2 hits; Range 1.67 on 1st active frame of 1st hit
+
+
+
+A.K.I.
+2HP
+10
+1.923
+Does not actually slide forward during active frames like the animation suggests
+
+
+
+Sagat
+2HK
+11
+1.91
+
+
+
+
+C.Viper
+2HK
+10
+1.89
+
+
+
+
+Alex
+2HK
+10
+1.88
+
+
+
+
+Blanka
+2HK
+11
+1.865
+
+
+
+
+Marisa
+2HK
+11
+1.856
+
+
+
+
+Juri
+2HK
+10
+1.798 (1.787)
+
+
+
+
+Ryu
+2HK
+9
+1.793
+
+
+
+
+Akuma
+2HK
+9
+1.783
+Moves forward during animation
+
+
+
+Ed
+2HP
+10
+1.782
+
+
+
+
+Cammy
+2HK
+9
+1.73
+
+
+
+
+Chun-Li
+2HK
+9
+1.715
+
+
+
+
+Rashid
+2HK
+9
+1.711
+
+
+
+
+Mai
+2HK
+9
+1.703
+
+
+
+
+Luke
+2HK
+10
+1.661
+
+
+
+
+Ken
+2HK
+8
+1.645
+
+
+
+
+Terry
+2HK
+10
+1.629
+
+
+
+
+E.Honda
+2HK
+11
+1.605
+
+
+
+
+Kimberly
+2HK
+8
+1.52
+Less range on active frames 2-3
+
+
+
+Dee_Jay
+2MK
+8
+1.52
+Faster/safer than traditional sweep
+
+
+
+JP
+2HK
+10
+1.38
+Short range but very safe when spaced
+
+
+
+Dhalsim
+1HK
+9
+1.29
+
+
+
+
+
+
+
+
+
+Longest Punish Option at Each Frame Disadvantage
+
+
+â¤4Fâ¤5Fâ¤6Fâ¤7Fâ¤8Fâ¤9Fâ¤10Fâ¤11Fâ¤12FNote: Details about max range punishes do not take extended recovery hurtboxes into consideration - follow-ups may whiff entirely if these extended hurtboxes leave the opponents farther away than the attack's natural punish range.
+
+
+
+Character
+Button
+Range
+Notes
+
+
+
+Zangief
+2LK
+1.39
+Only +4 on PC, no extra reward beyond Light chains
+
+
+
+E. Honda
+2LP
+1.23
+At meterless max range, can only cancel into Headbutt or MP Hands
+
+
+
+Sagat
+2LP
+1.20
+At meterless max range, can only cancel into MK Tiger Nexus; slightly closer gives 5LK > MP Uppercut
+
+
+
+Marisa
+2LP
+1.17
+At meterless max range, can only cancel into LP Dimachaerus; slightly closer gives 2MP > LK Quadriga, or 5MP~MP when closer
+
+
+
+Luke
+2LP
+1.14
+At meterless max range, can only cancel into LP/MP Flash Knuckle or link 5MK; slightly closer gives 2MK
+
+
+
+Blanka
+5LK
+1.11
+At meterless max range, can only cancel into Electricity or MP Roll; slightly closer gives 5MK
+
+
+
+Rashid
+5LP
+1.11
+At meterless max range, can only link 5MK or cancel into LK Eagle Spike or LP/MP Spinning Mixer; slightly closer gives 2MK
+
+
+
+M. Bison
+5LK
+1.10
+Links to 2MP even at max range (2LP punish is more rewarding if closer)
+
+
+
+Manon
+2LP
+1.09
+At meterless max range, can only cancel into any Rond-point (236K) or LK/MK DÃ©gagÃ© (214K); slightly closer gives 5MP
+
+
+
+Elena
+2LP
+1.07
+Links to 5MP/2MP/2MK even at max range
+
+
+
+JP
+2LP
+1.07
+Links to 5MK even at max range (a direct cancel to MP Stribog also works well vs. extended hurtbox punish)
+
+
+
+Cammy
+5LP/2LP
+1.05
+Links to 5HP/2MK even at max range
+
+
+
+Chun-Li
+5LP
+1.05
+Links to 2MK/4MP even at max range
+
+
+
+A.K.I.
+5LK
+1.04
+Links to 5MP/2MP even at max range
+
+
+
+Dee Jay
+5LP
+1.04
+At max range, cancels to MK/HK Sobat, links to 2HP/2MK, or chains to 5LP~MK~MK; must be close for a more substantial punish
+
+
+
+Guile
+2LP
+1.03
+Links to 4HP/2HK even at max range; direct cancel to HK Flash Kick is often easier/better
+
+
+
+Mai
+2LP
+1.03
+Links to 5MP/2MK even at max range (2LP punish is more rewarding into 5HP if closer)
+
+
+
+Akuma
+5LP
+1.02
+Links to 2MK even at max range (2LP punish is more rewarding into 5HP if closer)
+
+
+
+Ed
+2LP
+1.02
+Not cancelable; at ranges where 2LP is required over 5LP, Ed can only link into 5LK~LK~LK
+5LP has 0.92 Range; can always link into 2MP, and gets 5MP~HP at farther ranges than 2LP
+
+
+
+C. Viper
+5LP
+1.01
+Links to 5MK/2MK even at max range (2LP punish is more rewarding into 2HP if closer)
+
+
+
+Ken
+5LP
+1.01
+Links to 5MK/2MK/2HK even at max range
+
+
+
+Kimberly
+2LP
+1.01
+Links to 5MK/2HK even at max range; 2MP/5MP require closer range punish
+
+
+
+Ryu
+5LP
+1.01
+Links to 2MK even at max range
+
+
+
+Terry
+5LP
+1.01
+Links to 5MP/2MK~2HK even at max range
+
+
+
+Jamie
+2LP
+0.98
+Links to 5MK/2MK/2HK even at max range
+
+
+
+Juri
+2LP
+0.92
+Links to 2MK/6MP even at max range
+
+
+
+Dhalsim
+5LP
+0.88
+At meterless max range, can only cancel into LP Yoga Flame; slightly closer gives 4MK > MP Yoga Flame
+
+
+
+Lily
+5LK
+0.82
+Links to 2MK even at max range (into LK Spire / HP Tomahawk / Windclad HK Spire)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+(to-do)
+
+
+
+
+
+
+SF6 Navigation
+
+
+
+
+Street Fighter 6 (SF6) 
+
+
+
+General
+
+
+
+ FAQ â¢
+
+   Controls â¢
+
+   HUD â¢
+
+   Glossary â¢
+
+   Movement â¢
+
+   Offense â¢
+
+   Defense â¢
+
+   Gauges â¢
+
+   Game Data â¢
+
+   Patch Notes â¢
+
+   Links 
+
+
+
+
+Characters
+
+
+
+
+ A.K.I.
+
+  
+ Akuma
+
+  
+ Alex
+
+  
+ Blanka
+
+  
+ C. Viper
+
+  
+ Cammy
+
+  
+ Chun-Li
+
+  
+ Dee Jay
+
+  
+ Dhalsim
+
+  
+ Ed
+
+  
+ E. Honda
+
+  
+ Elena
+
+  
+ Guile
+
+  
+ Jamie
+
+  
+ JP
+
+  
+ Juri
+
+  
+ Ken
+
+  
+ Kimberly
+
+  
+ Lily
+
+  
+ Luke
+
+  
+ M. Bison
+
+  
+ Mai
+
+  
+ Manon
+
+  
+ Marisa
+
+  
+ Rashid
+
+  
+ Ryu
+
+  
+ Sagat
+
+  
+ Terry
+
+  
+ Zangief
+
+
+
+
+Data
+
+
+
+ A.K.I. â¢
+
+   Akuma â¢
+
+   Alex â¢
+
+   Blanka â¢
+
+   C. Viper â¢
+
+   Cammy â¢
+
+   Chun-Li â¢
+
+   Dee Jay â¢
+
+   Dhalsim â¢
+
+   Ed â¢
+
+   E. Honda â¢
+
+   Elena â¢
+
+   Guile â¢
+
+   Jamie â¢
+
+   JP â¢
+
+   Juri â¢
+
+   Ken â¢
+
+   Kimberly â¢
+
+   Lily â¢
+
+   Luke â¢
+
+   M. Bison â¢
+
+   Mai â¢
+
+   Manon â¢
+
+   Marisa â¢
+
+   Rashid â¢
+
+   Ryu â¢
+
+   Sagat â¢
+
+   Terry â¢
+
+   Zangief 
+
+
+
+
+
+
+
+
+
+Retrieved from "https://wiki.supercombo.gg/index.php?title=Street_Fighter_6/Game_Data&oldid=360454"
+
+
+			
+
+			
+
+		
+	
+		Last modified
+	
+
+	
+		
+		
+			22 hours ago
+			
+		
+		
+	
+
+
+	
+		
+			
+				
+				Contents
+			
+		
+		
+			
+				
+					
+
+					Back to top
+
+				
+				Contents
+
+				
+				
+		
+			
+
+			
+				
+					1
+					Frame data
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						1.1
+						Move Stages
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					2
+					Hitstun/Blockstun/Hitstop
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					3
+					Input Buffer
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						3.1
+						Screen Freeze Buffers
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					4
+					Priority Systems
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						4.1
+						Hit Priority
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						4.2
+						Projectile Priority
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						4.3
+						Move Input Priority
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					5
+					Standing/Crouching Hurtboxes
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					6
+					Combo-Only Hitboxes
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					7
+					Recoverable HP
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					8
+					Damage Scaling
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						8.1
+						System-Wide Scaling
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						8.2
+						Character-Specific Scaling
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					9
+					System Data
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					10
+					Range Comparisons
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					11
+					Longest Punish Option at Each Frame Disadvantage
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+	
+		
+			
+
+			
+				
+					12
+					SF6 Navigation
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+		
+
+		
+	
+
+	
+
+			
+				Categories: Pages using Tabber parser tagStreet Fighter 6
+
+
+					
+		    
+		        Last modified
+
+		         This page was last edited on 2 April 2026, at 09:56.
+
+		    
+		
+
+		
+
+	
+	
+	
+
+	 
+
+
+	
+		
+			
+				
+					
+					
+									
+
+				
+
+The SuperCombo Wiki is intended to be a repository for all fighting game strategy knowledge. While our roots are in the Capcom franchises, we invite fans of all fighting game series to augment the site with their strategies and techniques.
+
+SuperCombo Wiki brought to you by and for the fighting game community worldwide. If you enjoy the service, consider donating via Patreon.
+
+
+
+
+
+
+			
+
+			
+	
+		Privacy policy
+		About SuperCombo Wiki
+		Disclaimers
+	
+
+		
+		
+			Game content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.
+
+			
+	
+		
+	
+
+		
+	
+
+
+
+
+
+	
+		
+
+		
+			
+				
+					
+
+					
+						Street Fighter 6/Game Data
+
+						From SuperCombo Wiki
+
+					
+
+				
+			
+
+			
+					Share this page
+																																												
+
+				
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data

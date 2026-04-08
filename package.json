@@ -1,0 +1,1 @@
+{"name":"sf6-alex-combo-simulator","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite","build":"tsc && vite build","preview":"vite preview"},"dependencies":{"typescript":"^6.0.2","vite":"^8.0.3"}}

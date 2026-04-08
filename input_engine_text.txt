@@ -1,0 +1,1164 @@
+Street Fighter 6 - Input Engine Details
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+        
+        
+            
+                
+            
+
+            -->
+            
+
+            
+                
+                
+                    
+
+                    -->
+                    
+                    
+                    
+
+
+                    
+                
+
+            
+
+        
+
+        
+    
+    
+
+
+
+
+    
+    
+    
+    
+
+
+    
+        
+            
+                
+
+
+
+
+
+
+
+
+
+    
+        
+            
+
+            
+                
+                    
+                        
+                    
+
+                    
+                    
+                        
+                        
+                            
+                            
+                          
+                        
+                    
+
+                
+
+            
+
+            
+                
+                    
+                    
+                        
+                        Street Fighter 6 - Input Engine Details 
+
+Buffering 
+
+SF6 has a universal buffer when it comes to input buffers for:
+
+
+
+After normal recover (link buffer)
+
+After dash
+
+After special move recovery
+
+For specials
+
+For dashes
+
+On wake up (reversal buffer)
+
+
+All of those have 5 possible frames for input (1 for frame perfect input + 4 buffered inputs).
+
+
+This is similar to SFV. The only thing that SFV had different was 8f for buffering dashes.
+
+
+In SF4 it was more lenient on special reversal but had no link buffer.
+
+
+Motion Definitions 
+
+Notation:
+
+
+
+arrows like  is a direction obviously
+
+ is neutral
+
+(6) is the forward direction pressed for 6 frames. If not indicated any amount is ok. If a range is written like 1-11 it can be between 1 and 11 (included).
+
+lenient means that the input can be any combination (e.g. forward can be up-forward or down-forward)
+
+
+You can assume that forward / backward variations are similar.
+
+
+Dash 
+
+A valid dash corresponds to:
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+any
+strict
+
+
+
+
+1-8
+strict
+
+
+
+
+1-8
+strict
+
+
+
+
+any
+strict
+
+
+
+
+
+
+Contrary to normal motions, the matching doesn't allow any other input in between!
+
+
+Example of invalid dashes:
+
+
+
+    
+
+    
+
+ (9)  
+
+
+Down Down 
+
+A valid "down down" input is defined by:
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+1+
+strict
+
+
+
+
+1-10
+strict
+
+
+
+
+1-10
+strict
+
+
+
+
+1-10
+strict
+
+
+
+
+
+
+This pattern is similar as SFV but buffering is stricter as it was 12 frames before (10 now).
+
+
+Quarter Circle 
+
+A valid quarter circle forward is defined by:
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+1-11
+strict
+
+
+
+
+1-11
+strict
+
+
+
+
+1-11
+strict
+
+
+
+
+
+
+Because it uses the normal matching procedure, you can have other inputs in between like:
+
+
+
+     (assuming timing is ok)
+
+
+This pattern is similar as SFV but buffering is stricter as it was 12 frames before (11 now).
+
+
+Example of an invalid QCF:
+
+
+
+  
+
+
+In some cases, we've noticed that you can input QCF by performing an HCF which has a higher priority. Example: Ryu's fireball. Currently, it only exists on motions where you have a conflict between QCF and DP. Example: Manon's RenversÃ© (QCF P) cannot use an HCF input.
+
+
+Dragon Punch Motion 
+
+The DP is defined by
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+1-7
+lenient
+
+
+
+
+1-7
+lenient
+
+
+
+
+1-7
+lenient
+
+
+
+
+
+
+Some examples (assuming timing is within constraints):
+
+
+
+  
+
+  
+
+  
+
+
+This pattern is similar as SFV but buffering is stricter as it was 8 frames before (7 now).
+
+
+Double Quarter Circle 
+
+A double quarter circle forward is defined by either:
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+1-10 (or 12)
+strict
+
+
+
+
+1-10
+optional
+
+
+
+
+1-12
+strict
+
+
+
+
+1-10 (or 12)
+strict
+
+
+
+
+1-10
+optional
+
+
+
+
+1-10
+strict
+
+
+
+
+
+
+The basic idea behind the buffering of this motion is that you always have 12f between allowed gaps ( to  or  to ) and 10f between motions that are fluid.
+
+
+Some examples (assuming timing is within constraints):
+
+
+
+     
+
+     
+
+    
+
+
+This specific input was valid in SFV but is not anymore:
+
+
+
+   
+
+
+Otherwise, the buffers are tighter as well with 10 frames of buffering while it was 12 before (aside the last input).
+
+
+Half Circle 
+
+An half circle backward is defined by either (no HCF in SF6 as far as I know).
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+0-12
+optional*, strict
+
+
+
+
+0-12
+optional*, strict
+
+
+
+
+0-12
+optional*, strict
+
+
+
+
+0-12
+optional*, strict
+
+
+
+
+1-12
+strict
+
+
+
+
+
+
+(*) You need at least 3 optional inputs to exist.
+
+
+The timing has not been validated for everyone. For instance, the range on Jamie's tenshin is 1-8. This is Blanka's roll.
+
+
+Valid inputs:
+
+
+
+    
+
+   
+
+   
+
+   
+
+   
+
+
+These specific inputs were valid in SFV but are not anymore:
+
+
+
+   
+
+   
+
+  
+
+
+In SFV the buffer during the motion was shorter to compensate on the lenience of the motion (8 frames).
+
+
+Charges 
+
+Obviously charges are never the same, here are some examples:
+
+
+
+Kikoken 50 frames (same)
+
+Spin Bird: 30 frames (40 in SFV)
+
+Somersault: 45 frames (same)
+
+Sonic Boom: 45 frames (same)
+
+Sumo Headbutt: 40 frames (same)
+
+
+Please consult FAT Online to have details on the charge of your specific move.
+
+
+Charged Super 
+
+A charged super is defined as:
+
+
+
+
+
+
+Input
+Frames
+Matching
+
+
+
+
+
+
+50+
+lenient
+
+
+
+
+1-10
+lenient
+
+
+
+
+1-10
+lenient
+
+
+
+
+1-4
+strict
+
+
+
+
+
+
+(Measured on Guile's SA)
+
+
+Valid inputs
+
+
+
+(50)   
+
+
+Invalid inputs
+
+
+
+(50)   
+
+
+This is similar to SFV, but the buffer is faster now (12 frames motion, 10 frames before button).
+
+
+360 / 720 
+
+Ok... I don't feel explaining it to you, right now. It seems similar to SFV.
+
+
+You have to make a 360 motion in less than 21 frames. To do so, it's a combination of lenient directions and roughly covering more than an half circle.
+
+
+Examples of working inputs:
+
+
+
+   
+
+   
+
+   
+
+
+These inputs don't work
+
+
+
+   
+
+
+I'm pretty sure the Zangiefs of the world know some weird hacks around it but everytime I look into it, it's weird.
+
+
+Compared to SFV it's more strict where the whole window was 25 frames before, now it's 21 frames. However, compared to SFV, the motion is buffered for 20 frames whereas in SFV there is no additional buffering, the 25 frames are all you have to make the motion.
+
+
+The 720 is by definition two consecutive 360.
+
+
+Negative Edge 
+
+Nothing much to say but it might be useful if you don't know what it is.
+
+
+It allows to trigger a motion input based on a positive edge (meaning pressing on a button), or during a negative edge (releasing a button).
+
+
+It is disabled by default in SF6 and you can enable it. In SFV, it was enabled.
+
+
+Example:
+
+
+Do the following motion    and press LP during  only.
+
+
+
+If it happens during a buffer: it will do a fireball on reversal
+
+If it happens at idle: cr. LP will be thrown because there is no way of converting a cr. LP into a fireball
+
+
+Kara Cancel 
+
+The Kara system is a way to promote a Fireball into a Fireball Overdrive (or EX). You have only 1 frame to input the two buttons. Similar to SFV.
+
+
+Priority Resolution 
+
+Motion Matching 
+
+This is the part that looks at the input history and decides if a motion is valid or not. While we know the purest definition of each motion, in practice there are a lot of noise with other inputs in between.
+
+
+To better understand, let's try to find a QCF inside: (1) (6) (1) (6) (1) (10) 
+
+
+In SFV, it starts from the  and looks back in time:
+
+
+
+it sees (10) which is valid (max 12 frames)
+
+then it sees (1) which is also valid
+
+then it will look for the  but there is (6) (1) (6) in between which is 13 frames
+
+So, SFV doesn't see a QCF here.
+
+
+In SF6, conversely, it will try to look for all combinations in the possible frames to find anything that fits the definition:
+
+
+
+it tries to match the same inputs as SFV but it doesn't work
+
+it tries again by ignoring the last  which produces this string of inputs (1) (6) (1) (6) (1) (10) 
+
+after the  it sees  which is valid (1f+6f+1f is less than the max 11 frames)
+
+it sees  which is valid (1f+6f is less than the max 11 frames)
+
+Therefore, SF6 sees a QCF here.
+
+
+Let's look at another example of trying to find a QCF in this list of inputs. Remember that you match the inputs from top to bottom.
+
+
+
+
+
+
+Input
+Frames
+Best match on SFV
+Best match on SF6
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+ 3f â¤ 12f
+ discarded
+
+
+
+
+3
+ 3f â¤ 12f
+ discarded
+
+
+
+
+4
+
+ 3f+3f+4f â¤ 11f
+
+
+
+
+8
+
+
+
+
+
+
+1
+ too late: 4f+8f+1f > 12f
+
+
+
+
+
+1
+
+ 1f+8f+1f â¤ 11f
+
+
+
+
+1
+
+ 1f â¤ 11f
+
+
+
+
+
+
+This is especially important in larger motions like HCF or double QCF for supers where you have a lot of inputs that can match far back in time.
+
+
+Additional note: if you have other motions attached to the  the final decision might not match. In this case, this is also a valid DP motion in both SFV and SF6.
+
+
+Moves Priority 
+
+Assuming that two inputs are valid at the same time, here are the main rules that are applied.
+
+
+
+
+
+
+Version
+Priority
+
+
+
+
+
+SF6
+Taunt > OD > SA > drive impact > throw > drive parry > 360 > DP > QC > HC > command normals > normals
+
+
+
+SFV
+Taunt > Throw > VShift > VT > VSkill > CA > 360 > (ex) HC > (ex) DP > (ex) QC > command normals > normals
+
+
+
+
+
+
+You might have some local variation of those priority orders. I haven't checked all combinations but those are usually set in stone in designs and exceptions might break stuff.
+
+
+Motion Conflict Resolution 
+
+Assuming Ryu with the conflict resolution between DP and QCF. This shows the difference on how the games resolve their input system. Usually it means that they consider the motion complete at different times and put a different priority.
+
+
+
+
+
+
+Motion
+SFV
+SF6
+
+
+
+
+
+   
+DP
+DP
+
+
+
+    
+DP
+QCF using HC correction
+
+
+
+     
+DP
+QCF using HC correction
+
+
+
+     
+DP
+QCF using HC correction
+
+
+
+     
+DP
+DP
+
+
+
+   
+DP
+DP
+
+
+
+      
+DP
+DP
+
+
+
+    
+DP
+DP
+
+
+
+
+
+
+Input Polling 
+
+XInput is read 3 times per frame with an inconsistent timing between calls (anything between 0 and 8ms typically). Assuming that you send an input within those 3 polls it is (mostly) guaranteed to be used for a frame.
+
+
+In SFV or SF4 or others, it was only once per frame. Potentially, it has no major impacts, it might also be beneficial for input lag to have multiple polling routings.
+
+
+
+note for myself only: with an unpatched injection [1, LEFT], [1, DOWN], [1, UP] is a random between (LEFT, DOWN, UP)
+
+I had rare cases of missed inputs but it looks more like injection problems on my side
+
+
+
+Summary of the main changes 
+
+
+
+
+
+
+SFV
+SF6
+
+
+
+
+
+Input Buffering
+Buffering Dash 8f
+Buffering Dash 5f
+
+
+
+Dash
+Same
+-
+
+
+
+Down Down
+12 frames buffering
+10 frames buffering
+
+
+
+Quarter Circle
+12 frames buffering
+11 frames buffering, can use HC inputs in some cases
+
+
+
+Dragon Punch
+8 frames buffering
+7 frames buffering
+
+
+
+Double Quarter Circle
+12 frames buffering on the motion
+~10 frames buffering. One diagonal is now mandatory
+
+
+
+Half Circle
+8 frames buffering on the motion but more lenient
+12 frames buffering. One diagonal is now mandatory
+
+
+
+Charges
+Similar
+-
+
+
+
+Charged Super
+12 motion buffer, 10 before button
+10 motion buffer, 4 before button
+
+
+
+360
+25 frames for motion
+21 frames for motion, same algorithm but additional 20 frames buffer for the button
+
+
+
+Negative Edge
+Always On
+Off by Default, can be enabled
+
+
+
+Kara
+Same
+-
+
+
+
+Motion Matching
+Backwards search
+Exhaustive search
+
+
+
+Moves Priority
+Supers are lower than V-System and throws, EX are similar to Specials
+OD have the highest prio and supers right after
+
+
+
+Motion Conflict Resolution
+Not the same algorithm
+which leads to different outcomes
+
+
+
+
+
+
+                    
+                
+
+            
+
+        
+
+    
+
+
+    
+        
+
+        
+
+        
+            
+                
+                    
+                        Warning
+
+                        
+                            
+                        
+
+                        LINK
+
+
+                        
+                            You are about to visit a link which has been flagged with the above content warnings. Do you wish to continue?
+
+
+                        
+                        
+                            Continue
+                            Cancel
+                        
+
+                    
+
+                
+            
+
+        
+
+    
+
+
+
+
+
+    
+        
+            
+                Edit
+                
+                    Export
+                    
+                        Raw
+                        PDF
+                        PNG
+                        WebP
+                        JPG
+                    
+
+                
+
+            
+
+            
+                
+                
+                
+                    Pub: 11 Jun 2023 22:51 UTC
+
+                
+
+
+                
+                
+                
+                Edit: 17 May 2024 17:10 UTC
+                
+
+
+                
+                
+                
+                Views: 41039
+                
+
+
+                
+                
+                
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+                
+                
+                    
+                    
+    
+        newÂ·
+        whatÂ·
+        howÂ·
+        langsÂ·
+        contactsÂ·
+        
+        login

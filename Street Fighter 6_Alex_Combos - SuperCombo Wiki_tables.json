@@ -1,0 +1,141 @@
+[
+  [
+    [
+      "Combo",
+      "Position",
+      "Damage",
+      "Drive Gauge",
+      "Super Gauge",
+      "Difficulty",
+      "Notes",
+      "Video"
+    ],
+    [
+      "2LK/2LP/5LP ~ 2LP/5LP > 236LP",
+      "Anywhere (close)",
+      "1000/1100",
+      "0",
+      "0",
+      "Very easy",
+      "When close enough a second 2LP or 5LP can be added. Damage is then 1130/1230.",
+      "[]"
+    ],
+    [
+      "5LP ~ 5LP ~ 5LP  > 623HK",
+      "Anywhere (close)",
+      "1650",
+      "0",
+      "0",
+      "Very easy",
+      "Other light starters work as well",
+      "[]"
+    ],
+    [
+      "2HP > 2PP > LP ~ HP, 5LK > 623HK/623KK/236LP/236PP",
+      "Anywhere",
+      "3010/3130/2590/2890",
+      "0/2",
+      "0",
+      "Intermediate",
+      "Ending in 623HK purely for damage still gives good oki in the corner. If you want to spend super 236LP/236PP allow cancels into SA3 and 236PP allows cancels into SA2.",
+      "[]"
+    ]
+  ],
+  [
+    [
+      "Combo",
+      "Position",
+      "Damage",
+      "Drive Gauge",
+      "Super Gauge",
+      "Difficulty",
+      "Notes",
+      "Video"
+    ],
+    [
+      "6MP, 2LP > 623HK",
+      "Anywhere",
+      "",
+      "0",
+      "0",
+      "Easy",
+      "Simple counter hit combo from overhead. Also works with 5LP when close enough but 2LP is more consistent.",
+      "[]"
+    ]
+  ],
+  [
+    [
+      "Combo",
+      "Position",
+      "Damage",
+      "Drive Gauge",
+      "Super Gauge",
+      "Difficulty",
+      "Notes",
+      "Video"
+    ],
+    [
+      "2HP > 2PP > HP, 623HK",
+      "Anywhere",
+      "3160",
+      "0",
+      "0",
+      "Easy",
+      "Seems like the optimal meterless midscreen punish using 2HP",
+      "[]"
+    ],
+    [
+      "236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214P",
+      "Anywhere",
+      "4065/4265",
+      "3",
+      "0",
+      "Easy/Intermediate",
+      "Sideswap. Link with the 5MP is easier and works at all ranges. At longer ranges the 2HP whiffs",
+      "[]"
+    ],
+    [
+      "236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214PP ( > 6 )",
+      "Anywhere",
+      "4253/4453/4329/4529",
+      "5",
+      "0",
+      "Easy/Intermediate",
+      "Holding forward removes sideswap and gives extra damage. Same combo as before. Less drive efficient.",
+      "[]"
+    ],
+    [
+      "236HP, 5MP/2HP > DR ~ 2HP > 236HP ~ 63214PP ~ SA2 (PP)",
+      "Anywhere",
+      "5373/5573",
+      "5",
+      "2",
+      "Easy/Intermediate",
+      "",
+      "[]"
+    ]
+  ],
+  [
+    [
+      "Street Fighter 6 (SF6)"
+    ],
+    [
+      "General"
+    ],
+    [
+      "FAQ â¢\r\n   Controls â¢\r\n   HUD â¢\r\n   Glossary â¢\r\n   Movement â¢\r\n   Offense â¢\r\n   Defense â¢\r\n   Gauges â¢\r\n   Game Data â¢\r\n   Patch Notes â¢\r\n   Links"
+    ],
+    [
+      "Characters"
+    ],
+    [
+      "A.K.I.\r\n   Akuma\r\n   Alex\r\n   Blanka\r\n   C. Viper\r\n   Cammy\r\n   Chun-Li\r\n   Dee Jay\r\n   Dhalsim\r\n   Ed\r\n   E. Honda\r\n   Elena\r\n   Guile\r\n   Jamie\r\n   JP\r\n   Juri\r\n   Ken\r\n   Kimberly\r\n   Lily\r\n   Luke\r\n   M. Bison\r\n   Mai\r\n   Manon\r\n   Marisa\r\n   Rashid\r\n   Ryu\r\n   Sagat\r\n   Terry\r\n   Zangief"
+    ],
+    [
+      "Data"
+    ],
+    [
+      "A.K.I. â¢\r\n   Akuma â¢\r\n   Alex â¢\r\n   Blanka â¢\r\n   C. Viper â¢\r\n   Cammy â¢\r\n   Chun-Li â¢\r\n   Dee Jay â¢\r\n   Dhalsim â¢\r\n   Ed â¢\r\n   E. Honda â¢\r\n   Elena â¢\r\n   Guile â¢\r\n   Jamie â¢\r\n   JP â¢\r\n   Juri â¢\r\n   Ken â¢\r\n   Kimberly â¢\r\n   Lily â¢\r\n   Luke â¢\r\n   M. Bison â¢\r\n   Mai â¢\r\n   Manon â¢\r\n   Marisa â¢\r\n   Rashid â¢\r\n   Ryu â¢\r\n   Sagat â¢\r\n   Terry â¢\r\n   Zangief"
+    ]
+  ]
+]

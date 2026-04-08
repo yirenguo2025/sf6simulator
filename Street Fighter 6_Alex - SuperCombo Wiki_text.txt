@@ -1,0 +1,7316 @@
+Street Fighter 6/Alex - SuperCombo Wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+		
+			
+			
+		
+	
+
+	
+
+	
+		
+			
+				
+				
+				
+			
+			Toggle search
+		
+		
+	
+	
+
+
+
+	
+		
+			
+			
+				
+				
+				
+			
+			Toggle menu
+			
+		
+			
+				
+					
+					
+				
+				
+						
+	
+		
+		8.4K
+	
+
+	
+		
+		74.5K
+	
+
+	
+		
+		3.4K
+	
+
+	
+		
+		353K
+	
+
+
+
+						
+									
+
+				
+					
+					
+	
+		Meta
+	
+
+	
+		
+		
+			
+			Main Pageâ â¥ z Recent changesâ â¥ r Random pageâ â¥ xSpecial Pages Upload fileâ â¥ u
+		
+		
+	
+
+
+					
+	
+		Wiki
+	
+
+	
+		
+		
+			
+			Game DirectoryGlossaryNotationSign Up
+		
+		
+	
+
+
+	
+		Help
+	
+
+	
+		
+		
+			
+			Help PortalManual of StyleWriting Character PagesWriting System ExplanationsAdding Images & VideosCreating a New Wiki
+		
+		
+	
+
+
+	
+		Community
+	
+
+	
+		
+		
+			
+			SuperCombo DiscordCommunity PortalFGC Discords
+		
+		
+	
+
+
+	
+		SuperCombo.gg
+	
+
+	
+		
+		
+			
+			NewsForumsTwitterPatreonDonate
+		
+		
+	
+
+
+						
+
+		
+
+	
+	
+		
+
+		
+			
+				
+					
+						
+						Toggle preferences menu
+					
+				
+				
+					
+						
+
+					
+
+				
+
+			
+			
+	
+		Notifications
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+			
+				
+					
+						
+						Toggle personal menu
+					
+				
+				
+					
+						
+	
+		Not logged in
+
+		
+	
+
+	
+		Your IP address will be publicly visible if you make any edits.
+
+	
+
+
+
+						
+	
+		user-interface-preferences
+	
+
+	
+		
+		
+			
+			
+		
+		
+	
+
+
+						
+	
+		Personal tools
+	
+
+	
+		
+		
+			
+			 Create account Log inâ â¥ o
+		
+		
+	
+
+
+					
+
+				
+
+			
+		
+
+	
+
+
+
+	
+
+
+	
+		
+		About these adsâ  Report Ad
+
+
+		
+
+		
+			
+				
+
+	
+		Street Fighter 6/Alex
+
+		
+		
+		
+	
+
+	From SuperCombo Wiki
+
+
+
+				
+
+	
+	
+	Share this page
+
+	
+	
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data
+		Expand all
+		
+	
+
+
+		
+
+	
+
+
+
+
+			
+
+		
+		
+
+		
+			
+				< Street Fighter 6
+
+
+				
+				
+				
+
+
+Character breakdown in progress
+
+Alex is a new character! This page is currently under construction and information might be inaccurate, incomplete, or missing entirely.
+
+ð¤ Want to help us out? Join the SF6 Resource Hub for more info on editing and other ways you can potentially help with this resource.
+
+
+
+
+
+
+Overview
+Combos
+Strategy
+Matchups
+Frame Data
+Resources
+Match Footage
+#SF6_Alex
+ 
+
+
+
+
+
+
+Introduction
+
+
+A kind man with a gruff exterior, Alex is Metro City's star professional wrestler. He's resigned to play the heel -- especially with a growing family to support.
+
+Debuting in Street Fighter III and returning from V, he is once again a high mobility grappler with great pokes and even better damage. Where Manon's gameplan is about racking up medals and Zangief's is about landing the grapple, Alex instead is a high-aggression, high mobility brawler who specializes at getting into medium-close range and forcing your opponent into constant guesses. 
+
+Alex's buttons are long reaching and strong, giving him good pokes that allow him to roll into his game plan. St MK and st HP have incredible range and are good for harassing enemies, and st HK is excellent as a big punish and trap tool. Both of the standing heavies can be charged too, which gives him better frame data and -- in HP's case -- the ability to special cancel it, which he is without otherwise. Crouching MP and standing MP are his go-to cancelable pokes, and his standing LK can be linked after certain moves for longer combo extensions. 
+
+Brand new to Alex's kit is Prowler Stance, which functions similar to Chun Li's Serenity Stream. It can be input raw to low profile Alex, or done out of combos to fire the vast arsenal of new and returning moves from it. From Prowler, his options are limitless -- the all new Palm Thrust is cancelable into basically anything, Air Stampede and Slash Elbow return from previous games to lay on crossup potential or just skip neutral entirely, he has a low sweep-like target combo that gives you good oki, Lariat returns with armor to terrify everyone who remembers Street Fighter V, and when you have them only thinking about blocking -- sneak in a quick Hyper Takedown or Dangerous Armbar.  
+
+Taking one knockdown from Alex and watching him go into Prowler can be incredibly stressful just from the sheer options he has on hand, including deliberate whiffs and cross ups to bait Parry or anti-airs. Be warned though, as he can't block out of Prowler. 
+
+Knee Smash returns as his anti-air tool. The light and medium versions are very fast anti airs and give a great knockdown if landed, while the heavy is your ideal combo tool. In a pinch, he also has his classic crouching HP to slap opponents out of jumps. On Punish Counter, you can even follow up with Knee Smash. Power Bomb and Hyper Bomb makes their return as his high-damage command throws, and it even retains the Street Fighter III 'back turn' mechanic, where your opponent's stagger animation changes the effect -- and the outcome, since it also side switches and does better damage.  Similar to most grapplers, light gives you more range, but heavier is faster.  
+
+However, Alex has severe drawbacks. His defensive tools without spending Super are subpar, he has limited long range cancelable normals, and his command throws need back turn status to get big damage, something a pure grappler like like Zangief doesn't have. Prowler Stance is a phenomenal tool, but it has specific and limited ways to cancel into, and though he can move in it, he's limited to dashes and he cannot block. He also lacks a simple throw loop, forcing him to spend drive (or Prowler into Takedown) to keep the opponent thinking. And like all grapplers, he struggles with zoners and fireballs -- moreso than even Zangief, as his charged heavies do not have armor.
+
+All in all, if you like big damage, relentless offense, or you just really like looking at his muscles, Alex has a        141 and 2/3% chance of being your character. 
+
+
+
+
+
+Pick if you like:
+Avoid if you dislike:
+
+
+
+
+STRETCH 'EM: Hard knockdowns and looping pressure in and out of Prowler Stance, letting Alex maintain a terrifying offense.
+Good Workrate: A wide array of tools from command grabs to evasive hops to armored strikes, with even more reward on Punish Counter.
+20-Inch Pythons: Long-reaching pokes with great reward even at a distance.
+
+
+In-Ring Psychology: Recognizing when to use your options from Prowler Stance for maximum reward.
+Getting Cut Off: Poor reversal options barring a raw Super Art.
+Abnormal Throw Loop: Has to use Drive Rush or enter Prowler Stance in order to throw loop properly, telegraphing Alex's intentions more than other characters.
+
+
+
+
+
+
+
+Classic & Modern Versions Comparison
+
+
+
+
+List of differences with Modern Alex
+
+
+Missing Normals
+
+
+Standing Medium Kick (5MK)
+
+
+
+Missing Command Normals
+
+
+N/A
+
+
+
+Shortcut-Only Specials
+
+
+N/A
+
+
+
+Assist Combos
+
+
+A[L~L]: 5LK ~ L Flash Axe
+5/2L~A[2L~L~L]: 5LP/2LK ~ 2LK ~ 2LP ~ L Flash Axe
+Variant ender that lets Alex get a Light Assist Combo from a chained starter
+A[M~M~M]: 2MP ~ OD Flash Chop ~ SA2
+Burnout: 2MP ~ L Flash Axe
+On Block: stops at OD Flash Chop/M Flash Axe
+SA2 cancel will occur on 1st hit of OD Flash Chop if not delayed
+A[H (hold)~H~H]: 5HP (hold) ~ H Flash Chop ~ SA3
+No SA3: cancels into Collapsing Driver (4MK) instead
+To perform Power Drop, stop the Assist Combo and perform it with 4S or 63214X
+On Block: stops at H Flash Chop
+No Assist Combo will come out if the initial A[H] is uncharged
+
+
+
+Miscellaneous Changes
+
+
+2L is 2LK but switches to 2LP if chained into
+2LP is unavailable outside of chains
+This limits Modern Alex's 5-frame punish game, with 2L~2H being the most consistent option
+
+
+
+
+
+
+
+
+
+
+
+Alex
+
+
+
+
+
+
+
+Vitals
+
+
+
+Life Points
+
+10500
+
+
+
+Ground Movement
+
+
+
+Forward Walk Speed
+
+0.042
+
+
+
+Backward Walk Speed
+
+0.027
+
+
+
+Forward Dash Speed
+
+22
+
+
+
+Backward Dash Speed
+
+25
+
+
+
+Forward Dash Distance
+
+1.00
+
+
+
+Backward Dash Distance
+
+0.75
+
+
+
+Drive Rush Min. Distance (Throw)
+
+0.393
+
+
+
+Drive Rush Min. Distance (Block)
+
+1.722
+
+
+
+Drive Rush Max Distance
+
+3.530
+
+
+
+Jumping
+
+
+
+Jump Speed
+
+4+38+3
+
+
+
+Jump Apex
+
+2.115
+
+
+
+Forward Jump Distance
+
+1.90
+
+
+
+Backward Jump Distance
+
+1.52
+
+
+
+Throws
+
+
+
+Throw Range
+
+0.85
+
+
+
+Throw Hurtbox
+
+0.38
+
+
+
+
+
+
+ExpandFrame Data Tables / Hitbox Explanation - SF6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normals
+
+
+Standing Normals
+
+
+5LP
+
+
+Standing Light Punch
+
+ 5LP
+ 5L
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5LP
+
+Standing Light Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+4
+
+2
+
+9
+
+Chn Sp SA
+
+300
+
+LH
+
++5
+
+-1
+
+
+Chains into 5LP/2LP/2LK
+Cancel Hitconfirm Window: 12f
+Drive Rush cancel advantage: +6 oH / 0 oB
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+           
+
+
+5MP
+
+
+Standing Medium Punch
+
+ 5MP
+ 5M
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5MP
+
+Standing Medium Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+4
+
+15(17)
+
+Sp SA TC
+
+600
+
+LH
+
++3
+
+0
+
+
+Cancel Hitconfirm Window: 16f / 19f (TC)
+Drive Rush cancel advantage: +12 oH / +9 oB
+A good counter poke & pressure option out of drive rush, it can punish moves that whiff just outside of Alexâs hurtbox like Cr MKs & lead to a knockdown punish if you pair this with Flash Axe. This also has a slight disjoint to make it more useful as a counter poke
+
+
+           
+
+
+5HP
+
+
+Standing Heavy Punch
+
+ 5HP (HOLD OK)
+ A[H] (HOLD OK)
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5HP
+
+Standing Heavy Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+12
+
+5
+
+19
+
+SA
+
+900
+
+LH
+
++4
+
+-3
+
+
+Cancel Hitconfirm Window: 19f (Super)
+Applies 10% damage scaling to next hit when beginning a combo (100/90/70...)
+5[HP]
+
+Standing Heavy Punch (Hold)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+23
+
+3
+
+22
+
+PS Sp SA
+
+1000
+
+LH
+
++5
+
++2
+
+
+Cancel Hitconfirm Window: 19f / 20f (Prowler Stance)
+Drive Rush cancel advantage: +20 oH / +17 oB
+Prowler Stance cancel advantage: +9 oH / +6 oB
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+Stops forward momentum when used out of Drive Rush (useful to bait DR checks)
+A poke with good damage & better usability when held, once charged, this attack is a true blockstring into Flash Chop & is your main way to land Flash Chop into Power Drop.
+
+Forms a true blockstring when canceled into Drive Impact, but it can be manually delayed to force a gap allowing it to wallsplat. This will not work if the opponent is in Burnout, however.
+
+
+           
+
+
+5LK
+
+About these adsâ  Report Ad
+
+
+Standing Light Kick
+
+ 5LK
+ A[L]
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5LK
+
+Standing Light Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+6
+
+2
+
+13
+
+Sp SA
+
+300
+
+LH
+
++1
+
+-5
+
+
+Cancel Hitconfirm Window: 12f
+DR cancel is delayed until after active frames
+Drive Rush cancel advantage: +5 oH / -1 oB
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+           
+
+
+5MK
+
+
+Standing Medium Kick
+
+ 5MK
+ --
+
+ 
+Anti-cr.mk tool
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5MK
+
+Standing Medium Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+3
+
+19
+
+-
+
+700
+
+LH
+
++3
+
+-4
+
+
+
+Alexâs premier poke for neutral control & overall harassment, While not special cancelable, it has great range & is very safe when used at its max range while being pretty fast for the range it has. Using this with the threat of his charged heavy attacks is the key to success.
+
+
+           
+
+
+5HK
+
+
+Standing Heavy Kick
+
+ 5HK (HOLD OK)
+ 5H (HOLD OK)
+
+ 
+Show some RESPECT to this boot right here
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5HK
+
+Standing Heavy Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+16
+
+3
+
+23
+
+-
+
+900
+
+LH
+
++1
+
+-4
+
+
+Puts airborne opponents into a limited juggle state (free juggle on Punish Counter)
+Punish Counter (ground): KD +62 Crumple (free juggle state)
+Alex is +23 before opponent falls to the ground (no grounded combo possible)
+Applies 15% damage scaling to next hit when beginning a combo (100/85/75...)
+5[HK]
+
+Standing Heavy Kick (Hold)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+25
+
+3
+
+20
+
+PS
+
+1000
+
+LH
+
+KD +40
+
++2
+
+
+Puts airborne opponents into a limited juggle state
+Punish Counter: KD +69 (free juggle state)
+Cancel Hitconfirm Window: 19f (Prowler Stance)
+Prowler Stance cancel advantage: KD +42 / +4 oB
+Applies 15% damage scaling to next hit when beginning a combo (100/85/75...)
+Stops forward momentum when used out of Drive Rush (useful to bait DR checks)
+This attack has many uses, from poking with a high damaging option to punish countering. It grants a stagger on punish counter & a launch on fully charged punish counter. Like the punch heavy attack, this can be charged by holding the button for better frame data & cancelability into stance
+
+
+           
+
+
+
+
+
+
+Crouching Normals
+
+
+2LP
+
+
+Crouching Light Punch
+
+ 2LP
+ 5/2L~2L
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2LP
+
+Crouching Light Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+8
+
+Chn Sp SA
+
+300
+
+LH
+
++5
+
+-2
+
+
+Chains into 5LP/2LP/2LK
+Cancel Hitconfirm Window: 13f
+DR cancel is delayed until after 2nd active frame
+Drive Rush cancel advantage: +5 oH / -2 oB
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+Topmost hurtbox on frames 1-7 is vulnerable only to aerial attacks, preventing its use as an anti-air
+           
+
+
+2MP
+
+
+Crouching Medium Punch
+
+ 2MP
+ A[M]
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2MP
+
+Crouching Medium Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+8
+
+2
+
+16(20)
+
+Sp SA
+
+600
+
+LH
+
++1
+
+-2
+
+
+Cancel Hitconfirm Window: 14f
+Special/DR/DI cancel is delayed until after active frames
+Drive Rush cancel advantage: +8 oH / +5 oB
+Topmost hurtbox on frames 1-9 is vulnerable only to aerial attacks, preventing its use as an anti-air
+           
+
+
+2HP
+
+About these adsâ  Report Ad
+
+
+Crouching Heavy Punch
+
+ 2HP
+ 2H
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2HP
+
+Crouching Heavy Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+6
+
+22
+
+PS Sp SA
+
+800
+
+LH
+
+-3
+
+-6
+
+
+Punish Counter: KD +48 Launch (limited juggle state)
+Cancel Hitconfirm Window: 16f
+Drive Rush cancel advantage: +15 oH / +12 oB
+Prowler Stance cancel advantage: +7 oH / +4 oB
+This attack doubles as a high-damage cancelable normal and a secondary anti-air. It cancels into Prowler Stance on both hit and block, enabling strong combos and unique pressure when available. While unsafe on block if not canceled, Alex has a variety of frametraps and true blockstrings to protect himself from reversals.
+
+As an anti-air, 2HP reaches surprisingly far, but is weaker against crossups than Aerial Knee Smash. On regular and Counter-hit, it causes an air flipout which is not plus enough to chase using Drive Rush. Instead, Alex can cancel the hit into Prowler Stance, after which an immediate MP Slashing Elbow will connect meaty on their landing. This usually leaves Alex +1 oB/+4 oH, but higher connects can result in more frame advantage. If 2HP lands as a Punish Counter, Alex gets a juggle into any of his specials, as well as some unique routes using a high connect Slashing Elbow.
+
+Against grounded opponents, 2HP has very limited range in exchange for more rewarding followups. Canceling into Prowler Stance allows Alex to combo/true blockstring into Palm Jab; potential followups include Heavy Lariat for a confirm, Tactical Hop/Air Stampede for a throw bait and reset, or LP Flash Axe for a safe ender on block. These routes can be attempted as a trade setup from DR~4MK, creating an option select which leaves Alex roughly +11 against 4f normals while continuing the sequence otherwise. DR~2HP also combos directly into HP Flash Chop, granting a confirm into his backturn followups if either move hits while dealing a lot of chip if the sequence is blocked.
+
+
+           
+
+
+2LK
+
+
+Crouching Light Kick
+
+ 2LK
+ 2L
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2LK
+
+Crouching Light Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+11
+
+Chn TC
+
+200
+
+L
+
++2
+
+-2
+
+
+Chains into 5LP/2LP/2LK
+Cancel Hitconfirm Window: 13f (TC)
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+           
+
+
+2MK
+
+
+Crouching Medium Kick
+
+ 2MK
+ 2M
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2MK
+
+Crouching Medium Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+8
+
+3
+
+18
+
+-
+
+600
+
+L
+
++4
+
+-2
+
+
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+           
+
+
+2HK
+
+
+Crouching Heavy Kick
+
+ 2HK
+ 3H
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2HK
+
+Roundhouse Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+10
+
+3
+
+26
+
+-
+
+1000
+
+L
+
+KD +29
+
+-11
+
+
+Punish Counter: HKD +44
+           
+
+
+
+
+
+
+Jumping Normals
+
+
+j.LP
+
+
+Jumping Light Punch
+
+ j.LP
+ j.L
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.LP
+
+Jumping Light Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+8
+
+3 land
+
+-
+
+300
+
+H
+
++7(+11)
+
++4(+8)
+
+
+A quick air-to-air with strong horizontal hitbox priority.
+
+
+           
+
+
+j.MP
+
+About these adsâ  Report Ad
+
+
+Jumping Medium Punch
+
+ j.MP
+ j.M
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.MP
+
+Jumping Medium Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+4
+
+3 land
+
+-
+
+700
+
+H
+
++9(+11)
+
++5(+7)
+
+
+Puts airborne opponents into a limited juggle state
+Lower Body Projectile Invuln 7-21f
+If input immediately during ascent, can avoid the 2nd hit of JP's OD Amnesia bombs
+An air-to-air with great hitbox priority above and in front of Alex. It's possible to pick up a juggle after the air knockdown, with LK Knee being the most consistent option, but there is not always enough time for this and it's extremely punishable to whiff. If you aren't certain about the juggle height, it's safer to prioritize oki instead of damage.
+
+No practical use on grounded opponents, as it can only connect very late in Alex's jump arc.
+
+
+           
+
+
+j.HP
+
+
+Jumping Heavy Punch
+
+ j.HP
+ j.A[H]
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.HP
+
+Jumping Heavy Punch
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+6
+
+3 land
+
+-
+
+800
+
+H
+
++8(+15)
+
++4(+11)
+
+
+Spike Knockdown vs. airborne opponents
+Lower Body Projectile Invuln 9-24f (except around the attack hitbox)
+Cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs
+Alex's best air button for downward vertical approaches, with a bit of a disjoint at his fist (though not enough for his legs to dodge most anti-air attacks). Unless the opponent has a tall standing hurtbox, Alex always has enough hit advantage to link 2HP even at max height; this timing allows for a useful stun route in which 2HP > Stance~HP is spaced meaty for a stronger 5MP link.
+
+
+           
+
+
+j.LK
+
+
+Jumping Light Kick
+
+ j.LK
+ j.A[L]
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.LK
+
+Jumping Light Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+6
+
+9
+
+3 land
+
+-
+
+300
+
+H
+
++5(+11)
+
++2(+8)
+
+
+Can hit cross-up
+Can be used as a fuzzy instant overhead on tall characters
+Alex's only cross-up normal. Against Dee Jay, JP, Marisa, Sagat, and Zangief, it can be used as an overhead on the way up after a deep blocked jump-in. This is risky and only useful to win a round against a low-health opponent.
+
+
+           
+
+
+j.MK
+
+
+Jumping Medium Kick
+
+ j.MK
+ j.A[M]
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.MK
+
+Jumping Medium Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+8
+
+7
+
+3 land
+
+-
+
+700
+
+H
+
++11(+14)
+
++8(+11)
+
+
+Lower Body Projectile Invuln 8-25f
+If input immediately during ascent, can avoid the 2nd hit of JP's OD Amnesia bombs
+Has the most horizontal range of Alex's air normals, but only on the final 3 active frames making it more precise than other jump-ins. If the opponent is crouching, it requires frame perfect timing for this move to connect (except on taller characters where the window becomes 4 frames).
+
+
+           
+
+
+j.HK
+
+
+Jumping Heavy Kick
+
+ j.HK
+ j.H
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.HK
+
+Jumping Heavy Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+10
+
+7
+
+3 land
+
+-
+
+800
+
+H
+
++11(+15)
+
++7(+11)
+
+
+Lower Body Projectile Invuln 10-21f (except around the attack hitbox)
+Cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs
+A decent all-around air approach that works best when outside the range of j.HP. Much easier to time the input compared to j.MK, especially if the opponent is crouching.
+
+
+           
+
+
+
+
+
+
+Command Normals
+
+
+6MP
+
+
+Chop
+Overhead
+ 6MP
+ 6M
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+6MP
+
+Chop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+22
+
+2
+
+19
+
+-
+
+800
+
+H
+
++3
+
+-3
+
+
+An average overhead with solid range. Always leaves Alex in range to combo into 5MP when used out of Drive Rush, but a meterless combo requires frame perfect meaty timing into 5LP.
+
+If DR~6MP is blocked, Alex doesn't get any true low/throw pressure, as 2LK won't combo into anything on hit and throws can be walked out of. OD Power Bomb is an option, though it's an expensive gamble as the opponent can simply mash their 4-frame jab. The best option to deal with a reversal jab is to frame trap with 5LP, then react to the Counter-hit notification with a link to 5MP and your ender of choice.
+
+
+           
+
+
+4MK
+
+About these adsâ  Report Ad
+
+
+Oblique Stomp
+
+ 4MK
+ 4M
+
+ 
+
+
+File:SF6 Alex 4mk backturn.png 
+Tiger Driver '91
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+4MK
+
+Oblique Stomp
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+3
+
+15
+
+-
+
+600
+
+LH
+
++5
+
++1
+
+
+Transitions into Collapsing Driver on backturned opponent
+4MK (Backturn)
+
+Collapsing Driver
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+3
+
+15
+
+-
+
+600,1400
+
+LH
+
+HKD +33
+
+-
+
+
+Cinematic knockdown on backturned opponent
+Can be canceled into after 236HP on hit
+Cinematic hits count as 2 separate moves for damage scaling
+A poke and a decent pressure tool at close range. It hits mid despite the animation looking like a low kick. 4MK can frame trap into 5LP to set up a Counter-hit link into 5MP, or threaten a throw (though the opponent can walk back or mash a 4-frame jab to counter this). When used out of Drive Rush, the throw pressure becomes real (with a microwalk) and it can frame trap into itself for more Drive damage and conversions on hit. It even works well as a punish tool, linking into 2MP from surprisingly far away.
+
+If it hits a backturned opponent, it becomes Collapsing Driver and acts more like a command throw on hit. This is most commonly seen after HP Flash Chop, where it can be canceled into like Power Drop (but without a side switch). Alex gets strong midscreen oki with Drive Rush, or he can pressure with Stance mixups like a meaty Slashing Elbow (with a slight microwalk) or a Dangerous Armbar if you predict a parry.
+
+
+           
+
+
+j.2HP
+
+
+Flying Cross Chop
+Diving Punch
+ j.2HP
+ j.2H
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+j.2HP
+
+Flying Cross Chop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+21
+
+until land
+
+20(35) land
+
+-
+
+800
+
+LH
+
+0(+13)
+
+-14(-1)
+
+
+Forward jump only; leg hurtbox is projectile invuln from frame 19~
+Forced Knockdown state until landing; 15f extra landing recovery on whiff
+Alex is in a crouching state during recovery (standing-sized hurtbox on first 3 recovery frames)
+Puts airborne opponents into a limited juggle state
+A diving attack that halts Alex's air momentum, allowing him to bait some anti-airs (especially common normals like 2HP). Can be made to reach from fullscreen unless the opponent walks back. It can be very unsafe if it connects high on the opponent's body, but it can be safe if it hits low enough. If it lands as a Punish Counter, Alex will always get a combo afterward, making it somewhat useful if you react to a fireball mid-air at longer ranges. If you hit the opponent airborne, you can get solid oki from the knockdown.
+
+Be careful not to whiff from too far away, as it gives the opponent ample time to set up a strong punish with the extremely slow whiff animation. If the opponent's optimal starter utilizes a move that whiffs on crouching, it's possible to get away with it on unaware opponents.
+
+
+           
+
+
+
+
+
+
+Target Combos
+
+
+5MP~HP
+
+
+Palm Strikes
+
+ 5MP~HP
+ 5M~M
+
+File:SF6 Alex 5mp hp.png 
+
+File:SF6 Alex 5mp hp hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5MP~HP
+
+Palm Strikes
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+15
+
+3
+
+21
+
+PS*
+
+1200 (840)
+
+LH
+
+KD +21
+
+-3
+
+
+Cancel Hitconfirm Window: ? (Prowler Stance)
+           
+
+
+2LK~2HK
+
+
+Twisted Drop
+
+ 2LK~2HK
+ 2L~2H
+
+File:SF6 Alex 2lk 2hk.png 
+
+File:SF6 Alex 2lk 2hk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2LK~2HK
+
+Twisted Drop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+15
+
+3
+
+30
+
+PS*
+
+1000 (800)
+
+L
+
+HKD +20
+
+-15
+
+
+Does not combo naturally (requires CH/PC/DR)
+Cancel Hitconfirm Window: 33f (Prowler Stance, hit only)
+Prowler Stance cancel advantage: KD +17
+6f blockstring gap between hits
+() refers to scaled damage from 2LK combo starter
+A sweep combo extension from 2LK that does not combo without some form of enhanced frame advantage. 
+
+With 2LK being Alex's longest 5-frame attack, this TC becomes Alex's most consistent 5-frame punish option against attacks with high pushback; the range is similar to a shoto 5LK, giving him options when his other lights or command throw will not reach. It also makes 2LK a useful Drive Rush check where every frame counts.
+
+The TC is very unsafe on block, and should not be performed unless it's guaranteed to connect. It cannot even frame trap a mashing opponent without a DR~2LK starter unless the opponent is in Burnout due to the large gap between hits. 
+
+On hit, Alex gets great oki due to the Hard Knockdown situation. He can also cancel into Prowler Stance to mix up his attack options even further, though this makes him more susceptible to reversals if the opponent expects it.
+
+
+           
+
+
+
+
+
+
+Prowler Stance
+
+About these adsâ  Report Ad
+
+
+Prowler Stance (2PP)
+
+
+Prowler Stance
+
+ 2PP
+ 2MH
+
+ 
+
+
+File:SF6 Alex 2pp 8.png 
+Exit Stance
+
+ 
+
+
+File:SF6 Alex 2pp 8 hitbox.png 
+Exit Stance
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP
+
+Prowler Stance
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+18~
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Low Profile ?-?f; can avoid many attacks that normally hit crouching characters
+Cannot block during stance
+2PP~8
+
+Exit Prowler Stance
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+-
+
+-
+
+25
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+
+           
+
+
+Low Rush / Low Retreat (2PP~6 or 2PP~4)
+
+
+Low Rush / Low Retreat
+Stance Dash
+ 2PP~6 or 2PP~4
+ 2MH~6 or 2MH~4
+
+File:SF6 Alex 2pp 6.png 
+
+
+File:SF6 Alex 2pp 4.png 
+
+File:SF6 Alex 2pp 6 hitbox.png 
+
+
+File:SF6 Alex 2pp 4 hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~6
+
+Low Rush
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+-
+
+-
+
+28
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Remains in Prowler Stance after use
+2PP~4
+
+Low Retreat
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+-
+
+-
+
+31
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Remains in Prowler Stance after use
+           
+
+
+Slashing Elbow (2PP~6P)
+
+
+Slashing Elbow
+Slash Elbow
+ 2PP~6P
+ 2MH~6X
+
+File:SF6 Alex 2pp 6p.png 
+
+File:SF6 Alex 2pp 6p hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~6P
+
+Slashing Elbow
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+12/15/18
+
+4
+
+18
+
+-
+
+1000
+
+LH
+
++3
+
+-1
+
+
+Counter-hit/Punish Counter:
+Slashing Elbow is a powerful but committal approach option which threatens a large range in front of Alex. It is -1 on block at worst, and can be up to +2 oB/+5 oH with perfect spacing. On Counter-hit/Punish Counter, Slashing Elbow launches the opponent, granting a juggle into Aerial Knee Smash, OD Flash Chop, or LP Flash Axe.
+
+After knockdowns from moves that transition into Prowler Stance, Alex can use Slashing Elbow as a long-range meaty, continuing his pressure for no additional Drive cost. This must be manually timed except in certain setups; for example, after OD Flash Chop, an autotimed Prowler Stance -> Low Rush -> MP Slashing Elbow will hit on the last active frame.
+
+The starting frames of Low Rush can be canceled into Slashing Elbow, acting as a sort of kara cancel. This can be used to more precisely space the move, and/or to cover more distance. Slashing Elbow also takes priority over exiting Prowler Stance if up forward and punch are pressed on the same frame.
+
+
+           
+
+
+Palm Jab (2PP~LP)
+
+
+Palm Jab
+Stance Jab
+ 2PP~LP
+ 2MH~L
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~LP
+
+Palm Jab
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+4
+
+3
+
+9
+
+Chn Sp SA
+
+300
+
+LH
+
++7*
+
++1*
+
+
+Chains into itself (remains in Prowler Stance) or into Stance MP/HP/LK/MK/HK
+Cannot chain into Stance Dash, Backdash, Exit Stance, or Slashing Elbow
+Cancel Hitconfirm Window: 13f
+Drive Rush cancel advantage: +9 oH / +3 oB
+Applies 20% damage scaling to next hit when beginning a combo (100/80/70...)
+
+
+This attack is cancelable into almost every non normal button attack in Alexâs arsenal (other than dashes, Slash Elbow, & Power Bomb) & combos into a lot of his options (other than Air Stampede, Flash Chop, & held Lariat) so this makes this attack very important. Landing this after a blocked Cr HP is a true safe blockstring which opens up a lot of mixup options if youâre able to make them block a Cr HP & does half a bar of Drive. This attack works very well with uncharged Lariat on hit since that can combo into his Stand LK link combo for big damage & if you charge it, itâll destroy a full bar of Drive (note this will whiff if Cr HP is used before Palm Jab). Land this attack & cancel into Dangerous Armbar for a tick throw thatâll take 20% if they stand there.
+
+
+           
+
+
+Shoulder Launcher (2PP~MP)
+
+
+Shoulder Launcher
+Stance Shoulder
+ 2PP~MP
+ 2MH~M
+
+ 
+
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~MP
+
+Shoulder Launcher
+(Falling Moon)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+2,5
+
+17
+
+-
+
+400x2 (2680)
+
+LH
+
+KD +51
+
+-6
+
+
+Upper Body Anti-Air Invuln: 1-6f; Fully Body Anti-Air Invuln: 7-13f
+Puts airborne opponents into a limited juggle state
+Counterhits cause a cinematic knockdown; regular hit causes normal juggle
+Can be canceled into from stance jab
+Shoulder Launcher is a rewarding anti-air from Prowler Stance, enforcing his other followups which tend to be weak against jump. It reliably beats any jump-in that lands on top of Alex, as well as airborne special moves such as E. Honda's Sumo Headbutt. However, it has somewhat limited horizontal range and is moderately punishable if ground blocked.
+
+On regular hit, Alex can juggle into any of his specials except for HP Flash Chop. If it lands as Counter-hit/Punish Counter, it will instead transition into Falling Moon, a hitgrab followup that grants a Hard Knockdown. Falling Moon grants meterless oki and deals more damage than any version of Aerial Knee Smash, but prevents Alex from routing into Super via Flash Axe or OD Flash Chop.
+
+Shoulder Launcher can be used in Alex's corner juggle routes, particularly after an SA2 wallsplat. A high connect MP Flash Axe canceled into Prowler Stance will link into Shoulder Launcher, granting identical juggles to landing it in neutral.
+
+
+           
+
+
+Heavy Lariat (2PP~HP)
+
+About these adsâ  Report Ad
+
+
+Heavy Lariat
+Lariato
+ 2PP~HP
+ 2MH~H
+
+Laaaaaarrrriiiaat
+ 
+
+Laaaaaarrrriiiaat
+ 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~HP
+
+Heavy Lariat
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+12
+
+3
+
+19
+
+-
+
+1000
+
+LH
+
++6
+
++3
+
+
+Armor (2-hit); when held for 6-12f
+Button can be held up to 12f for partial charge; 13f gives full charge
+Causes Backturn on Counter-hit/Punish Counter
+Has juggle potential; puts airborne opponents into limited juggle state
+Exits Stance upon use
+Alex can partially charge Heavy Lariat, granting the same 2-hit armor as full charge if held for 6-12f. Unlike full charge, this partial charge armor has a 7f gap between the armor ending and the first active frame rather than a 4f gap.
+
+
+2PP~[HP]
+
+Heavy Lariat (Hold)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+21
+
+3
+
+19
+
+-
+
+1200
+
+LH
+
++6
+
++5
+
+
+Armor (2-hit): 6-16f
+Button must be held 13f
+Causes Backturn on Counter-hit/Punish Counter
+Has juggle potential; puts airborne opponents into limited juggle state
+Exits Stance upon use
+An advancing arm swing that leaves Alex close to the opponent with excellent frame advantage to continue his pressure. On a normal hit he can only combo into lights, but if you react to a Counter-hit/Punish Counter indicator you gain access to his Backturn follow-up attacks for great damage. On block, Lariat deals great Drive damage and puts the opponent into an automatic strike/throw mixup with Power Bomb. 
+
+If Lariat connects high enough on an airborne opponent, it can juggle into Aerial Knee Smash.
+
+Heavy Lariat boasts 11f of 2-hit armor, but has a noteable 4f gap between the armor ending and the move's first active frame. It is unlikely for Alex's 2-hit armor to be broken, as multi-hitting specials, such as Chun-Li's Lighting Legs and Honda's Hundred Hand Slap, will hit the after the armor ends. However, it can be used to armor through attacks such as Bison's Scissor Kicks and Honda's OD Sumo Headbutt. This armor also grants Alex a way to counterplay Drive Impacts in neutral & fireballs while in stance.
+
+
+           
+
+
+Tactical Hop (2PP~LK)
+
+
+Tactical Hop
+Stance Jump
+ 2PP~LK
+ 2MH~2L
+
+File:SF6 Alex 2pp lk.png 
+
+File:SF6 Alex 2pp lk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~LK
+
+Tactical Hop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+22~
+
+-
+
+14+3 land
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Cancelable into aerial normals and command normals on frames 21 onward until landing
+Airborne frames 7-36
+This is similar to Dee Jayâs knee drop, itâs a good mixup tool to use in mid-close range as it is faster to get to the ground than a regular jump & mostly unreactable to opponents that donât anticipate it. Doing this close after a Palm Jab can initiate ambiguous left right mixups with jump LK that can destroy a block if they guess wrong & you can empty jump if youâre anticipating a parry which you can then use Power Bomb (or OD Power Bomb for max damage) for great damage & oki due to the hard knockdown
+
+
+           
+
+
+Air Stampede (2PP~MK)
+
+
+Air Stampede
+Stomp
+ 2PP~MK
+ 2MH~2M
+
+File:SF6 Alex 2pp mk.png 
+
+File:SF6 Alex 2pp mk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~MK
+
+Air Stampede
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+30
+
+2
+
+17
+
+-
+
+1100
+
+H
+
+KD +28
+
++2
+
+
+Punish Counter puts grounded opponent into a limited juggle OTG bounce state
+Spike knockdown vs. airborne opponents
+Can be steered left/right
+A dominant approach option which is among the most difficult command jumps in the game to anti-air. After inputting MK, Alex quickly arcs toward the opponent in a steerable trajectory. Holding 4 will cause him to land nearly where he started, while holding 6 will propel him to about half screen. It serves as a rewarding callout against fireballs in neutral, but must be used predictively since he cannot block while entering Prowler Stance.
+
+It is risky to attempt to anti-air this move because the last active frame of the attack is considered grounded, meaning meterless anti-air specials can lose to Air Stampede if done too late, thus forcing the opponent to rely either on OD reversals or high hitting normals as direct counterplay. This in practice also requires a very fast reaction, potentially allowing Alex to feint with Tactical Hop and score a punish if Alex's movement is misjudged. While jumps can avoid the hitbox of Air Stampede fairly easily, it requires a very preemptive read to punish before Alex recovers in time to catch the landing with an Aerial Knee Smash.
+
+On regular and Counter-hit, Stomp knocks the opponent down for decent oki. A Punish Counter instead causes a juggle, granting solid reward as a fireball punish or throw bait. On block, Alex is left at +2, allowing him to pressure with lights; however, he will always be too far for HP Power Bomb due to pushback. Alex can use OD Power Bomb for a true tick throw on closer connects, or gamble on LP Power Bomb, which works at all ranges but leaves a mashable gap.
+
+
+           
+
+
+Sweep Combination (2PP~HK~HK)
+
+About these adsâ  Report Ad
+
+
+Sweep Combination
+Stance Low TC
+ 2PP~HK~HK
+ 2MH~2H~2H
+
+File:SF6 Alex 2pp hk.png 
+
+File:SF6 Alex 2pp hk hk.png 
+
+File:SF6 Alex 2pp hk hitbox.png 
+
+File:SF6 Alex 2pp hk hk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~HK
+
+Sweep Combination 1
+(Flying Suplex)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+11
+
+3
+
+30
+
+TC
+
+600 (2420)
+
+L
+
+KD +29
+
+-17
+
+
+Punish Counter: turns into Flying Suplex for a cinematic knockdown
+2PP~HK~HK
+
+Sweep Combination 2
+(Flying Suplex)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+11
+
+3
+
+33
+
+-
+
+600 (2420)
+
+L
+
+KD +25
+
+-20
+
+
+           
+
+
+Hyper Takedown (2PP~LPLK)
+
+
+Hyper Takedown
+Stance Throw
+ 2PP~LPLK
+ 2MH~LM
+
+File:SF6 Alex 2pp lplk.png 
+
+File:SF6 Alex 2pp lplk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~LPLK
+
+Hyper Takedown
+(Death Valley Bomb)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+18+5
+
+3
+
+23
+
+-
+
+1200 (2040)
+
+T
+
+KD +32
+
+-
+
+
+Punish Counter: turns into Death Valley Bomber
+This throw is Alexâs only way to get a meterless throw loop, it is possible with tight timing to get a consistent throw loop with this throw by throwing & going into stance after walking close & throwing again, itâs a tight window but itâs possible. This throw leave Alex directly next to his opponent for easy pressure, if you want to throw for pressure, this is the throw you want to connect with. It is unique in that it operates like a regular throw, meaning it can be teched.
+
+Additionally, if you remain In Prowler Stance to dash up into Hyper Takedown after Sweep Combination, you can catch backjumps, neutral jumps, and even forward jumps with a well-timed buffer into MK Knee Smash (the game auto-crosscuts the input if timed right). While tricky to do, it is very good for disincentivizing your opponent to take to the skies when you close in on them with Prowler Stance. For Neutral Jumps, LK Knee Smash or 2HP are more reliable, but this requires you to be on the lookout for the Neutral Jump and only the enemyâs Neutral Jump to evade the Hyper Takedown.
+
+
+           
+
+
+Dangerous Armbar (2PP~2LPLK)
+
+
+Dangerous Armbar
+Stance Leap Throw / DDT
+ 2PP~2LPLK
+ 2MH~2LM
+
+File:SF6 Alex 2pp 2lplk.png 
+
+File:SF6 Alex 2pp 2lplk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2PP~2LPLK
+
+Dangerous Armbar
+(Spiral DDT)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+18+21
+
+3
+
+3+29 land
+
+-
+
+2000 (2300)
+
+T
+
+HKD +21
+
+-
+
+
+Punish Counter: turns into Spiral DDT
+Whiffs on crouching opponents
+This is Alexâs 2nd Command Grab, using this while in the neutral is a great way of getting in due to the decent speed & good damage & if youâve conditioned the opponent with other stance threats. There is a way to tick throw with this after canceling this from Palm Jab, itâll land every time no matter how early the cancel is on hit & on block which makes for good mind games due to Stanceâs great anti air options. The Spiral DDT version gives better damage (300 more) & great pressure after. Good for opponents fishing for parries.
+
+
+           
+
+
+
+
+
+
+Throws
+
+
+Forward Throw (LPLK)
+
+
+Forward Throw
+
+ LPLK
+ LM
+
+File:SF6 Alex lplk.png 
+
+File:SF6 Alex lplk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+LPLK
+
+Arm Lock
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+23
+
+-
+
+1200 (2040)
+
+T
+
+KD +28
+
+-
+
+
+Punish Counter: HKD +?
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+Successful Throw Escape builds 1 Drive Gauge and 10% Super Gauge for defender
+Awarded to random player if Throws are input simultaneously
+Alex like Zangief has multiple throws, this throw gives a better knockdown but leaves him further away from the opponent, it is possible to do a drive rush into another throw for a metered throw loop
+
+
+           
+
+
+Back Throw (4LPLK)
+
+
+Back Throw
+
+ 4LPLK
+ 4LM
+
+File:SF6 Alex 4lplk.png 
+
+File:SF6 Alex lplk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+4LPLK
+
+Guillotine Hammer
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+23
+
+-
+
+1200 (2040)
+
+T
+
+KD +16
+
+-
+
+
+Side switches
+Punish Counter: HKD +?
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+Successful Throw Escape builds 1 Drive Gauge and 10% Super Gauge for defender
+Awarded to random player if Throws are input simultaneously
+           
+
+
+Crouch Throw (2LPLK)
+
+
+Crouch Throw
+The Cousin Cracker
+ 2LPLK
+ 2LM
+
+File:SF6 Alex 2lplk.png 
+
+File:SF6 Alex 2lplk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+2LPLK
+
+Illegal Knees
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+23
+
+-
+
+1300 (2210)
+
+T
+
+KD +22
+
+-
+
+
+Punish Counter: HKD +?
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+Successful Throw Escape builds 1 Drive Gauge and 10% Super Gauge for defender
+Awarded to random player if Throws are input simultaneously
+This throw leaves Alex closer with a worse knockdown, no throw loop is possible but youâre allowed to pressure with buttons further & cheaper than you would with a regular forward throw
+
+
+           
+
+
+
+
+
+
+Drive System
+
+About these adsâ  Report Ad
+
+
+Drive Impact (HPHK)
+
+
+Drive Impact
+
+ HPHK
+ DI
+
+File:SF6 Alex hphk.png 
+
+File:SF6 Alex hphk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+HPHK
+
+Lariat Kick
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+26
+
+2
+
+35
+
+-
+
+800
+
+LH
+
+KD +35 / Wall Splat KD +65
+
+-3 / Wall Splat HKD +72
+
+
+Armor (2-hit): 1-27f; Range: ? (? movement + ? hitbox)
+On Hit/PC: Applies 20% damage scaling to next hit when beginning a combo
+On Block: Applies 20% scaling multiplier to all follow-up hits after Wall Splat; the next attack can incur additional Starter Scaling
+Combos when canceled from ??? or Punish Counter ??? (no corner wallsplat; useful for depleting Drive gauge, especially after Perfect Parry)
+A blocked DI can combo into another DI if opponent is not fully cornered (Stuns if opponent has less than 1.5 Drive bars)
+This happens because a blocked DI is not considered a "hit" for combo purposes
+Causes both the 20% Starter and 20% Multiplier scaling to apply to the follow-up combo
+See Drive Impact on the Gauges page for more details.
+
+When canceled from a normal, these are the important blockstring gaps; a gap of N will trade with an N-frame startup attack; [] = Burnout
+
+
+-
+Note: A gap â¥ 6f can be thrown, and a gap â¥ 9f can be jumped out of by most characters
+Against the following characters in Burnout:
+
+
+JP (22K), frame 3 counter
+Marisa (214K), frame 3 armor
+Zangief (5[HP]), frame 4 armor
+It's important to use a blockstring that cannot be absorbed by their armor/counter moves. Ideally, the string should also not be a true combo, or it will cause a Lock and prevent Stun.
+* Denotes a move that causes Lock on Counter-hit, allowing the opponent to escape a Stun by mashing on wakeup.
+
+
+
+           
+
+
+Drive Reversal (6HPHK)
+
+
+Drive Reversal
+
+ 6HPHK
+ 6DI
+
+File:SF6 Alex 6hphk.png 
+
+File:SF6 Alex 6hphk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+6HPHK
+
+Headbutt (Block)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+20
+
+3
+
+26(31)
+
+-
+
+500 recoverable
+
+LH
+
+KD +23
+
+-6
+
+
+Full Invuln: 1-22f; Armor Break
+5f extra recovery on hit; 4f screen freeze during startup
+4f less hitstop (16f) on block than most characters; affects opponent's punish timing
+6HPHK
+
+Headbutt (Recovery)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+18
+
+3
+
+26(31)
+
+-
+
+500 recoverable
+
+LH
+
+KD +23
+
+-6
+
+
+Full Invuln: 1-20f; Armor Break
+5f extra recovery on hit; no screen freeze
+4f less hitstop (16f) on block than most characters; affects opponent's punish timing
+See Drive Reversal on the Gauges page for more details.
+
+
+           
+
+
+Drive Parry (MPMK)
+
+
+Drive Parry
+
+ MPMK
+ DP
+
+File:SF6 Alex mpmk.png 
+
+File:SF6 Alex mpmk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+MPMK
+
+Drive Parry
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+1
+
+12 or until released
+
+33(1)(11)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+See Drive Parry on the Gauges page for more details.
+
+
+Perfect Parry:
+Applies a 50% damage scaling multiplier to any punish afterwards
+vs. strikes, has only 1f recovery and prevents the opponent from canceling their attack
+vs. projectiles, puts you into a fixed 11f recovery
+           
+
+
+Drive Rush (MPMK~66)
+
+
+Drive Rush
+
+ MPMK~66
+ DP~66
+
+File:SF6 Alex 66.png 
+
+File:SF6 Alex 66 hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+MPMK~66
+
+Parry Drive Rush
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+3+8
+
+-
+
+15(37)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+1-bar version performed out of Parry
+Startup is 1+8 immediately after successful Parry
+MPMK or 66
+
+Drive Rush Cancel
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+-
+
+15(37)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+3-bar version performed on hit/block from a cancelable normal
+Can also be performed from whiffed cancelable light normals
+See Drive Rush on the Gauges page for more details. See Strategy page for Blockstring Gaps and Combo Routes
+
+
+Startup refers to minimum time before an attack can cancel the Drive Rush animation
+The first 15 recovery frames are cancelabe into any attack
+The final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry)
+Only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties
+Applies 15% damage scaling multiplier to any follow-up hits when used mid-combo
+Only applies scaling once per combo; does not apply when a Drive Rush enhanced attack starts the combo
+Distance:
+
+
+0.393 (min, cancel into immediate Throw)
+1.722 (min, earliest blocking/movement frame)
+3.530 (max, final DR frame)
+           
+
+
+
+
+
+
+Special Moves
+
+About these adsâ  Report Ad
+
+
+Flash Axe (236LP or 236MP)
+
+
+Flash Axe
+
+ 236LP or 236MP
+ 236L or 236M or 5S (M)
+
+File:SF6 Alex 236lp.png 
+
+File:SF6 Alex 236lp hitbox.png 
+
+
+File:SF6 Alex 236mp hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+236LP
+
+Flash Axe
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+13
+
+3
+
+21
+
+SA3
+
+800
+
+LH
+
++3
+
+-4
+
+
+Cancel Hitconfirm Window: ?f (Super)
+236MP
+
+Flash Axe
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+17
+
+4
+
+23
+
+PS SA3
+
+1000
+
+LH
+
+KD +39
+
+-6
+
+
+Cancel Hitconfirm Window: ?f (Super) / ?f (Prowler Stance)
+A forward-moving combo and neutral tool. Alex swings his arm downward, though the attack does not hit overhead like the animation suggests. There are only two meterless versions of this attack, and no OD version.
+
+LP Flash Axe is a consistent combo ender from light normals. The opponent is left grounded on hit with fairly high pushback. This makes his follow-up pressure a little weak, while at the same time making it harder for the opponent to take back their turn on block. This & Cr MP is a true blockstring that leaves Alex safe & deals good Drive Gauge damage
+
+MP Flash Axe combos from medium normals and travels farther forward. This version knocks down and is punishable on block unless spaced properly. On hit it cancels into Prowler Stance, allowing Alex to chase the opponent's knockdown with his various stance follow-ups, like a dash into Heavy Lariat.
+
+
+           
+
+
+Flash Chop (236HP)
+
+
+Flash Chop
+
+ 236HP
+ 236H
+
+File:SF6 Alex 236hp.png 
+
+File:SF6 Alex 236hp hitbox.png 
+
+
+File:SF6 Alex 236pp hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+236HP
+
+Flash Chop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+26
+
+4
+
+19
+
+SA3
+
+1100
+
+LH
+
++5 (Backturn)
+
++2
+
+
+Causes Backturn on hit (follow up with 4MK or 63214P)
+Cancel Hitconfirm Window: ?f (Super)
+236PP
+
+Flash Chop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+15
+
+2,2
+
+25
+
+PS SA2 SA3
+
+800,500 (1300)
+
+LH
+
+KD +41
+
+-4
+
+
+Puts opponents into limited juggle state
+Cancel Hitconfirm Window: ?f (Super) / ?f (Prowler Stance)
+A slow but powerful chop that leaves Alex plus on block and gives unique Backturn follow-ups on hit. Combos directly from a charged 5[HP] and DR~2HP. The pushback on block keeps Alex well out of normal throw range, but a close connect can lead into an OD Power Bomb tick throw. On hit, you can combo into Power Drop (63214P/PP) for damage or Oblique Stomp (4MK) for better oki. The recovery on hit can be canceled early into either of these followups, allowing Alex to Option Select these confirms.
+
+OD Flash Chop is much faster, even comboing from light normals, but does not allow for Backturn followups. Much like MP Flash Axe, it knocks down and cancels into Prowler Stance on hit for better oki. Both hits are cancelable into SA2, letting Alex choose which version he wants; canceling the first hit leads to the grounded cinematic, while canceling the second hit near the corner starts a wallsplat juggle.
+
+
+           
+
+
+Aerial Knee Smash (623K)
+
+
+Aerial Knee Smash
+Knee
+ 623K
+ 623X or 6S (L) or 2S (H)
+
+File:SF6 Alex 623lk.png 
+S/o to Kinnikuman Soldier
+
+File:SF6 Alex 623lk hitbox.png 
+
+
+File:SF6 Alex 623mk hitbox.png 
+
+
+File:SF6 Alex 623hk hitbox.png 
+
+
+File:SF6 Alex 623kk hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+623LK
+
+Aerial Knee Smash
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+6
+
+8
+
+19+24 land
+
+-
+
+1200
+
+-
+
+KD +29
+
+-
+
+
+Anti-Air Invuln: 1-10f; Airborne 5-32f (Forced Knockdown state); cannot hit cross-up
+623MK
+
+Aerial Knee Smash
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+8
+
+9
+
+18+24 land
+
+-
+
+1400
+
+-
+
+KD +29
+
+-
+
+
+Anti-Air Invuln: 1-16f; Airborne 6-34f (Forced Knockdown state); cannot hit cross-up
+623HK
+
+Aerial Knee Smash
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+14
+
+8
+
+21+28 land
+
+-
+
+1500
+
+LH
+
+KD +29
+
+-42
+
+
+Anti-Air Invuln: 1-21f; Airborne 16-42f (Forced Knockdown state); cannot hit cross-up
+Active frames 1-2 can hit grounded or airborne; active frames 3-8 only hit airborne
+623KK
+
+Aerial Knee Smash
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+10
+
+8
+
+21+32 land
+
+-
+
+1700
+
+LH
+
+HKD +27
+
+-46
+
+
+Anti-Air Invuln: 1-17f; Airborne 12-38f (Forced Knockdown state); cannot hit cross-up
+Active frames 1-2 can hit grounded or airborne; active frames 3-8 only hit airborne
+A hitgrab that works as an anti-air or combo ender depending on the button strength.
+
+Both the LK/MK versions only hit airborne opponents, with the main difference being the trajectory.
+
+HK Knee is Alexâs main combo ender, itâs too slow for consistent anti-airs, but gains the ability to strike grounded opponents on the early active frames. This makes it a solid ender from a light hitconfirm for a damaging knockdown. This gives good Oki anywhere on the screen & is a very damaging ender for how consistent it is
+
+OD Knee combines the properties of the meterless versions, working as an anti-air while also comboing on grounded opponents, with startup speed in between MK and OD. It grants a Hard Knockdown on hit, allowing Alex to dash up for point blank oki for a threatening guess for the game situation
+
+
+           
+
+
+Power Bomb (63214P)
+
+About these adsâ  Report Ad
+
+
+Power Bomb
+
+ 63214P
+ 63214X or 4S (M)
+
+File:SF6 Alex 63214lp.png 
+
+File:SF6 Alex 63214lp hitbox.png 
+
+
+File:SF6 Alex 63214mp hitbox.png 
+
+
+File:SF6 Alex 63214hp hitbox.png 
+
+
+File:SF6 Alex 63214pp hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+63214LP
+
+Power Bomb
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+3
+
+50
+
+-
+
+2500 (2875)
+
+T
+
+HKD +15
+
+-
+
+
+Range: 1.24 (longest range, slowest startup)
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+63214MP
+
+Power Bomb
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+7
+
+3
+
+52
+
+-
+
+2500 (2875)
+
+T
+
+HKD +15
+
+-
+
+
+Range: 1.04 (medium range / startup)
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+63214HP
+
+Power Bomb
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+54
+
+-
+
+2500 (2875)
+
+T
+
+HKD +15
+
+-
+
+
+Range: 0.85 (shortest range, fastest startup)
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+63214PP
+
+Power Bomb
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+54
+
+-
+
+2900 (3335)
+
+T
+
+HKD +15
+
+-
+
+
+Range: 1.14 (good mix of range / fast startup)
+Applies 20% immediate damage scaling when comboed into (e.g. after Crumple)
+Alex's main command grab, similar to Manon due to the inverse relationship between range and startup. The LP version is best for opening up the opponent in neutral while the HP version is best suited for mixups when Alex is guaranteed to be in range; it's also a strong Drive Reversal punish. 
+
+If the opponent is in a Backturned state, this grab transitions into Power Drop for extra damage and a side switch. Aside from the range and frame data of the initial grab, all strengths of Power Drop are identical.
+
+
+           
+
+
+Power Drop (63214P Backturn)
+
+
+Power Drop
+Backdrop (actually a Sleeper Suplex)
+ 63214P (Backturn)
+ 63214X or 4S (Backturn)
+
+File:SF6 Alex 63214p backturn.png 
+
+File:SF6 Alex 63214p backturn hitbox.png 
+
+
+File:SF6 Alex 63214pp backturn hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+63214P Backturn
+
+Power Drop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+54
+
+-
+
+2800 (3220)
+(2240 scaled)
+
+T
+
+HKD +13
+
+-
+
+
+Range: 1.42 (canceled from 236HP)
+Applies 20% immediate damage scaling when comboed into
+63214PP Backturn
+
+Power Drop
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+3
+
+54
+
+SA2*
+
+3000 (3450)
+(2550 scaled)
+
+T
+
+HKD +38
+
+-
+
+
+Range: 1.42 (canceled from 236HP)
+Can transition into OD Hyper Bomb by holding forward on hit (in the direction Alex was originally facing)
+Can transition into Omega Wing Buster (SA2) by inputting PP during the 2nd body slam
+Applies 15% immediate damage scaling when comboed into
+63214PP~6 Backturn
+
+OD Hyper Bomb
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+5
+
+-
+
+-
+
+-
+
+3200 (3680)
+(2620 Scaled)
+
+T
+
+HKD +42
+
+-
+
+
+Applies 15% immediate damage scaling when comboed into
+If Power Bomb connects on a Backturned opponent, it deals extra damage and causes a side switch. This is usually done after HP Flash Chop as a cancel, but it can also be done from a standard Power Bomb in other situations, like a whiffed cross-up jump attack or a reversal that sails over Alex's head.
+
+The OD version also gives Alex the choice to deal extra damage and avoid a sideswitch by holding the initial forward direction.
+
+
+           
+
+
+Super Arts
+
+
+Level 1 Super (236236K)
+
+
+Raging Spear
+Level 1 Super Art
+ 236236K
+ 236236L or 5HS or 6HS
+
+File:SF6 Alex 236236k.png 
+
+File:SF6 Alex 236236k hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+236236K
+
+Raging Spear
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+9
+
+5
+
+55
+
+-
+
+2000
+
+LH
+
+KD +30
+
+-38
+
+
+Initiates quick cinematic on hit
+This super is pretty basic as far as level 1s go but it has good range so itâll be a reliable combo ender for juggle combos & its a decent reversal option which is great due to Alexâs already subpar defensive options
+
+
+           
+
+
+Level 2 Super (214214P)
+
+About these adsâ  Report Ad
+
+
+Sledgecross Hammer
+Level 2 Super Art
+ 214214P
+ 214214M or 4HS
+
+File:SF6 Alex 214214p.png 
+
+File:SF6 Alex 214214p hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+214214P
+
+Sledgecross Hammer
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+13
+
+4
+
+50
+
+-
+
+3000
+(2000 Air)
+
+LH
+
+HKD +19
+(Air: Wall Splat)
+
+-29
+
+
+Grounded hit causes a cinematic knockdown
+Airborne hit causes wallsplat (KD +?) and a limited juggle state
+A long-ranged lariat useful for calling out jumps, fireballs, or as a whiff punish due to its good range & fast startup. Thisâll combo from a lot which keeps it versatile & on an airborne opponent, itâll deal great damage & allow further combo extension after a wall splat (For a knee or a Flash Axe). Do be warned, it is not useful for an opponent whoâs zoning you from full screen due to the initial hit of the clothesline only being active for about midscreen, itâs more useful as a midscreen hard read than a full screen punish like an M. Bison Psycho Punisher.
+
+
+           
+
+
+Omega Wing Buster (63214PP~PP)
+
+
+Omega Wing Buster
+One Winged Angel
+ 63214PP~PP
+ 63214XX~HS or A[4S]~HS
+
+File:SF6 Alex pp sa2.png 
+Say your prayers!
+
+File:SF6 Alex pp sa2 hitbox.png 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+PP (SA2)
+
+Omega Wing Buster
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+2
+
+-
+
+-
+
+-
+
+2800 (1680)
+
+-
+
+HKD +29
+
+-
+
+
+Can only be performed after OD Power Drop (required Backturn)
+Omega Wing Buster gives Alex a unique way to cash out on an OD Power Drop, though the routing will often require a charged Heavy Punch to lead into a Heavy Flash Chop.
+
+
+           
+
+
+Level 3 Super (236236P)
+
+
+The Final Prison
+Level 3 Super Art
+ 236236P
+ 236236H or 2HS
+
+File:SF6 Alex 236236p.png 
+"" 
+
+
+File:SF6 Alex 236236p ca.png 
+Critical Art adds 500 more damage
+
+File:SF6 Alex 236236p hitbox.png 
+Critical Art adds 500 more damage
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+236236P
+
+The Final Prison
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+12
+
+5
+
+53
+
+-
+
+4000
+
+LH
+
+HKD +18
+
+-38
+
+
+
+236236P
+
+The Final Prison (CA)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+12
+
+5
+
+53
+
+-
+
+4500
+
+LH
+
+HKD +25
+
+-38
+
+
+
+Available at 25% HP or below
+Unique animation if it will KO the opponent.
+A fairly standard cinematic SA3 used for its higher damage, better scaling, and Drive gauge properties. Works after most juggles. However, its slower than average startup makes it vulnerable to being safe jabbed.
+
+
+           
+
+
+
+
+
+
+Taunts
+
+
+Neutral Taunt (5PPPKKK)
+
+
+Neutral Taunt
+
+ 5PPPKKK
+ 5LMHS+DP+A
+
+File:SF6 Alex 5pppkkk.png 
+ "Mind if... I loosen up... a bit?" 
+
+
+File:SF6 Alex 5pppkkk owb.png 
+ "... BOOM!" 
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "Mind if... I loosen up... a bit?" 
+
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "... BOOM!" 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+5PPPKKK
+
+Neutral Taunt
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+370 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Standard version of taunt
+5PPPKKK
+
+Neutral Taunt (Omega Wing Buster)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+256 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Replaces standard taunt if Omega Wing Buster (PP SA2) was used in the round
+           
+
+
+Forward Taunt (6PPPKKK)
+
+
+Forward Taunt
+
+ 6PPPKKK
+ 6LMHS+DP+A
+
+File:SF6 Alex 6pppkkk.png 
+ "You know what I'm gonna do to you once I'm warmed up? THIS!" 
+
+
+File:SF6 Alex 6pppkkk owb.png 
+ "Bring it." 
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "You know what I'm gonna do to you once I'm warmed up? THIS!" 
+
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "Bring it." 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+6PPPKKK
+
+Forward Taunt
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+405 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Standard version of taunt
+6PPPKKK
+
+Forward Taunt (Omega Wing Buster)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+350 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Replaces standard taunt if Omega Wing Buster (PP SA2) was used in the round
+           
+
+
+Back Taunt (4PPPKKK)
+
+About these adsâ  Report Ad
+
+
+Back Taunt
+
+ 4PPPKKK
+ 4LMHS+DP+A
+
+File:SF6 Alex 4pppkkk.png 
+ "Let's do this!" 
+
+
+File:SF6 Alex 4pppkkk owb.png 
+ "Aaalex. Aaaalex! AAAALEX!!! AAHHHH!!" 
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "Let's do this!" 
+
+
+Lua error in mw.text.lua at line 246: bad argument #1 to 'len' (string expected, got nil). 
+ "Aaalex. Aaaalex! AAAALEX!!! AAHHHH!!" 
+
+Hitboxes Off
+Hitboxes On
+
+
+              
+
+4PPPKKK
+
+Back Taunt
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+310 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Standard version of taunt
+4PPPKKK
+
+Back Taunt (Omega Wing Buster)
+
+
+
+
+
+
+Startup
+
+Active
+
+Recovery
+
+Cancel
+
+Damage
+
+Guard
+
+On Hit
+
+On Block
+
+
+
+460 (total)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Replaces standard taunt if Omega Wing Buster (PP SA2) was used in the round
+           
+
+
+
+
+
+
+Overview
+Combos
+Strategy
+Matchups
+Frame Data
+Resources
+Match Footage
+#SF6_Alex
+ 
+
+
+
+
+
+SF6 Navigation
+
+
+
+
+Street Fighter 6 (SF6) 
+
+
+
+General
+
+
+
+ FAQ â¢
+
+   Controls â¢
+
+   HUD â¢
+
+   Glossary â¢
+
+   Movement â¢
+
+   Offense â¢
+
+   Defense â¢
+
+   Gauges â¢
+
+   Game Data â¢
+
+   Patch Notes â¢
+
+   Links 
+
+
+
+
+Characters
+
+
+
+
+ A.K.I.
+
+  
+ Akuma
+
+  
+ Alex
+
+  
+ Blanka
+
+  
+ C. Viper
+
+  
+ Cammy
+
+  
+ Chun-Li
+
+  
+ Dee Jay
+
+  
+ Dhalsim
+
+  
+ Ed
+
+  
+ E. Honda
+
+  
+ Elena
+
+  
+ Guile
+
+  
+ Jamie
+
+  
+ JP
+
+  
+ Juri
+
+  
+ Ken
+
+  
+ Kimberly
+
+  
+ Lily
+
+  
+ Luke
+
+  
+ M. Bison
+
+  
+ Mai
+
+  
+ Manon
+
+  
+ Marisa
+
+  
+ Rashid
+
+  
+ Ryu
+
+  
+ Sagat
+
+  
+ Terry
+
+  
+ Zangief
+
+
+
+
+Data
+
+
+
+ A.K.I. â¢
+
+   Akuma â¢
+
+   Alex â¢
+
+   Blanka â¢
+
+   C. Viper â¢
+
+   Cammy â¢
+
+   Chun-Li â¢
+
+   Dee Jay â¢
+
+   Dhalsim â¢
+
+   Ed â¢
+
+   E. Honda â¢
+
+   Elena â¢
+
+   Guile â¢
+
+   Jamie â¢
+
+   JP â¢
+
+   Juri â¢
+
+   Ken â¢
+
+   Kimberly â¢
+
+   Lily â¢
+
+   Luke â¢
+
+   M. Bison â¢
+
+   Mai â¢
+
+   Manon â¢
+
+   Marisa â¢
+
+   Rashid â¢
+
+   Ryu â¢
+
+   Sagat â¢
+
+   Terry â¢
+
+   Zangief 
+
+
+
+
+
+
+
+
+
+Retrieved from "https://wiki.supercombo.gg/index.php?title=Street_Fighter_6/Alex&oldid=360562"
+
+
+			
+
+			
+
+		
+	
+		Last modified
+	
+
+	
+		
+		
+			11 hours ago
+			
+		
+		
+	
+
+
+	
+		
+			
+				
+				Contents
+			
+		
+		
+			
+				
+					
+
+					Back to top
+
+				
+				Contents
+
+				
+				
+		
+			
+
+			
+				
+					1
+					Introduction
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						1.1
+						Classic & Modern Versions Comparison
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					2
+					Normals
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						2.1
+						Standing Normals
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						2.1.1
+						5LP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.1.2
+						5MP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.1.3
+						5HP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.1.4
+						5LK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.1.5
+						5MK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.1.6
+						5HK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+		
+			
+				
+
+				
+					
+						2.2
+						Crouching Normals
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						2.2.1
+						2LP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.2.2
+						2MP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.2.3
+						2HP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.2.4
+						2LK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.2.5
+						2MK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.2.6
+						2HK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+		
+			
+				
+
+				
+					
+						2.3
+						Jumping Normals
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						2.3.1
+						j.LP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.3.2
+						j.MP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.3.3
+						j.HP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.3.4
+						j.LK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.3.5
+						j.MK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						2.3.6
+						j.HK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+	
+	
+	
+		
+			
+
+			
+				
+					3
+					Command Normals
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						3.1
+						6MP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						3.2
+						4MK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						3.3
+						j.2HP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					4
+					Target Combos
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						4.1
+						5MP~HP
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						4.2
+						2LK~2HK
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					5
+					Prowler Stance
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						5.1
+						Prowler Stance (2PP)
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						5.1.1
+						Low Rush / Low Retreat (2PP~6 or 2PP~4)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.2
+						Slashing Elbow (2PP~6P)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.3
+						Palm Jab (2PP~LP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.4
+						Shoulder Launcher (2PP~MP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.5
+						Heavy Lariat (2PP~HP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.6
+						Tactical Hop (2PP~LK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.7
+						Air Stampede (2PP~MK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.8
+						Sweep Combination (2PP~HK~HK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.9
+						Hyper Takedown (2PP~LPLK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						5.1.10
+						Dangerous Armbar (2PP~2LPLK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+	
+	
+	
+		
+			
+
+			
+				
+					6
+					Throws
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						6.1
+						Forward Throw (LPLK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						6.2
+						Back Throw (4LPLK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						6.3
+						Crouch Throw (2LPLK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					7
+					Drive System
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						7.1
+						Drive Impact (HPHK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						7.2
+						Drive Reversal (6HPHK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						7.3
+						Drive Parry (MPMK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						7.4
+						Drive Rush (MPMK~66)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					8
+					Special Moves
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						8.1
+						Flash Axe (236LP or 236MP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						8.2
+						Flash Chop (236HP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						8.3
+						Aerial Knee Smash (623K)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						8.4
+						Power Bomb (63214P)
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						8.4.1
+						Power Drop (63214P Backturn)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+	
+	
+	
+		
+			
+
+			
+				
+					9
+					Super Arts
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						9.1
+						Level 1 Super (236236K)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						9.2
+						Level 2 Super (214214P)
+					
+
+					
+				
+
+			
+			
+			
+				
+			
+				
+
+				
+					
+						9.2.1
+						Omega Wing Buster (63214PP~PP)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+		
+		
+			
+				
+
+				
+					
+						9.3
+						Level 3 Super (236236P)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					10
+					Taunts
+				
+
+				
+			
+
+		
+		
+			
+				
+				
+			
+		
+		
+			
+			
+				
+
+				
+					
+						10.1
+						Neutral Taunt (5PPPKKK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						10.2
+						Forward Taunt (6PPPKKK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+		
+			
+				
+
+				
+					
+						10.3
+						Back Taunt (4PPPKKK)
+					
+
+					
+				
+
+			
+			
+			
+			
+		
+	
+	
+	
+		
+			
+
+			
+				
+					11
+					SF6 Navigation
+				
+
+				
+			
+
+		
+		
+		
+		
+	
+		
+
+		
+	
+
+	
+
+			
+				Categories: Pages with script errorsStreet Fighter 6Pages with broken file linksAlex
+
+
+					
+		    
+		        Last modified
+
+		         This page was last edited on 2 April 2026, at 19:55.
+
+		    
+		
+
+		
+
+	
+	
+	About these adsâ  Report Ad
+
+
+	 
+
+
+	
+		
+			
+				
+					
+					
+									
+
+				
+
+The SuperCombo Wiki is intended to be a repository for all fighting game strategy knowledge. While our roots are in the Capcom franchises, we invite fans of all fighting game series to augment the site with their strategies and techniques.
+
+SuperCombo Wiki brought to you by and for the fighting game community worldwide. If you enjoy the service, consider donating via Patreon.
+
+
+
+
+
+
+			
+
+			
+	
+		Privacy policy
+		About SuperCombo Wiki
+		Disclaimers
+	
+
+		
+		
+			Game content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.
+
+			
+	
+		
+	
+
+		
+	
+
+
+
+
+
+	
+		
+
+		
+			
+				
+					
+
+					
+						Street Fighter 6/Alex
+
+						From SuperCombo Wiki
+
+					
+
+				
+			
+
+			
+					Share this page
+																																												
+
+				
+	
+		
+			
+			More actions
+		
+	
+	
+		
+			
+	
+		Tools
+	
+
+	
+		
+		
+			
+			 What links hereâ â¥ j Related changesâ â¥ k Printable versionâ â¥ p Permanent link Page information Cargo data
+		Expand all
