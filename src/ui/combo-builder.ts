@@ -267,6 +267,91 @@ export class ComboBuilder {
         }
       }
 
+      // --- Drive Rush from Cancel (66) ---
+      // Allowed after a move with 'Sp' cancel property.
+      // It's a cancel: the previous move's recovery is skipped.
+      // After DR (9f), effective advantage = prevHitAdv + prevRecovery - 9.
+      // The move AFTER DR gets +4 hitstun (DR bonus).
+      if (move.id === '66' && i > 0) {
+        // Find the previous real attack (skip DR Parry if present)
+        const prevEntry = entries[entries.length - 1];
+        const prevMove = prevEntry?.move;
+        const hasSp = prevMove && prevMove.cancel && prevMove.cancel.includes('Sp');
+
+        if (hasSp && prevEntry.isValid) {
+          entries.push({
+            move,
+            connectionType: 'dr_cancel',
+            isValid: true,
+            message: `Drive Rush Cancel from ${prevMove.input}`,
+            scaledDamage: 0,
+            scalingPercent: prevEntry.scalingPercent,
+          });
+          // Don't feed 66 to engine — we handle it ourselves
+          continue;
+        }
+        // If not allowed, fall through to engine (will likely fail)
+      }
+
+      // --- Move after Drive Rush from Cancel ---
+      // Check if previous entry is 66 DR cancel
+      const prevEntry = entries.length > 0 ? entries[entries.length - 1] : null;
+      const isAfterDRCancel = prevEntry && prevEntry.move.id === '66' && prevEntry.connectionType === 'dr_cancel';
+
+      if (isAfterDRCancel) {
+        // Find the attack before the DR
+        let attackBeforeDR: ChainEntry | null = null;
+        for (let j = entries.length - 2; j >= 0; j--) {
+          if (entries[j].move.id !== '66' && entries[j].move.id !== 'MPMK~66') {
+            attackBeforeDR = entries[j];
+            break;
+          }
+        }
+
+        if (attackBeforeDR) {
+          const prevAdv = this.parseAdvantage(attackBeforeDR.move.hitAdv) || 0;
+          const prevRecovery = attackBeforeDR.move.recovery || 0;
+          // Effective advantage after DR: hitAdv + recovery - 9
+          const drAdv = prevAdv + prevRecovery - 9;
+          const moveStartup = move.startup || 1;
+
+          // DR bonus: +4 hitstun on the move after DR
+          const drHitstunBonus = 4;
+          const origAdv = this.parseAdvantage(move.hitAdv);
+          const newAdvNum = origAdv !== null ? origAdv + drHitstunBonus : null;
+          move = {
+            ...move,
+            hitstun: move.hitstun > 0 ? move.hitstun + drHitstunBonus : move.hitstun,
+            hitAdv: newAdvNum !== null ? (newAdvNum >= 0 ? `+${newAdvNum}` : `${newAdvNum}`) : move.hitAdv,
+          };
+
+          // Link check: startup <= drAdv
+          const canLink = moveStartup <= drAdv;
+
+          // Don't feed to engine (it doesn't understand our DR logic).
+          // Instead, manually build the entry.
+          const prevCombo = engine.getCombo();
+          const scalingPercent = attackBeforeDR.scalingPercent;
+
+          entries.push({
+            move,
+            connectionType: canLink ? 'link' : null,
+            isValid: canLink,
+            message: canLink
+              ? `link after DR (${drAdv - moveStartup + 1}f window): adv +${drAdv}, startup ${moveStartup}`
+              : `DROP after DR: startup ${moveStartup} > adv +${drAdv}`,
+            scaledDamage: move.damage, // simplified
+            scalingPercent,
+          });
+
+          // Feed the modified move to engine as a clean starter
+          // so subsequent moves can properly link/cancel from it.
+          engine.reset();
+          engine.addMove(move);
+          continue;
+        }
+      }
+
       const result = engine.addMove(move);
       const combo = engine.getCombo();
       const hit = combo.hits[combo.hits.length - 1];
@@ -277,6 +362,23 @@ export class ComboBuilder {
       if (startsWithDRParry && i === 1) {
         isValid = true;
         if (!connectionType) connectionType = 'link';
+      }
+
+      // Super cancel fix: if the previous move's cancel property allows canceling
+      // into this super, force it as a valid cancel (always combos).
+      if (!isValid && move.category === 'super' && entries.length > 0) {
+        const prev = entries[entries.length - 1];
+        if (prev.isValid && prev.move.cancel) {
+          const cancelParts = prev.move.cancel.split(/\s+/);
+          const allowsSA = cancelParts.includes('SA')
+            || (cancelParts.includes('SA3') && (move.id === '236236P' || move.id === '236236P_CA'))
+            || (cancelParts.includes('SA2') && (move.id === '214214P' || move.id === 'SA2_followup'))
+            || (cancelParts.includes('SA1') && move.id === '236236K');
+          if (allowsSA) {
+            isValid = true;
+            connectionType = 'cancel';
+          }
+        }
       }
 
       entries.push({
@@ -494,9 +596,9 @@ export class ComboBuilder {
         continue;
       }
 
-      // Drive Rush (66) from cancel is a movement, not an attack
+      // Drive Rush (66) from cancel — show only 9 frames (startup duration)
       if (move.id === '66') {
-        const drFrames = move.total || 16;
+        const drFrames = 9; // DR cancel always takes 9 frames
         p1Segments.push({
           type: 'startup', startFrame: p1Frame, duration: drFrames,
           moveIndex: i, color: FRAME_COLORS.drDash,
