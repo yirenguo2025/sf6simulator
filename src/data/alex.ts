@@ -242,7 +242,7 @@ const commandNormals: MoveData[] = [
     notes: 'Good range and damage for an overhead; when used out of Drive Rush, combos into 5MP at any range',
   }),
   m('4MK', '4MK', 'command', {
-    name: 'Collapsing Driver', damage: 600, startup: 7, active: '3', recovery: 15, total: 24,
+    name: 'Oblique Stomp', damage: 600, startup: 7, active: '3', recovery: 15, total: 24,
     hitAdv: '+5', blockAdv: '+1', guard: 'LH',
     hitstun: 23, blockstun: 19, hitstop: 11,
     punishAdv: '+9', perfParryAdv: '-16',
@@ -250,7 +250,17 @@ const commandNormals: MoveData[] = [
     driveDmgBlock: 4000, driveDmgHit: 6000, driveGain: 1500,
     superGainHit: '500 (350)', superGainBlock: '250 (125)',
     range: '1.28',
-    notes: 'Transitions into cinematic knockdown on backturned opponents; good punish starter into 2MP',
+    notes: 'Good punish starter into 2MP; strong pressure tool',
+  }),
+  m('4MK_BT', '4MK (Backturn)', 'command', {
+    name: 'Collapsing Driver', damage: 2000, startup: 7, active: '3', recovery: 15, total: 24,
+    hitAdv: 'HKD +33', blockAdv: '-', guard: 'LH',
+    hitstop: 11,
+    driveDmgHit: 8000, driveGain: 3500,
+    superGainHit: '2500 (1750)',
+    dmgScaling: 'Combo (2 hits)',
+    range: '1.38',
+    notes: 'Cinematic knockdown on backturned opponents; counts as 2 separate moves for damage scaling',
   }),
   m('j.2HP', 'j.2HP', 'command', {
     name: 'Flying Cross Chop', damage: 800, startup: 21, active: 'until land', recovery: 20, total: 0,

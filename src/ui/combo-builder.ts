@@ -8,6 +8,7 @@ interface ChainEntry {
   message: string;
   scaledDamage: number;
   scalingPercent: number;
+  driveGaugeCost: number; // drive bars consumed by this move (e.g. 2 for OD, 3 for DR cancel)
 }
 
 // ===== Frame Bar Types =====
@@ -130,6 +131,35 @@ export class ComboBuilder {
     }
   }
 
+  /**
+   * Get the counter hit / punish counter damage multiplier for the first attack.
+   * CH: normals & specials +20%. Throws and supers: 0.
+   * PC: normals & specials +20%, normal throw +70%, command throw +15%. Supers: 0.
+   */
+  private getCounterDamageMultiplier(move: MoveData): number {
+    const cat = move.category;
+    const isCommandThrow = cat === 'special' && move.guard === 'T';
+    const isNormalThrow = cat === 'throw';
+
+    if (this.counterMode === 'ch') {
+      // CH: normals, command normals, specials get +20%. Throws and supers: nothing.
+      if (isNormalThrow || isCommandThrow || cat === 'super') return 0;
+      if (cat === 'normal' || cat === 'command' || cat === 'special') return 0.20;
+      return 0;
+    }
+
+    if (this.counterMode === 'pc') {
+      // PC: normals & specials +20%, normal throw +70%, command throw +15%. Supers: nothing.
+      if (cat === 'super') return 0;
+      if (isNormalThrow) return 0.70;
+      if (isCommandThrow) return 0.15;
+      if (cat === 'normal' || cat === 'command' || cat === 'special') return 0.20;
+      return 0;
+    }
+
+    return 0;
+  }
+
   // ===== Drop zone setup =====
   private setupDropZone(): void {
     this.chainEl.addEventListener('dragover', (e) => {
@@ -232,6 +262,8 @@ export class ComboBuilder {
     // The "effective first attack" index: skip DR if present
     const firstAttackIdx = startsWithDRParry ? 1 : 0;
 
+    let backturnActive = false; // true after a backturn-causing move hits
+
     for (let i = 0; i < this.moves.length; i++) {
       let move = this.moves[i];
 
@@ -245,6 +277,7 @@ export class ComboBuilder {
           message: 'Drive Rush (from Parry)',
           scaledDamage: 0,
           scalingPercent: 100,
+          driveGaugeCost: 0,
         });
         continue;
       }
@@ -267,6 +300,45 @@ export class ComboBuilder {
         }
       }
 
+      // --- Backturn follow-up ---
+      // If previous move caused backturn, and this move is a backturn follow-up,
+      // treat as a special cancel (always connects).
+      const isBackturnFollowup = move.id.endsWith('_BT');
+      if (backturnActive && isBackturnFollowup) {
+        backturnActive = false;
+        entries.push({
+          move,
+          connectionType: 'cancel',
+          isValid: true,
+          message: `backturn cancel: ${move.input}`,
+          scaledDamage: move.damage,
+          scalingPercent: 100,
+          driveGaugeCost: 0,
+        });
+        // Feed to engine as clean starter so subsequent moves work
+        engine.reset();
+        engine.addMove(move);
+        continue;
+      }
+      // Clear backturn if the move is not a backturn follow-up
+      if (backturnActive) backturnActive = false;
+
+      // Backturn-only moves used without backturn state → always drop
+      if (isBackturnFollowup && entries.length > 0) {
+        entries.push({
+          move,
+          connectionType: null,
+          isValid: false,
+          message: `${move.input} requires backturn state`,
+          scaledDamage: move.damage,
+          scalingPercent: 100,
+          driveGaugeCost: 0,
+        });
+        engine.reset();
+        engine.addMove(move);
+        continue;
+      }
+
       // --- Drive Rush from Cancel (66) ---
       // Allowed after a move with 'Sp' cancel property.
       // It's a cancel: the previous move's recovery is skipped.
@@ -286,6 +358,7 @@ export class ComboBuilder {
             message: `Drive Rush Cancel from ${prevMove.input}`,
             scaledDamage: 0,
             scalingPercent: prevEntry.scalingPercent,
+            driveGaugeCost: 0,
           });
           // Don't feed 66 to engine — we handle it ourselves
           continue;
@@ -342,6 +415,7 @@ export class ComboBuilder {
               : `DROP after DR: startup ${moveStartup} > adv +${drAdv}`,
             scaledDamage: move.damage, // simplified
             scalingPercent,
+            driveGaugeCost: 0,
           });
 
           // Feed the modified move to engine as a clean starter
@@ -369,11 +443,13 @@ export class ComboBuilder {
       if (!isValid && move.category === 'super' && entries.length > 0) {
         const prev = entries[entries.length - 1];
         if (prev.isValid && prev.move.cancel) {
-          const cancelParts = prev.move.cancel.split(/\s+/);
-          const allowsSA = cancelParts.includes('SA')
-            || (cancelParts.includes('SA3') && (move.id === '236236P' || move.id === '236236P_CA'))
-            || (cancelParts.includes('SA2') && (move.id === '214214P' || move.id === 'SA2_followup'))
-            || (cancelParts.includes('SA1') && move.id === '236236K');
+          const cancelStr = prev.move.cancel;
+          const cancelParts = cancelStr.split(/\s+/);
+          const hasSA = (tag: string) => cancelParts.some(p => p === tag || p === tag + '*');
+          const allowsSA = hasSA('SA')
+            || (hasSA('SA3') && (move.id === '236236P' || move.id === '236236P_CA'))
+            || (hasSA('SA2') && (move.id === '214214P' || move.id === 'SA2_followup'))
+            || (hasSA('SA1') && move.id === '236236K');
           if (allowsSA) {
             isValid = true;
             connectionType = 'cancel';
@@ -388,7 +464,188 @@ export class ComboBuilder {
         message: result.message,
         scaledDamage: hit ? hit.scaledDamage : move.damage,
         scalingPercent: hit ? hit.scalingPercent : 100,
+        driveGaugeCost: 0,
       });
+
+      // --- Detect backturn state for next move ---
+      if (isValid) {
+        if (move.id === '236HP') {
+          // 236HP always causes backturn on hit
+          backturnActive = true;
+        } else if (move.id === '2PP~HP' && this.counterMode !== 'off') {
+          // Palm Strike causes backturn only on CH or PC
+          backturnActive = true;
+        }
+      }
+    }
+
+    return this.applyScalingAndDrive(entries);
+  }
+
+  // ===== Scaling & Drive Gauge =====
+
+  /** Check if a move is an OD move (doubled button input like 236PP, 623KK, but NOT 2PP) */
+  private isODMove(move: MoveData): boolean {
+    if (move.id === '2PP') return false; // Prowler Stance is not OD
+    return /PP|KK/.test(move.id);
+  }
+
+  /** Get drive gauge cost (in bars) for a move */
+  private getDriveCost(move: MoveData, connectionType: ComboConnectionType | null): number {
+    // Drive Rush from Parry = 1 bar
+    if (move.id === 'MPMK~66') return 1;
+    // Drive Rush from Cancel = 3 bars
+    if (move.id === '66' && connectionType === 'dr_cancel') return 3;
+    // Drive Impact (HP+HK) = 1 bar
+    if (move.id === 'HPHK' || move.id === 'DI') return 1;
+    // Drive Reversal = 2 bars
+    if (move.id === 'DR_reversal') return 2;
+    // OD moves = 2 bars
+    if (this.isODMove(move)) return 2;
+    return 0;
+  }
+
+  /** Parse dmgScaling string into structured modifiers */
+  private parseDmgScaling(dmgScaling: string): {
+    starterPercent: number;     // "X% Starter" → X
+    immediatePercent: number;   // "X% Immediate" → X
+    immediateSpPercent: number; // "X% Immediate (Sp)" → X (only on special cancel)
+    minimumPercent: number;     // "X% Minimum" → X
+    comboHits: number;          // "Combo (N hits)" → N (counts as N hits for scaling)
+  } {
+    const result = { starterPercent: 0, immediatePercent: 0, immediateSpPercent: 0, minimumPercent: 0, comboHits: 0 };
+    if (!dmgScaling) return result;
+
+    // "X% Immediate (Sp)" — must check before general Immediate
+    const immSpMatch = dmgScaling.match(/(\d+)%\s*Immediate\s*\(Sp\)/i);
+    if (immSpMatch) result.immediateSpPercent = parseInt(immSpMatch[1]);
+
+    // "X% Immediate" (without "(Sp)")
+    const immMatch = dmgScaling.match(/(\d+)%\s*Immediate(?!\s*\()/i);
+    if (immMatch) result.immediatePercent = parseInt(immMatch[1]);
+
+    // "X% Starter"
+    const starterMatch = dmgScaling.match(/(\d+)%\s*Starter/i);
+    if (starterMatch) result.starterPercent = parseInt(starterMatch[1]);
+
+    // "X% Minimum"
+    const minMatch = dmgScaling.match(/(\d+)%\s*Minimum/i);
+    if (minMatch) result.minimumPercent = parseInt(minMatch[1]);
+
+    // "Combo (N hits)"
+    const comboMatch = dmgScaling.match(/Combo\s*\((\d+)\s*hits?\)/i);
+    if (comboMatch) result.comboHits = parseInt(comboMatch[1]);
+
+    return result;
+  }
+
+  /**
+   * Post-process entries to compute correct scaling and drive gauge.
+   *
+   * Scaling rules (general):
+   * - Base per-hit: 100%, 100%, 80%, 70%, 60%, 50%, 40%, 30%, 20%, 10%
+   * - Light starter: hit 2 = 90%, then 80%, 70%...
+   * - Cancelable 2MK starter: hit 2 = 80%, then 70%, 60%...
+   * - DR from Cancel: subsequent hits × 85%
+   *
+   * Per-move modifiers (from dmgScaling field):
+   * - "X% Starter": when this move starts a combo, hit 2 scaling = (100-X)%
+   * - "X% Immediate": this hit's scaling × (1 - X/100)
+   * - "X% Immediate (Sp)": same but only when comboed via special cancel
+   * - "X% Minimum": floor for this move's scaling
+   * - "Combo (N hits)": counts as N hits for scaling progression
+   */
+  private applyScalingAndDrive(entries: ChainEntry[]): ChainEntry[] {
+    // Standard scaling: index 0 = hit 1
+    const BASE_SCALING = [1.0, 1.0, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10];
+
+    function getBaseScaling(hitIdx: number): number {
+      if (hitIdx < 0) return 1.0;
+      return hitIdx < BASE_SCALING.length ? BASE_SCALING[hitIdx] : 0.10;
+    }
+
+    // Find the first real attack and its starter modifier
+    let firstAttackScaling: { starterPercent: number } | null = null;
+    for (const e of entries) {
+      if (e.move.id !== 'MPMK~66' && e.move.id !== '66') {
+        firstAttackScaling = this.parseDmgScaling(e.move.dmgScaling);
+        break;
+      }
+    }
+
+    // scalingSlot tracks the "virtual hit number" (0-indexed) for the base table.
+    // It advances by 1 per hit normally, or by N for "Combo (N hits)" moves.
+    let scalingSlot = 0;
+    let drCancelActive = false;
+
+    for (const entry of entries) {
+      const move = entry.move;
+
+      // Drive gauge cost
+      entry.driveGaugeCost = this.getDriveCost(move, entry.connectionType);
+
+      // Skip non-attack entries for scaling
+      if (move.id === 'MPMK~66' || move.id === '66') {
+        if (move.id === '66' && entry.connectionType === 'dr_cancel') {
+          drCancelActive = true;
+        }
+        entry.scaledDamage = 0;
+        entry.scalingPercent = 100;
+        continue;
+      }
+
+      const mods = this.parseDmgScaling(move.dmgScaling);
+
+      // --- Determine this hit's base scaling from the table ---
+      let scaling: number;
+
+      if (scalingSlot === 0) {
+        // First hit: always 100%
+        scaling = 1.0;
+      } else if (scalingSlot === 1 && firstAttackScaling && firstAttackScaling.starterPercent > 0) {
+        // Second hit: use the FIRST move's Starter penalty
+        // "X% Starter" means next hit = (100 - X)%
+        scaling = (100 - firstAttackScaling.starterPercent) / 100;
+      } else {
+        // General case: look up from base table
+        scaling = getBaseScaling(scalingSlot);
+      }
+
+      // --- Apply per-move Immediate modifier ---
+      if (mods.immediatePercent > 0 && scalingSlot > 0) {
+        // "X% Immediate" — only when comboed into (not as starter)
+        scaling *= (1 - mods.immediatePercent / 100);
+      }
+      if (mods.immediateSpPercent > 0 && scalingSlot > 0) {
+        // "X% Immediate (Sp)" — only via cancel (special cancel, super cancel)
+        if (entry.connectionType === 'cancel') {
+          scaling *= (1 - mods.immediateSpPercent / 100);
+        }
+      }
+
+      // --- DR Cancel multiplier ---
+      if (drCancelActive) {
+        scaling *= 0.85;
+      }
+
+      // --- Minimum scaling floor ---
+      if (mods.minimumPercent > 0) {
+        scaling = Math.max(scaling, mods.minimumPercent / 100);
+      }
+
+      entry.scalingPercent = Math.round(scaling * 100);
+      entry.scaledDamage = Math.floor(move.damage * scaling);
+
+      // --- Counter hit / Punish counter damage bonus (first real attack only) ---
+      if (scalingSlot === 0 && this.counterMode !== 'off') {
+        const bonus = this.getCounterDamageMultiplier(move);
+        if (bonus > 0) {
+          entry.scaledDamage = Math.floor(move.damage * scaling * (1 + bonus));
+        }
+      }
+
+      // Advance scaling slot: normally +1, or +N for "Combo (N hits)"
+      scalingSlot += mods.comboHits > 0 ? mods.comboHits : 1;
     }
 
     return entries;
@@ -978,25 +1235,31 @@ export class ComboBuilder {
     let lastDropIdx = -1;
     let totalDamage = 0;
     let hitCount = 0;
+    let totalDrive = 0;
+    let lastScaling = 100;
 
     for (let i = 0; i < entries.length; i++) {
       const entry = entries[i];
-      // Skip DR Parry starter — it's not an attack
-      if (entry.move.id === 'MPMK~66' && i === 0) continue;
+      // Skip DR Parry starter and DR Cancel — they're not attacks
+      if (entry.move.id === 'MPMK~66' || entry.move.id === '66') {
+        totalDrive += entry.driveGaugeCost;
+        continue;
+      }
 
       hitCount++;
       totalDamage += entry.scaledDamage;
+      totalDrive += entry.driveGaugeCost;
+      lastScaling = entry.scalingPercent;
       if (!entry.isValid && i > 0) {
         allValid = false;
         lastDropIdx = i;
       }
     }
 
-    const lastEntry = entries[entries.length - 1];
     this.statHitsEl.textContent = hitCount.toString();
     this.statDamageEl.textContent = totalDamage.toString();
-    this.statScalingEl.textContent = `${lastEntry.scalingPercent}%`;
-    this.statDriveEl.textContent = '0'; // TODO: track drive gauge from entries
+    this.statScalingEl.textContent = `${lastScaling}%`;
+    this.statDriveEl.textContent = totalDrive.toString();
 
     if (allValid) {
       this.statStatusEl.textContent = 'COMBO';
